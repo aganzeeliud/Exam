@@ -12,7 +12,6 @@
     <style>
         body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
         #map { height: 100%; width: 100%; }
-        /* Style for the Legend box */
         .legend {
             background: white;
             padding: 10px;
@@ -28,56 +27,63 @@
             opacity: 0.8;
             border-radius: 50%;
         }
+        .nav-back {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            z-index: 1000;
+            background: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
+    <a href="index.html" class="nav-back">&larr; Back to Portal</a>
     <div id="map"></div>
     <script>
-        // 1. Center the map on DR Congo (latitude -1.0, longitude 28.0)
+        // 1. Center the map on DR Congo
         const map = L.map('map').setView([-1.0, 28.0], 6);
 
-        // 2. Add the background (the actual map image)
+        // 2. Add the background map
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        // 3. Create "Layers" so we can turn markers on and off
+        // 3. Create Layers for toggle control
         const conflictLayer = L.layerGroup().addTo(map);
         const atRiskLayer = L.layerGroup().addTo(map);
         const safeLayer = L.layerGroup().addTo(map);
 
-        // 4. Styles for our circles
+        // 4. Styles
         const conflictStyle = { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 };
         const atRiskStyle = { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 };
         const safeStyle = { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 };
 
-        // 5. Helper function to read a CSV and put it on the map
-        async function loadData(url, layer, style, type) {
+        // 5. Loading Function
+        async function loadCSV(url, layer, style, type) {
             const response = await fetch(url);
             const csvText = await response.text();
             
             Papa.parse(csvText, {
                 header: true,
                 dynamicTyping: true,
+                skipEmptyLines: true,
                 complete: function(results) {
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
                             const marker = L.circleMarker([row.latitude, row.longitude], style);
-                            
-                            // Customize Popups
-                            let popupContent = "";
+                            let popup = "";
                             if (type === 'conflict') {
-                                popupContent = `<b>Conflict Event</b><br>
-                                                Source: ${row.source}<br>
-                                                Type: ${row.event_type}<br>
-                                                Fatalities: ${row.fatalities}`;
+                                popup = `<b>Conflict Event</b><br>Type: ${row.event_type}<br>Fatalities: ${row.fatalities}<br>Source: ${row.source}`;
                             } else {
-                                popupContent = `<b>School: ${row.name}</b><br>
-                                                Status: ${row.risk_status}<br>
-                                                Distance to Conflict: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
+                                popup = `<b>School: ${row.name}</b><br>Status: ${row.risk_status}<br>Distance: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
                             }
-                            
-                            marker.bindPopup(popupContent);
+                            marker.bindPopup(popup);
                             layer.addLayer(marker);
                         }
                     });
@@ -85,27 +91,27 @@
             });
         }
 
-        // 6. Load our CSV files
-        loadData('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle, 'conflict');
-        loadData('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle, 'school');
-        loadData('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle, 'school');
+        // 6. Execute Loading
+        loadCSV('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle, 'conflict');
+        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle, 'school');
+        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle, 'school');
 
-        // 7. Add Toggle Controls (Top Right)
+        // 7. Layer Control (Toggle each category)
         const overlays = {
-            "<span style='color: orange'>Conflict Events</span>": conflictLayer,
-            "<span style='color: red'>At-Risk Schools</span>": atRiskLayer,
-            "<span style='color: green'>Safe Schools</span>": safeLayer
+            "<span style='color: orange'>●</span> Conflict Events": conflictLayer,
+            "<span style='color: red'>●</span> At-Risk Schools": atRiskLayer,
+            "<span style='color: green'>●</span> Safe Schools": safeLayer
         };
-        L.control.layers(null, overlays).addTo(map);
+        L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
-        // 8. Add a Legend (Bottom Right)
+        // 8. Add Legend
         const legend = L.control({position: 'bottomright'});
         legend.onAdd = function (map) {
             const div = L.DomUtil.create('div', 'legend');
             div.innerHTML += '<h4>Map Legend</h4>';
             div.innerHTML += '<i style="background: orange"></i> Conflict Events<br>';
-            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (within 10km)<br>';
-            div.innerHTML += '<i style="background: green"></i> Safe Schools (outside 10km)<br>';
+            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (≤ 10km)<br>';
+            div.innerHTML += '<i style="background: green"></i> Safe Schools (> 10km)<br>';
             return div;
         };
         legend.addTo(map);
