@@ -28,14 +28,14 @@
     
     <div class="table-container">
         <div class="controls">
-            <strong>Data Table View:</strong>
+            <strong>Data Table View (Filter by Layer):</strong>
             <select id="layerSelect">
+                <option value="atRisk">At-Risk Schools (Showing by Default)</option>
                 <option value="conflicts">Conflict Events</option>
-                <option value="atRisk">At-Risk Schools</option>
                 <option value="safe">Safe Schools</option>
                 <option value="historical">Historical Data</option>
             </select>
-            <input type="text" id="tableSearch" placeholder="Search data...">
+            <input type="text" id="tableSearch" placeholder="Search school names or locations...">
             <small id="rowCount"></small>
         </div>
         <table id="dataTable">
@@ -48,11 +48,12 @@
         const map = L.map('map').setView([-1.0, 28.0], 6);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
 
+        // Define Layers
         const layers = {
-            conflicts: L.layerGroup().addTo(map),
-            atRisk: L.layerGroup().addTo(map),
-            safe: L.layerGroup().addTo(map),
-            historical: L.layerGroup().addTo(map)
+            conflicts: L.layerGroup(), // Not added by default
+            atRisk: L.layerGroup().addTo(map), // ONLY the risk layer added by default
+            safe: L.layerGroup(), // Not added by default
+            historical: L.layerGroup() // Not added by default
         };
 
         const dataStorage = { conflicts: [], atRisk: [], safe: [], historical: [] };
@@ -64,7 +65,7 @@
             historical: { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }
         };
 
-        async function loadCSV(url, key, type) {
+        async function loadCSV(url, key) {
             const response = await fetch(url);
             const csvText = await response.text();
             Papa.parse(csvText, {
@@ -76,11 +77,17 @@
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
                             const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
-                            marker.bindPopup(`<b>${row.name || 'Event'}</b><br>Type: ${row.event_type || row.conflict_type || 'N/A'}`);
+                            let title = row.name || 'Security Event';
+                            let popup = `<b>${title}</b><br>`;
+                            if (row.risk_status) popup += `Risk Status: <b>${row.risk_status}</b><br>`;
+                            if (row.distance_to_nearest_conflict_km) popup += `Dist to Conflict: ${row.distance_to_nearest_conflict_km.toFixed(2)} km<br>`;
+                            if (row.event_type) popup += `Type: ${row.event_type}`;
+                            
+                            marker.bindPopup(popup);
                             layers[key].addLayer(marker);
                         }
                     });
-                    if (key === 'conflicts') updateTable('conflicts'); // Initial table load
+                    if (key === 'atRisk') updateTable('atRisk'); 
                 }
             });
         }
@@ -93,9 +100,8 @@
             header.innerHTML = "";
             body.innerHTML = "";
 
-            if (data.length === 0) return;
+            if (!data || data.length === 0) return;
 
-            // Headers
             const cols = Object.keys(data[0]).filter(c => !['latitude', 'longitude'].includes(c));
             cols.forEach(col => {
                 const th = document.createElement('th');
@@ -103,7 +109,6 @@
                 header.appendChild(th);
             });
 
-            // Rows (Limit to 100 for performance, or use search)
             let count = 0;
             data.forEach(row => {
                 if (filter && !JSON.stringify(row).toLowerCase().includes(filter.toLowerCase())) return;
@@ -121,21 +126,22 @@
             document.getElementById('rowCount').innerText = `Showing top ${count} of ${data.length} records`;
         }
 
-        // Event Listeners
         document.getElementById('layerSelect').addEventListener('change', (e) => updateTable(e.target.value));
         document.getElementById('tableSearch').addEventListener('input', (e) => updateTable(document.getElementById('layerSelect').value, e.target.value));
 
-        loadCSV('processed-data/drc-conflict-event.csv', 'conflicts', 'conflict');
-        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk', 'school');
-        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe', 'school');
-        loadCSV('raw-data/schools-1km-historical.csv', 'historical', 'historical');
+        loadCSV('processed-data/drc-conflict-event.csv', 'conflicts');
+        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk');
+        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe');
+        loadCSV('raw-data/schools-1km-historical.csv', 'historical');
 
+        // Risk Filter (Layer Control)
         const overlays = {
-            "<span style='color: orange'>●</span> Conflicts": layers.conflicts,
-            "<span style='color: red'>●</span> At-Risk Schools": layers.atRisk,
+            "<span style='color: red'>●</span> <b>AT-RISK SCHOOLS (Risk)</b>": layers.atRisk,
             "<span style='color: green'>●</span> Safe Schools": layers.safe,
-            "<span style='color: #8b5cf6'>●</span> Historical": layers.historical
+            "<span style='color: orange'>●</span> Conflict Events": layers.conflicts,
+            "<span style='color: #8b5cf6'>●</span> Historical Conflict Sites": layers.historical
         };
+        // Set collapsed to false so it acts as a persistent filter
         L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
     </script>
