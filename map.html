@@ -8,55 +8,28 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; }
-        #map { flex: 2; width: 100%; min-height: 500px; }
-        .table-container { flex: 1; padding: 20px; background: #fff; overflow-y: auto; border-top: 2px solid #e2e8f0; }
-        .controls { display: flex; gap: 10px; margin-bottom: 15px; align-items: center; }
-        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #edf2f7; }
-        th { background: #f7fafc; position: sticky; top: 0; }
-        tr:hover { background: #f8fafc; }
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        #map { height: 100%; width: 100%; }
         .legend { background: white; padding: 10px; line-height: 1.5em; border-radius: 5px; box-shadow: 0 0 15px rgba(0,0,0,0.2); }
         .legend i { width: 12px; height: 12px; float: left; margin-right: 8px; opacity: 0.8; border-radius: 50%; }
         .nav-back { position: absolute; top: 10px; left: 50px; z-index: 1000; background: white; padding: 8px 15px; text-decoration: none; color: #2563eb; font-weight: bold; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
-        select, input { padding: 8px; border: 1px solid #cbd5e0; border-radius: 4px; }
     </style>
 </head>
 <body>
     <a href="index.html" class="nav-back">&larr; Back to Portal</a>
     <div id="map"></div>
     
-    <div class="table-container">
-        <div class="controls">
-            <strong>Data Table View:</strong>
-            <select id="layerSelect">
-                <option value="atRisk">At-Risk Schools</option>
-                <option value="conflicts">Conflict Events</option>
-                <option value="safe">Safe Schools</option>
-                <option value="historical">Historical Data</option>
-            </select>
-            <input type="text" id="tableSearch" placeholder="Search data...">
-            <small id="rowCount"></small>
-        </div>
-        <table id="dataTable">
-            <thead><tr id="tableHeader"></tr></thead>
-            <tbody id="tableBody"></tbody>
-        </table>
-    </div>
-
     <script>
         const map = L.map('map').setView([-1.0, 28.0], 6);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-        // Layers - All added to map by default now
+        // Layers
         const layers = {
             conflicts: L.layerGroup().addTo(map),
             atRisk: L.layerGroup().addTo(map),
             safe: L.layerGroup().addTo(map),
             historical: L.layerGroup().addTo(map)
         };
-
-        const dataStorage = { conflicts: [], atRisk: [], safe: [], historical: [] };
 
         const styles = {
             conflicts: { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
@@ -73,7 +46,6 @@
                 dynamicTyping: true,
                 skipEmptyLines: true,
                 complete: function(results) {
-                    dataStorage[key] = results.data;
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
                             const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
@@ -84,41 +56,9 @@
                             layers[key].addLayer(marker);
                         }
                     });
-                    if (key === 'atRisk') updateTable('atRisk');
                 }
             });
         }
-
-        function updateTable(key, filter = "") {
-            const data = dataStorage[key];
-            const header = document.getElementById('tableHeader');
-            const body = document.getElementById('tableBody');
-            header.innerHTML = ""; body.innerHTML = "";
-            if (!data || data.length === 0) return;
-            const cols = Object.keys(data[0]).filter(c => !['latitude', 'longitude'].includes(c));
-            cols.forEach(col => {
-                const th = document.createElement('th');
-                th.innerText = col.replace(/_/g, ' ').toUpperCase();
-                header.appendChild(th);
-            });
-            let count = 0;
-            data.forEach(row => {
-                if (filter && !JSON.stringify(row).toLowerCase().includes(filter.toLowerCase())) return;
-                if (count >= 100) return;
-                const tr = document.createElement('tr');
-                cols.forEach(col => {
-                    const td = document.createElement('td');
-                    td.innerText = row[col] || '';
-                    tr.appendChild(td);
-                });
-                body.appendChild(tr);
-                count++;
-            });
-            document.getElementById('rowCount').innerText = `Showing ${count} of ${data.length} records`;
-        }
-
-        document.getElementById('layerSelect').addEventListener('change', (e) => updateTable(e.target.value));
-        document.getElementById('tableSearch').addEventListener('input', (e) => updateTable(document.getElementById('layerSelect').value, e.target.value));
 
         loadCSV('processed-data/drc-conflict-event.csv', 'conflicts');
         loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk');
