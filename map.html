@@ -10,45 +10,18 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --primary: #2563eb;
-            --bg: #f8fafc;
-            --card: #ffffff;
-            --text: #1e293b;
-        }
+        :root { --primary: #2563eb; --card: #ffffff; --text: #1e293b; }
         body, html { margin: 0; padding: 0; height: 100%; font-family: 'Plus Jakarta Sans', sans-serif; overflow: hidden; }
         #map { height: 100vh; width: 100%; z-index: 1; }
-
-        /* Top Control Bar */
-        .top-interface {
-            position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
-            z-index: 1000; display: flex; gap: 10px; width: 90%; max-width: 800px;
-        }
-        .search-box, .filter-box {
-            background: var(--card); padding: 12px 20px; border-radius: 16px;
-            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);
-            display: flex; align-items: center; gap: 10px;
-        }
-        .search-box { flex: 2; }
-        .filter-box { flex: 1; min-width: 200px; }
+        .top-interface { position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; display: flex; gap: 10px; width: 90%; max-width: 800px; }
+        .search-box, .filter-box { background: var(--card); padding: 12px 20px; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05); display: flex; align-items: center; gap: 10px; }
+        .search-box { flex: 2; } .filter-box { flex: 1.5; }
         input, select { border: none; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: var(--text); background: transparent; }
-        
-        /* Indicator Cards */
-        .indicators {
-            position: absolute; bottom: 30px; left: 20px; z-index: 1000;
-            display: flex; flex-direction: column; gap: 10px;
-        }
-        .indicator-card {
-            background: var(--card); padding: 16px; border-radius: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-left: 6px solid var(--primary);
-            min-width: 180px; display: flex; flex-direction: column; gap: 4px;
-        }
-        .indicator-card.red { border-left-color: #ef4444; }
-        .indicator-card.orange { border-left-color: #f59e0b; }
-        .indicator-card.purple { border-left-color: #8b5cf6; }
+        .indicators { position: absolute; bottom: 30px; left: 20px; z-index: 1000; display: flex; flex-direction: column; gap: 10px; }
+        .indicator-card { background: var(--card); padding: 16px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-left: 6px solid var(--primary); min-width: 180px; display: flex; flex-direction: column; gap: 4px; }
+        .indicator-card.red { border-left-color: #ef4444; } .indicator-card.orange { border-left-color: #f59e0b; } .indicator-card.purple { border-left-color: #8b5cf6; }
         .indicator-card .label { font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
         .indicator-card .value { font-size: 20px; font-weight: 800; color: var(--text); }
-
         .nav-back { position: absolute; top: 20px; left: 20px; z-index: 1000; background: var(--card); padding: 12px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: var(--primary); text-decoration: none; }
         .legend { background: var(--card); padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); line-height: 1.6em; font-size: 12px; }
         .legend i { width: 10px; height: 10px; float: left; margin-right: 10px; border-radius: 50%; margin-top: 5px; }
@@ -56,123 +29,106 @@
 </head>
 <body>
     <a href="index.html" class="nav-back"><i data-lucide="arrow-left"></i></a>
-
     <div class="top-interface">
-        <div class="search-box">
-            <i data-lucide="search" size="18" color="#64748b"></i>
-            <input type="text" id="mapSearch" placeholder="Search for a school or location...">
-        </div>
+        <div class="search-box"><i data-lucide="search" size="18" color="#64748b"></i><input type="text" id="mapSearch" placeholder="Search school name..."></div>
         <div class="filter-box">
-            <i data-lucide="filter" size="18" color="#64748b"></i>
-            <select id="mapFilter">
-                <option value="all">Show All Data</option>
-                <option value="atRisk">At-Risk Schools Only</option>
-                <option value="safe">Safe Schools Only</option>
-                <option value="conflicts">Conflict Events</option>
-                <option value="historical">Historical Conflict Sites</option>
+            <i data-lucide="map-pin" size="18" color="#64748b"></i>
+            <select id="regionFilter">
+                <option value="all">Region: National View</option>
             </select>
         </div>
     </div>
-
     <div class="indicators">
-        <div class="indicator-card orange">
-            <span class="label">Conflicts Recorded</span>
-            <span id="count-conflicts" class="value">0</span>
-        </div>
-        <div class="indicator-card red">
-            <span class="label">Schools At-Risk</span>
-            <span id="count-atRisk" class="value">0</span>
-        </div>
-        <div class="indicator-card purple">
-            <span class="label">Historically Affected</span>
-            <span id="count-historical" class="value">0</span>
-        </div>
+        <div class="indicator-card orange"><span class="label">Conflicts in Region</span><span id="count-conflicts" class="value">0</span></div>
+        <div class="indicator-card red"><span class="label">At-Risk Schools</span><span id="count-atRisk" class="value">0</span></div>
+        <div class="indicator-card purple"><span class="label">Historically Affected</span><span id="count-historical" class="value">0</span></div>
     </div>
-
     <div id="map"></div>
-
     <script>
         const map = L.map('map', { zoomControl: false }).setView([-1.0, 24.0], 6);
         L.control.zoom({ position: 'bottomright' }).addTo(map);
-
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-        const layers = {
-            conflicts: L.layerGroup().addTo(map),
-            atRisk: L.layerGroup().addTo(map),
-            safe: L.layerGroup().addTo(map),
-            historical: L.layerGroup().addTo(map)
-        };
+        const layers = { conflicts: L.layerGroup().addTo(map), atRisk: L.layerGroup().addTo(map), safe: L.layerGroup().addTo(map), historical: L.layerGroup().addTo(map) };
+        const dataStore = { conflicts: [], atRisk: [], safe: [], historical: [] };
+        const styles = { conflicts: { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 }, atRisk: { radius: 5, fillColor: "#ef4444", color: "#fff", weight: 1, fillOpacity: 0.9 }, safe: { radius: 5, fillColor: "#10b981", color: "#fff", weight: 1, fillOpacity: 0.9 }, historical: { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 } };
+        
+        let regions = new Set();
 
-        const allMarkers = [];
-
-        const styles = {
-            conflicts: { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
-            atRisk: { radius: 5, fillColor: "#ef4444", color: "#fff", weight: 1, fillOpacity: 0.9 },
-            safe: { radius: 5, fillColor: "#10b981", color: "#fff", weight: 1, fillOpacity: 0.9 },
-            historical: { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }
-        };
-
-        async function loadCSV(url, key, type) {
+        async function loadCSV(url, key) {
             const response = await fetch(url);
             const csvText = await response.text();
             Papa.parse(csvText, {
                 header: true, dynamicTyping: true, skipEmptyLines: true,
                 complete: function(results) {
-                    let count = 0;
+                    dataStore[key] = results.data;
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
                             const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
-                            let name = row.name || 'Event';
-                            let popup = `<b>${name}</b><br>Type: ${row.event_type || row.conflict_type || 'N/A'}`;
-                            marker.bindPopup(popup);
+                            const region = (row.location || row.location_name || '').toLowerCase().trim();
+                            if (region) regions.add(region);
+                            marker.bindPopup(`<b>${row.name || 'Event'}</b><br>Region: ${region}`);
                             layers[key].addLayer(marker);
-                            allMarkers.push({ name: name.toLowerCase(), marker: marker, layer: key });
-                            count++;
+                            row._marker = marker;
                         }
                     });
-                    const countEl = document.getElementById(`count-${key}`);
-                    if (countEl) countEl.innerText = count.toLocaleString();
+                    updateFilterDropdown();
+                    updateCounts();
                 }
             });
         }
+
+        function updateFilterDropdown() {
+            const select = document.getElementById('regionFilter');
+            const currentVal = select.value;
+            select.innerHTML = '<option value="all">Region: National View</option>';
+            Array.from(regions).sort().forEach(r => {
+                if (r.length < 2) return;
+                const opt = document.createElement('option');
+                opt.value = r;
+                opt.innerText = r.charAt(0).toUpperCase() + r.slice(1);
+                select.appendChild(opt);
+            });
+            select.value = currentVal || 'all';
+        }
+
+        function updateCounts() {
+            Object.keys(layers).forEach(key => {
+                const count = layers[key].getLayers().length;
+                if (document.getElementById(`count-${key}`)) document.getElementById(`count-${key}`).innerText = count.toLocaleString();
+            });
+        }
+
+        document.getElementById('regionFilter').addEventListener('change', (e) => {
+            const region = e.target.value;
+            let firstMatch = null;
+            Object.keys(layers).forEach(key => {
+                layers[key].clearLayers();
+                dataStore[key].forEach(row => {
+                    const rowRegion = (row.location || row.location_name || '').toLowerCase().trim();
+                    if (region === 'all' || rowRegion === region) {
+                        layers[key].addLayer(row._marker);
+                        if (!firstMatch) firstMatch = row._marker.getLatLng();
+                    }
+                });
+            });
+            if (firstMatch && region !== 'all') map.setView(firstMatch, 10);
+            updateCounts();
+        });
+
+        document.getElementById('mapSearch').addEventListener('input', (e) => {
+            const s = e.target.value.toLowerCase();
+            if (s.length < 3) return;
+            for (let key in dataStore) {
+                const match = dataStore[key].find(d => (d.name || '').toLowerCase().includes(s));
+                if (match) { map.setView(match._marker.getLatLng(), 12); match._marker.openPopup(); break; }
+            }
+        });
 
         loadCSV('processed-data/drc-conflict-event.csv', 'conflicts');
         loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk');
         loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe');
         loadCSV('raw-data/schools-1km-historical.csv', 'historical');
-
-        // Filter Logic
-        document.getElementById('mapFilter').addEventListener('change', (e) => {
-            const val = e.target.value;
-            Object.values(layers).forEach(l => map.removeLayer(l));
-            if (val === 'all') Object.values(layers).forEach(l => map.addLayer(l));
-            else map.addLayer(layers[val]);
-        });
-
-        // Search Logic
-        document.getElementById('mapSearch').addEventListener('input', (e) => {
-            const search = e.target.value.toLowerCase();
-            if (search.length < 3) return;
-            const match = allMarkers.find(m => m.name.includes(search));
-            if (match) {
-                map.setView(match.marker.getLatLng(), 12);
-                match.marker.openPopup();
-            }
-        });
-
-        const legend = L.control({position: 'bottomright'});
-        legend.onAdd = function() {
-            const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML = `<b>Risk Legend</b><br>
-                <i style="background: orange"></i> Conflict Event<br>
-                <i style="background: #ef4444"></i> School At-Risk<br>
-                <i style="background: #10b981"></i> School Safe<br>
-                <i style="background: #8b5cf6"></i> Historical Affected`;
-            return div;
-        };
-        legend.addTo(map);
-
         lucide.createIcons();
     </script>
 </body>
