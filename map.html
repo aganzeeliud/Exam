@@ -58,11 +58,13 @@
         const conflictLayer = L.layerGroup().addTo(map);
         const atRiskLayer = L.layerGroup().addTo(map);
         const safeLayer = L.layerGroup().addTo(map);
+        const historicalLayer = L.layerGroup().addTo(map);
 
         // 4. Styles
         const conflictStyle = { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 };
         const atRiskStyle = { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 };
         const safeStyle = { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 };
+        const historicalStyle = { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }; // Purple for historical
 
         // 5. Loading Function
         async function loadCSV(url, layer, style, type) {
@@ -80,6 +82,12 @@
                             let popup = "";
                             if (type === 'conflict') {
                                 popup = `<b>Conflict Event</b><br>Type: ${row.event_type}<br>Fatalities: ${row.fatalities}<br>Source: ${row.source}`;
+                            } else if (type === 'historical') {
+                                popup = `<b>Historically Affected School: ${row.name}</b><br>
+                                         Location: ${row.conflict_location}<br>
+                                         Conflict Year: ${row.conflict_year}<br>
+                                         Conflict Type: ${row.conflict_type}<br>
+                                         Distance: ${row.dist_km} km`;
                             } else {
                                 popup = `<b>School: ${row.name}</b><br>Status: ${row.risk_status}<br>Distance: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
                             }
@@ -95,12 +103,14 @@
         loadCSV('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle, 'conflict');
         loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle, 'school');
         loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle, 'school');
+        loadCSV('raw-data/schools-1km-historical.csv', historicalLayer, historicalStyle, 'historical');
 
         // 7. Layer Control (Toggle each category)
         const overlays = {
-            "<span style='color: orange'>●</span> Conflict Events": conflictLayer,
-            "<span style='color: red'>●</span> At-Risk Schools": atRiskLayer,
-            "<span style='color: green'>●</span> Safe Schools": safeLayer
+            "<span style='color: orange'>●</span> Current Conflict Events": conflictLayer,
+            "<span style='color: red'>●</span> At-Risk Schools (Current)": atRiskLayer,
+            "<span style='color: green'>●</span> Safe Schools (Current)": safeLayer,
+            "<span style='color: #8b5cf6'>●</span> Historically Affected Schools": historicalLayer
         };
         L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
@@ -110,8 +120,9 @@
             const div = L.DomUtil.create('div', 'legend');
             div.innerHTML += '<h4>Map Legend</h4>';
             div.innerHTML += '<i style="background: orange"></i> Conflict Events<br>';
-            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (≤ 10km)<br>';
-            div.innerHTML += '<i style="background: green"></i> Safe Schools (> 10km)<br>';
+            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (Current)<br>';
+            div.innerHTML += '<i style="background: green"></i> Safe Schools (Current)<br>';
+            div.innerHTML += '<i style="background: #8b5cf6"></i> Historically Affected Schools<br>';
             return div;
         };
         legend.addTo(map);
