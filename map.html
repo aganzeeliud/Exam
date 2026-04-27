@@ -3,42 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DRC School Conflict Risk Map</title>
+    <title>Kivu Region: School Conflict Risk</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        #map { height: 100%; width: 100%; }
-        .legend { background: white; padding: 10px; line-height: 1.5em; border-radius: 5px; box-shadow: 0 0 15px rgba(0,0,0,0.2); }
-        .legend i { width: 12px; height: 12px; float: left; margin-right: 8px; opacity: 0.8; border-radius: 50%; }
-        .nav-back { position: absolute; top: 10px; left: 50px; z-index: 1000; background: white; padding: 8px 15px; text-decoration: none; color: #2563eb; font-weight: bold; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', sans-serif; }
+        #map { height: 100%; width: 100%; z-index: 1; }
+        
+        /* Filter Bar Style */
+        .filter-bar {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .filter-bar select { padding: 5px 10px; border-radius: 5px; border: 1px solid #ddd; }
+
+        /* Fact Cards Style */
+        .fact-container {
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .fact-card {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-left: 5px solid #2563eb;
+            min-width: 150px;
+        }
+        .fact-card.risk { border-left-color: #ef4444; }
+        .fact-card.safe { border-left-color: #10b981; }
+        .fact-card h4 { margin: 0; font-size: 12px; color: #64748b; text-transform: uppercase; }
+        .fact-card p { margin: 5px 0 0; font-size: 20px; font-weight: bold; color: #1e293b; }
+
+        .legend { background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); line-height: 1.5em; }
+        .legend i { width: 12px; height: 12px; float: left; margin-right: 8px; border-radius: 50%; margin-top: 4px; }
+        .nav-back { position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-decoration: none; font-weight: bold; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="nav-back">&larr; Back to Portal</a>
-    <div id="map"></div>
+    <a href="index.html" class="nav-back" title="Back to Portal">&larr;</a>
     
+    <div class="filter-bar">
+        <strong>Filter View:</strong>
+        <select id="mapFilter">
+            <option value="all">Show All Data</option>
+            <option value="atRisk">At-Risk Schools Only</option>
+            <option value="safe">Safe Schools Only</option>
+            <option value="conflicts">Conflict Events Only</option>
+        </select>
+    </div>
+
+    <div class="fact-container">
+        <div class="fact-card">
+            <h4>Conflict Events</h4>
+            <p id="count-conflicts">Loading...</p>
+        </div>
+        <div class="fact-card risk">
+            <h4>At-Risk Schools</h4>
+            <p id="count-risk">Loading...</p>
+        </div>
+        <div class="fact-card safe">
+            <h4>Safe Schools</h4>
+            <p id="count-safe">Loading...</p>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
     <script>
-        const map = L.map('map').setView([-1.0, 28.0], 6);
+        // 1. Center map on Goma/Bukavu area
+        const map = L.map('map').setView([-2.0, 28.8], 8);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-        // Layers
         const layers = {
             conflicts: L.layerGroup().addTo(map),
             atRisk: L.layerGroup().addTo(map),
-            safe: L.layerGroup().addTo(map),
-            historical: L.layerGroup().addTo(map)
+            safe: L.layerGroup().addTo(map)
         };
 
         const styles = {
-            conflicts: { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
-            atRisk: { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 },
-            safe: { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 },
-            historical: { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }
+            conflicts: { radius: 4, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
+            atRisk: { radius: 6, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 },
+            safe: { radius: 6, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 }
         };
 
-        async function loadCSV(url, key) {
+        async function loadData(url, key, type) {
             const response = await fetch(url);
             const csvText = await response.text();
             Papa.parse(csvText, {
@@ -46,47 +111,56 @@
                 dynamicTyping: true,
                 skipEmptyLines: true,
                 complete: function(results) {
+                    let count = 0;
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
-                            const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
-                            let popup = `<b>${row.name || 'Event'}</b><br>`;
-                            if (row.risk_status) popup += `Risk: ${row.risk_status}<br>`;
-                            if (row.distance_to_nearest_conflict_km) popup += `Dist: ${row.distance_to_nearest_conflict_km.toFixed(2)} km`;
-                            marker.bindPopup(popup);
-                            layers[key].addLayer(marker);
+                            // Simple filter for Goma/Bukavu region bounds
+                            if (row.latitude < -1.0 && row.latitude > -3.0 && row.longitude > 28.0 && row.longitude < 30.0) {
+                                const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
+                                let popup = `<b>${row.name || 'Conflict'}</b><br>`;
+                                if (type === 'conflict') {
+                                    popup += `Source: ${row.source}<br>Type: ${row.event_type}<br>Fatalities: ${row.fatalities}`;
+                                } else {
+                                    popup += `Status: ${row.risk_status}<br>Dist to Conflict: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
+                                }
+                                marker.bindPopup(popup);
+                                layers[key].addLayer(marker);
+                                count++;
+                            }
                         }
                     });
+                    document.getElementById(`count-${key}`).innerText = count;
                 }
             });
         }
 
-        loadCSV('processed-data/drc-conflict-event.csv', 'conflicts');
-        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk');
-        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe');
-        loadCSV('raw-data/schools-1km-historical.csv', 'historical');
+        // Load CSVs
+        loadData('processed-data/drc-conflict-event.csv', 'conflicts', 'conflict');
+        loadData('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk', 'school');
+        loadData('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe', 'school');
 
-        // Layer Toggles
-        const overlays = {
-            "<span style='color: orange'>●</span> Conflict Events": layers.conflicts,
-            "<span style='color: red'>●</span> At-Risk Schools": layers.atRisk,
-            "<span style='color: green'>●</span> Safe Schools": layers.safe,
-            "<span style='color: #8b5cf6'>●</span> Historical Data": layers.historical
-        };
-        L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+        // Filter Logic
+        document.getElementById('mapFilter').addEventListener('change', (e) => {
+            const val = e.target.value;
+            Object.values(layers).forEach(l => map.removeLayer(l));
+            if (val === 'all') {
+                Object.values(layers).forEach(l => map.addLayer(l));
+            } else {
+                map.addLayer(layers[val]);
+            }
+        });
 
         // Legend
         const legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
+        legend.onAdd = function() {
             const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML += '<h4>Map Legend</h4>';
-            div.innerHTML += '<i style="background: orange"></i> Conflict Events<br>';
-            div.innerHTML += '<i style="background: red"></i> At-Risk Schools<br>';
-            div.innerHTML += '<i style="background: green"></i> Safe Schools<br>';
-            div.innerHTML += '<i style="background: #8b5cf6"></i> Historical Sites<br>';
+            div.innerHTML = '<b>Legend</b><br>' +
+                '<i style="background: orange"></i> Conflict Events<br>' +
+                '<i style="background: red"></i> At-Risk Schools<br>' +
+                '<i style="background: green"></i> Safe Schools';
             return div;
         };
         legend.addTo(map);
-
     </script>
 </body>
 </html>
