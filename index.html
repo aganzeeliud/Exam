@@ -3,113 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DRC School Conflict Risk Map</title>
-    <!-- Leaflet: The library that makes the map work -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <!-- PapaParse: A tool to help the map read your CSV files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <title>DRC Education & Conflict Data Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
-        #map { height: 100%; width: 100%; }
-        /* Style for the Legend box */
-        .legend {
-            background: white;
-            padding: 10px;
-            line-height: 1.5em;
-            border-radius: 5px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --accent: #ef4444;
         }
-        .legend i {
-            width: 12px;
-            height: 12px;
-            float: left;
-            margin-right: 8px;
-            opacity: 0.8;
-            border-radius: 50%;
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            background-color: var(--light);
+        }
+        header {
+            background: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--dark); }
+        .description {
+            font-size: 1.2rem;
+            color: #64748b;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+        
+        /* Navigation Cards */
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #e2e8f0;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+        }
+        .card h3 { margin-top: 0; color: var(--primary); }
+
+        /* Data Table */
+        .data-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 4rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th { background-color: #f1f5f9; font-weight: 600; }
+
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: var(--dark);
+            color: white;
+            margin-top: 4rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            background: #dcfce7;
+            color: #166534;
         }
     </style>
 </head>
 <body>
-    <div id="map"></div>
-    <script>
-        // 1. Center the map on DR Congo (latitude -1.0, longitude 28.0)
-        const map = L.map('map').setView([-1.0, 28.0], 6);
 
-        // 2. Add the background (the actual map image)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
+    <header>
+        <h1>DRC Education & Conflict Data Portal</h1>
+        <p class="description">
+            This project monitors the impact of armed conflict on the educational infrastructure in the Democratic Republic of Congo. By cross-referencing over 7,900 school locations with nearly 10,000 georeferenced conflict events, we identify "at-risk" schools and provide actionable data for humanitarian prioritization and educational safety planning.
+        </p>
+    </header>
 
-        // 3. Create "Layers" so we can turn markers on and off
-        const conflictLayer = L.layerGroup().addTo(map);
-        const atRiskLayer = L.layerGroup().addTo(map);
-        const safeLayer = L.layerGroup().addTo(map);
+    <div class="container">
+        <!-- Navigation Section -->
+        <div class="nav-grid">
+            <a href="map.html" class="card">
+                <h3>Interactive Risk Map &rarr;</h3>
+                <p>Visualize the proximity of schools to conflict zones using our interactive Leaflet-powered map with toggleable risk layers.</p>
+            </a>
+            <div class="card" style="opacity: 0.7; cursor: not-allowed;">
+                <h3>Data Dashboard (Coming Soon)</h3>
+                <p>Advanced statistical analysis, trend charts, and regional breakdowns of conflict impacts on the education sector.</p>
+            </div>
+        </div>
 
-        // 4. Styles for our circles
-        const conflictStyle = { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 };
-        const atRiskStyle = { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 };
-        const safeStyle = { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 };
+        <!-- Metadata Section -->
+        <div class="data-section">
+            <h2>Dataset Transparency</h2>
+            <p>Our data pipeline is built on verified, publicly available sources to ensure transparency and reproducibility.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dataset Name</th>
+                        <th>Source</th>
+                        <th>Type</th>
+                        <th>Key Metadata</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Conflict Events (DRC)</b></td>
+                        <td>ACLED / UCDP</td>
+                        <td>Security</td>
+                        <td>Fatalities, Event Type, Coordinates</td>
+                    </tr>
+                    <tr>
+                        <td><b>Educational Facilities</b></td>
+                        <td>GRID3 / OSM / EPST</td>
+                        <td>Humanitarian</td>
+                        <td>School Name, Type, Coordinates</td>
+                    </tr>
+                    <tr>
+                        <td><b>Conflict Risk Analysis</b></td>
+                        <td>Derived Output</td>
+                        <td>Analytical</td>
+                        <td>Distance to Conflict, Risk Status</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-        // 5. Helper function to read a CSV and put it on the map
-        async function loadData(url, layer, style, type) {
-            const response = await fetch(url);
-            const csvText = await response.text();
-            
-            Papa.parse(csvText, {
-                header: true,
-                dynamicTyping: true,
-                complete: function(results) {
-                    results.data.forEach(row => {
-                        if (row.latitude && row.longitude) {
-                            const marker = L.circleMarker([row.latitude, row.longitude], style);
-                            
-                            // Customize Popups
-                            let popupContent = "";
-                            if (type === 'conflict') {
-                                popupContent = `<b>Conflict Event</b><br>
-                                                Source: ${row.source}<br>
-                                                Type: ${row.event_type}<br>
-                                                Fatalities: ${row.fatalities}`;
-                            } else {
-                                popupContent = `<b>School: ${row.name}</b><br>
-                                                Status: ${row.risk_status}<br>
-                                                Distance to Conflict: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
-                            }
-                            
-                            marker.bindPopup(popupContent);
-                            layer.addLayer(marker);
-                        }
-                    });
-                }
-            });
-        }
+    <footer>
+        <p>Project developed as part of: <b>GIS & Conflict Data Analysis Course 2026</b></p>
+        <p>&copy; 2026 DRC Data Portal Project</p>
+    </footer>
 
-        // 6. Load our CSV files
-        loadData('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle, 'conflict');
-        loadData('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle, 'school');
-        loadData('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle, 'school');
-
-        // 7. Add Toggle Controls (Top Right)
-        const overlays = {
-            "<span style='color: orange'>Conflict Events</span>": conflictLayer,
-            "<span style='color: red'>At-Risk Schools</span>": atRiskLayer,
-            "<span style='color: green'>Safe Schools</span>": safeLayer
-        };
-        L.control.layers(null, overlays).addTo(map);
-
-        // 8. Add a Legend (Bottom Right)
-        const legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
-            const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML += '<h4>Map Legend</h4>';
-            div.innerHTML += '<i style="background: orange"></i> Conflict Events<br>';
-            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (within 10km)<br>';
-            div.innerHTML += '<i style="background: green"></i> Safe Schools (outside 10km)<br>';
-            return div;
-        };
-        legend.addTo(map);
-
-    </script>
 </body>
 </html>
