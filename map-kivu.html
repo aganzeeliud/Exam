@@ -13,33 +13,33 @@
         :root { --primary: #ea580c; --card: #ffffff; --text: #1e293b; }
         body, html { margin: 0; padding: 0; height: 100%; font-family: 'Plus Jakarta Sans', sans-serif; overflow: hidden; }
         #map { height: 100vh; width: 100%; z-index: 1; }
-        .top-interface { position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; display: flex; gap: 10px; width: 90%; max-width: 800px; }
-        .search-box, .filter-box { background: var(--card); padding: 12px 20px; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05); display: flex; align-items: center; gap: 10px; }
-        .search-box { flex: 2; } .filter-box { flex: 1.5; }
-        input, select { border: none; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: var(--text); background: transparent; }
+        .top-interface { position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; display: flex; gap: 10px; width: 95%; max-width: 1000px; }
+        .search-box, .filter-box { background: var(--card); padding: 12px 18px; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05); display: flex; align-items: center; gap: 8px; }
+        .search-box { flex: 1.5; } .filter-box { flex: 1; }
+        input, select { border: none; outline: none; width: 100%; font-family: inherit; font-size: 13px; color: var(--text); background: transparent; }
         .indicators { position: absolute; bottom: 30px; left: 20px; z-index: 1000; display: flex; flex-direction: column; gap: 10px; }
         .indicator-card { background: var(--card); padding: 16px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-left: 6px solid var(--primary); min-width: 180px; display: flex; flex-direction: column; gap: 4px; }
         .indicator-card.red { border-left-color: #ef4444; } .indicator-card.blue { border-left-color: #2563eb; } .indicator-card.green { border-left-color: #10b981; }
         .indicator-card .label { font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
         .indicator-card .value { font-size: 20px; font-weight: 800; color: var(--text); }
         .nav-back { position: absolute; top: 20px; left: 20px; z-index: 1000; background: var(--card); padding: 12px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: var(--primary); text-decoration: none; }
-        .legend { background: var(--card); padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); line-height: 1.6em; font-size: 12px; }
-        .legend i { width: 10px; height: 10px; float: left; margin-right: 10px; border-radius: 50%; margin-top: 5px; }
     </style>
 </head>
 <body>
     <a href="index.html" class="nav-back"><i data-lucide="arrow-left"></i></a>
     <div class="top-interface">
-        <div class="search-box"><i data-lucide="search" size="18" color="#64748b"></i><input type="text" id="mapSearch" placeholder="Search Kivu locations..."></div>
+        <div class="search-box"><i data-lucide="search" size="16"></i><input type="text" id="mapSearch" placeholder="Search Kivu locations..."></div>
         <div class="filter-box">
-            <i data-lucide="map-pin" size="18" color="#64748b"></i>
-            <select id="regionFilter">
-                <option value="all">Region: Kivu Overview</option>
-            </select>
+            <i data-lucide="map-pin" size="16"></i>
+            <select id="regionFilter"><option value="all">Kivu Overview</option></select>
+        </div>
+        <div class="filter-box">
+            <i data-lucide="database" size="16"></i>
+            <select id="sourceFilter"><option value="all">All Sources</option></select>
         </div>
     </div>
     <div class="indicators">
-        <div class="indicator-card blue"><span class="label">Conflicts in Region</span><span id="count-conflicts" class="value">0</span></div>
+        <div class="indicator-card blue"><span class="label">Kivu Conflicts</span><span id="count-conflicts" class="value">0</span></div>
         <div class="indicator-card red"><span class="label">Regional At-Risk</span><span id="count-atRisk" class="value">0</span></div>
         <div class="indicator-card green"><span class="label">Regional Safe</span><span id="count-safe" class="value">0</span></div>
     </div>
@@ -54,6 +54,7 @@
         const styles = { conflicts: { radius: 4, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 }, atRisk: { radius: 6, fillColor: "#ef4444", color: "#fff", weight: 1, fillOpacity: 0.9 }, safe: { radius: 6, fillColor: "#10b981", color: "#fff", weight: 1, fillOpacity: 0.9 } };
         
         let regions = new Set();
+        let sources = new Set();
 
         async function loadData(url, key, type) {
             const response = await fetch(url);
@@ -67,31 +68,63 @@
                             if (row.latitude < -1.0 && row.latitude > -3.0 && row.longitude > 28.0 && row.longitude < 30.0) {
                                 const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
                                 const region = (row.location || row.location_name || '').toLowerCase().trim();
+                                const src = (row.source || '').trim();
                                 if (region) regions.add(region);
-                                marker.bindPopup(`<b>${row.name || 'Incident'}</b><br>Region: ${region}`);
+                                if (src) sources.add(src);
+                                marker.bindPopup(`<b>${row.name || 'Incident'}</b><br>Region: ${region}<br>Source: ${src}`);
                                 layers[key].addLayer(marker);
-                                row._marker = marker;
+                                row._marker = marker; row._region = region; row._source = src;
                             }
                         }
                     });
-                    updateFilterDropdown();
+                    updateDropdowns();
                     updateCounts();
                 }
             });
         }
 
-        function updateFilterDropdown() {
-            const select = document.getElementById('regionFilter');
-            const currentVal = select.value;
-            select.innerHTML = '<option value="all">Region: Kivu Overview</option>';
+        function updateDropdowns() {
+            const rSelect = document.getElementById('regionFilter');
+            const sSelect = document.getElementById('sourceFilter');
+            
+            const currentR = rSelect.value;
+            rSelect.innerHTML = '<option value="all">Kivu Overview</option>';
             Array.from(regions).sort().forEach(r => {
                 if (r.length < 2) return;
                 const opt = document.createElement('option');
-                opt.value = r;
-                opt.innerText = r.charAt(0).toUpperCase() + r.slice(1);
-                select.appendChild(opt);
+                opt.value = r; opt.innerText = r.charAt(0).toUpperCase() + r.slice(1);
+                rSelect.appendChild(opt);
             });
-            select.value = currentVal || 'all';
+            rSelect.value = currentR || 'all';
+
+            const currentS = sSelect.value;
+            sSelect.innerHTML = '<option value="all">All Sources</option>';
+            Array.from(sources).sort().forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s; opt.innerText = s;
+                sSelect.appendChild(opt);
+            });
+            sSelect.value = currentS || 'all';
+        }
+
+        function applyFilters() {
+            const region = document.getElementById('regionFilter').value;
+            const source = document.getElementById('sourceFilter').value;
+            let firstMatch = null;
+
+            Object.keys(layers).forEach(key => {
+                layers[key].clearLayers();
+                dataStore[key].forEach(row => {
+                    const matchR = region === 'all' || row._region === region;
+                    const matchS = source === 'all' || row._source === source;
+                    if (matchR && matchS && row._marker) {
+                        layers[key].addLayer(row._marker);
+                        if (!firstMatch) firstMatch = row._marker.getLatLng();
+                    }
+                });
+            });
+            if (firstMatch && region !== 'all') map.setView(firstMatch, 11);
+            updateCounts();
         }
 
         function updateCounts() {
@@ -101,22 +134,8 @@
             });
         }
 
-        document.getElementById('regionFilter').addEventListener('change', (e) => {
-            const region = e.target.value;
-            let firstMatch = null;
-            Object.keys(layers).forEach(key => {
-                layers[key].clearLayers();
-                dataStore[key].forEach(row => {
-                    const rowRegion = (row.location || row.location_name || '').toLowerCase().trim();
-                    if (row._marker && (region === 'all' || rowRegion === region)) {
-                        layers[key].addLayer(row._marker);
-                        if (!firstMatch) firstMatch = row._marker.getLatLng();
-                    }
-                });
-            });
-            if (firstMatch && region !== 'all') map.setView(firstMatch, 11);
-            updateCounts();
-        });
+        document.getElementById('regionFilter').addEventListener('change', applyFilters);
+        document.getElementById('sourceFilter').addEventListener('change', applyFilters);
 
         document.getElementById('mapSearch').addEventListener('input', (e) => {
             const s = e.target.value.toLowerCase();
