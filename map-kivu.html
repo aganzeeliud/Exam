@@ -3,61 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kivu Regional Intelligence: Goma & Bukavu</title>
+    <title>Kivu Regional Intelligence | Goma & Bukavu</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', sans-serif; }
-        #map { height: 100%; width: 100%; z-index: 1; }
-        .filter-bar {
-            position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
-            z-index: 1000; background: white; padding: 10px 20px; border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2); display: flex; gap: 15px; align-items: center;
+        :root {
+            --primary: #ea580c;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
         }
-        .fact-container {
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Plus Jakarta Sans', sans-serif; overflow: hidden; }
+        #map { height: 100vh; width: 100%; z-index: 1; }
+
+        /* Top Control Bar */
+        .top-interface {
+            position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
+            z-index: 1000; display: flex; gap: 10px; width: 90%; max-width: 800px;
+        }
+        .search-box, .filter-box {
+            background: var(--card); padding: 12px 20px; border-radius: 16px;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.05);
+            display: flex; align-items: center; gap: 10px;
+        }
+        .search-box { flex: 2; }
+        .filter-box { flex: 1; min-width: 200px; }
+        input, select { border: none; outline: none; width: 100%; font-family: inherit; font-size: 14px; color: var(--text); background: transparent; }
+        
+        /* Indicator Cards */
+        .indicators {
             position: absolute; bottom: 30px; left: 20px; z-index: 1000;
             display: flex; flex-direction: column; gap: 10px;
         }
-        .fact-card {
-            background: white; padding: 15px; border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-left: 5px solid #2563eb; min-width: 150px;
+        .indicator-card {
+            background: var(--card); padding: 16px; border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border-left: 6px solid var(--primary);
+            min-width: 180px; display: flex; flex-direction: column; gap: 4px;
         }
-        .fact-card.risk { border-left-color: #ef4444; }
-        .fact-card.safe { border-left-color: #10b981; }
-        .fact-card h4 { margin: 0; font-size: 11px; color: #64748b; text-transform: uppercase; }
-        .fact-card p { margin: 5px 0 0; font-size: 18px; font-weight: bold; color: #1e293b; }
-        .legend { background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); line-height: 1.5em; font-size: 12px; }
-        .legend i { width: 10px; height: 10px; float: left; margin-right: 8px; border-radius: 50%; margin-top: 4px; }
-        .nav-back { position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.2); text-decoration: none; font-weight: bold; color: #2563eb; }
+        .indicator-card.red { border-left-color: #ef4444; }
+        .indicator-card.blue { border-left-color: #2563eb; }
+        .indicator-card.green { border-left-color: #10b981; }
+        .indicator-card .label { font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+        .indicator-card .value { font-size: 20px; font-weight: 800; color: var(--text); }
+
+        .nav-back { position: absolute; top: 20px; left: 20px; z-index: 1000; background: var(--card); padding: 12px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: var(--primary); text-decoration: none; }
+        .legend { background: var(--card); padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); line-height: 1.6em; font-size: 12px; }
+        .legend i { width: 10px; height: 10px; float: left; margin-right: 10px; border-radius: 50%; margin-top: 5px; }
     </style>
 </head>
 <body>
-    <a href="index.html" class="nav-back" title="Back to Portal">&larr;</a>
-    <div class="filter-bar">
-        <strong>Filter Region View:</strong>
-        <select id="mapFilter">
-            <option value="all">Show All Data</option>
-            <option value="atRisk">At-Risk Schools Only</option>
-            <option value="safe">Safe Schools Only</option>
-            <option value="conflicts">Conflict Events Only</option>
-        </select>
+    <a href="index.html" class="nav-back"><i data-lucide="arrow-left"></i></a>
+
+    <div class="top-interface">
+        <div class="search-box">
+            <i data-lucide="search" size="18" color="#64748b"></i>
+            <input type="text" id="mapSearch" placeholder="Search Kivu locations...">
+        </div>
+        <div class="filter-box">
+            <i data-lucide="filter" size="18" color="#64748b"></i>
+            <select id="mapFilter">
+                <option value="all">Kivu: All Data</option>
+                <option value="atRisk">At-Risk Schools Only</option>
+                <option value="safe">Safe Schools Only</option>
+                <option value="conflicts">Conflict Events</option>
+            </select>
+        </div>
     </div>
-    <div class="fact-container">
-        <div class="fact-card"><h4>Kivu Conflicts</h4><p id="count-conflicts">Loading...</p></div>
-        <div class="fact-card risk"><h4>At-Risk Schools</h4><p id="count-risk">Loading...</p></div>
-        <div class="fact-card safe"><h4>Safe Schools</h4><p id="count-safe">Loading...</p></div>
+
+    <div class="indicators">
+        <div class="indicator-card blue">
+            <span class="label">Kivu Conflicts</span>
+            <span id="count-conflicts" class="value">0</span>
+        </div>
+        <div class="indicator-card red">
+            <span class="label">Regional At-Risk</span>
+            <span id="count-atRisk" class="value">0</span>
+        </div>
+        <div class="indicator-card green">
+            <span class="label">Regional Safe</span>
+            <span id="count-safe" class="value">0</span>
+        </div>
     </div>
+
     <div id="map"></div>
+
     <script>
-        const map = L.map('map').setView([-2.0, 28.8], 8);
+        const map = L.map('map', { zoomControl: false }).setView([-2.0, 28.8], 8);
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
-        const layers = { conflicts: L.layerGroup().addTo(map), atRisk: L.layerGroup().addTo(map), safe: L.layerGroup().addTo(map) };
+
+        const layers = {
+            conflicts: L.layerGroup().addTo(map),
+            atRisk: L.layerGroup().addTo(map),
+            safe: L.layerGroup().addTo(map)
+        };
+
+        const allMarkers = [];
+
         const styles = {
             conflicts: { radius: 4, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
-            atRisk: { radius: 6, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 },
-            safe: { radius: 6, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 }
+            atRisk: { radius: 6, fillColor: "#ef4444", color: "#fff", weight: 1, fillOpacity: 0.9 },
+            safe: { radius: 6, fillColor: "#10b981", color: "#fff", weight: 1, fillOpacity: 0.9 }
         };
+
         async function loadData(url, key, type) {
             const response = await fetch(url);
             const csvText = await response.text();
@@ -67,40 +119,54 @@
                     let count = 0;
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
+                            // Filter for Kivu bounds
                             if (row.latitude < -1.0 && row.latitude > -3.0 && row.longitude > 28.0 && row.longitude < 30.0) {
                                 const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
-                                let popup = `<b>${row.name || 'Incident'}</b><br>`;
-                                if (type === 'conflict') {
-                                    popup += `Type: ${row.event_type}<br>Fatalities: ${row.fatalities}`;
-                                } else {
-                                    popup += `Dist to Conflict: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
-                                }
-                                marker.bindPopup(popup);
+                                let name = row.name || 'Incident';
+                                marker.bindPopup(`<b>${name}</b><br>Type: ${row.event_type || 'N/A'}`);
                                 layers[key].addLayer(marker);
+                                allMarkers.push({ name: name.toLowerCase(), marker: marker });
                                 count++;
                             }
                         }
                     });
-                    document.getElementById(`count-${key}`).innerText = count;
+                    document.getElementById(`count-${key}`).innerText = count.toLocaleString();
                 }
             });
         }
+
         loadData('processed-data/drc-conflict-event.csv', 'conflicts', 'conflict');
         loadData('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk', 'school');
         loadData('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe', 'school');
+
         document.getElementById('mapFilter').addEventListener('change', (e) => {
             const val = e.target.value;
             Object.values(layers).forEach(l => map.removeLayer(l));
             if (val === 'all') Object.values(layers).forEach(l => map.addLayer(l));
             else map.addLayer(layers[val]);
         });
+
+        document.getElementById('mapSearch').addEventListener('input', (e) => {
+            const search = e.target.value.toLowerCase();
+            if (search.length < 3) return;
+            const match = allMarkers.find(m => m.name.includes(search));
+            if (match) {
+                map.setView(match.marker.getLatLng(), 13);
+                match.marker.openPopup();
+            }
+        });
+
         const legend = L.control({position: 'bottomright'});
         legend.onAdd = function() {
             const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML = '<b>Legend</b><br><i style="background: orange"></i> Conflicts<br><i style="background: red"></i> At-Risk<br><i style="background: green"></i> Safe';
+            div.innerHTML = `<b>Kivu Legend</b><br>
+                <i style="background: orange"></i> Conflict Incident<br>
+                <i style="background: #ef4444"></i> School At-Risk<br>
+                <i style="background: #10b981"></i> School Safe`;
             return div;
         };
         legend.addTo(map);
+        lucide.createIcons();
     </script>
 </body>
 </html>
