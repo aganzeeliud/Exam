@@ -4,128 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRC School Conflict Risk Map</title>
-    <!-- Leaflet: The library that makes the map work -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <!-- PapaParse: A tool to help the map read your CSV files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
-        #map { height: 100%; width: 100%; }
-        .legend {
-            background: white;
-            padding: 10px;
-            line-height: 1.5em;
-            border-radius: 5px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-        }
-        .legend i {
-            width: 12px;
-            height: 12px;
-            float: left;
-            margin-right: 8px;
-            opacity: 0.8;
-            border-radius: 50%;
-        }
-        .nav-back {
-            position: absolute;
-            top: 10px;
-            left: 50px;
-            z-index: 1000;
-            background: white;
-            padding: 8px 15px;
-            text-decoration: none;
-            color: #2563eb;
-            font-weight: bold;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
+        body, html { margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; }
+        #map { flex: 2; width: 100%; min-height: 500px; }
+        .table-container { flex: 1; padding: 20px; background: #fff; overflow-y: auto; border-top: 2px solid #e2e8f0; }
+        .controls { display: flex; gap: 10px; margin-bottom: 15px; align-items: center; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #edf2f7; }
+        th { background: #f7fafc; position: sticky; top: 0; }
+        tr:hover { background: #f8fafc; }
+        .legend { background: white; padding: 10px; line-height: 1.5em; border-radius: 5px; box-shadow: 0 0 15px rgba(0,0,0,0.2); }
+        .legend i { width: 12px; height: 12px; float: left; margin-right: 8px; opacity: 0.8; border-radius: 50%; }
+        .nav-back { position: absolute; top: 10px; left: 50px; z-index: 1000; background: white; padding: 8px 15px; text-decoration: none; color: #2563eb; font-weight: bold; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+        select, input { padding: 8px; border: 1px solid #cbd5e0; border-radius: 4px; }
     </style>
 </head>
 <body>
     <a href="index.html" class="nav-back">&larr; Back to Portal</a>
     <div id="map"></div>
+    
+    <div class="table-container">
+        <div class="controls">
+            <strong>Data Table View:</strong>
+            <select id="layerSelect">
+                <option value="conflicts">Conflict Events</option>
+                <option value="atRisk">At-Risk Schools</option>
+                <option value="safe">Safe Schools</option>
+                <option value="historical">Historical Data</option>
+            </select>
+            <input type="text" id="tableSearch" placeholder="Search data...">
+            <small id="rowCount"></small>
+        </div>
+        <table id="dataTable">
+            <thead><tr id="tableHeader"></tr></thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
     <script>
-        // 1. Center the map on DR Congo
         const map = L.map('map').setView([-1.0, 28.0], 6);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap' }).addTo(map);
 
-        // 2. Add the background map
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
+        const layers = {
+            conflicts: L.layerGroup().addTo(map),
+            atRisk: L.layerGroup().addTo(map),
+            safe: L.layerGroup().addTo(map),
+            historical: L.layerGroup().addTo(map)
+        };
 
-        // 3. Create Layers for toggle control
-        const conflictLayer = L.layerGroup().addTo(map);
-        const atRiskLayer = L.layerGroup().addTo(map);
-        const safeLayer = L.layerGroup().addTo(map);
-        const historicalLayer = L.layerGroup().addTo(map);
+        const dataStorage = { conflicts: [], atRisk: [], safe: [], historical: [] };
 
-        // 4. Styles
-        const conflictStyle = { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 };
-        const atRiskStyle = { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 };
-        const safeStyle = { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 };
-        const historicalStyle = { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }; // Purple for historical
+        const styles = {
+            conflicts: { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, fillOpacity: 0.8 },
+            atRisk: { radius: 5, fillColor: "red", color: "#fff", weight: 1, fillOpacity: 0.9 },
+            safe: { radius: 5, fillColor: "green", color: "#fff", weight: 1, fillOpacity: 0.9 },
+            historical: { radius: 6, fillColor: "#8b5cf6", color: "#fff", weight: 1.5, fillOpacity: 1 }
+        };
 
-        // 5. Loading Function
-        async function loadCSV(url, layer, style, type) {
+        async function loadCSV(url, key, type) {
             const response = await fetch(url);
             const csvText = await response.text();
-            
             Papa.parse(csvText, {
                 header: true,
                 dynamicTyping: true,
                 skipEmptyLines: true,
                 complete: function(results) {
+                    dataStorage[key] = results.data;
                     results.data.forEach(row => {
                         if (row.latitude && row.longitude) {
-                            const marker = L.circleMarker([row.latitude, row.longitude], style);
-                            let popup = "";
-                            if (type === 'conflict') {
-                                popup = `<b>Conflict Event</b><br>Type: ${row.event_type}<br>Fatalities: ${row.fatalities}<br>Source: ${row.source}`;
-                            } else if (type === 'historical') {
-                                popup = `<b>Historically Affected School: ${row.name}</b><br>
-                                         Location: ${row.conflict_location}<br>
-                                         Conflict Year: ${row.conflict_year}<br>
-                                         Conflict Type: ${row.conflict_type}<br>
-                                         Distance: ${row.dist_km} km`;
-                            } else {
-                                popup = `<b>School: ${row.name}</b><br>Status: ${row.risk_status}<br>Distance: ${row.distance_to_nearest_conflict_km ? row.distance_to_nearest_conflict_km.toFixed(2) : 'N/A'} km`;
-                            }
-                            marker.bindPopup(popup);
-                            layer.addLayer(marker);
+                            const marker = L.circleMarker([row.latitude, row.longitude], styles[key]);
+                            marker.bindPopup(`<b>${row.name || 'Event'}</b><br>Type: ${row.event_type || row.conflict_type || 'N/A'}`);
+                            layers[key].addLayer(marker);
                         }
                     });
+                    if (key === 'conflicts') updateTable('conflicts'); // Initial table load
                 }
             });
         }
 
-        // 6. Execute Loading
-        loadCSV('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle, 'conflict');
-        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle, 'school');
-        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle, 'school');
-        loadCSV('raw-data/schools-1km-historical.csv', historicalLayer, historicalStyle, 'historical');
+        function updateTable(key, filter = "") {
+            const data = dataStorage[key];
+            const header = document.getElementById('tableHeader');
+            const body = document.getElementById('tableBody');
+            
+            header.innerHTML = "";
+            body.innerHTML = "";
 
-        // 7. Layer Control (Toggle each category)
+            if (data.length === 0) return;
+
+            // Headers
+            const cols = Object.keys(data[0]).filter(c => !['latitude', 'longitude'].includes(c));
+            cols.forEach(col => {
+                const th = document.createElement('th');
+                th.innerText = col.replace(/_/g, ' ').toUpperCase();
+                header.appendChild(th);
+            });
+
+            // Rows (Limit to 100 for performance, or use search)
+            let count = 0;
+            data.forEach(row => {
+                if (filter && !JSON.stringify(row).toLowerCase().includes(filter.toLowerCase())) return;
+                if (count >= 100) return;
+
+                const tr = document.createElement('tr');
+                cols.forEach(col => {
+                    const td = document.createElement('td');
+                    td.innerText = row[col] || '';
+                    tr.appendChild(td);
+                });
+                body.appendChild(tr);
+                count++;
+            });
+            document.getElementById('rowCount').innerText = `Showing top ${count} of ${data.length} records`;
+        }
+
+        // Event Listeners
+        document.getElementById('layerSelect').addEventListener('change', (e) => updateTable(e.target.value));
+        document.getElementById('tableSearch').addEventListener('input', (e) => updateTable(document.getElementById('layerSelect').value, e.target.value));
+
+        loadCSV('processed-data/drc-conflict-event.csv', 'conflicts', 'conflict');
+        loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', 'atRisk', 'school');
+        loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', 'safe', 'school');
+        loadCSV('raw-data/schools-1km-historical.csv', 'historical', 'historical');
+
         const overlays = {
-            "<span style='color: orange'>●</span> Current Conflict Events": conflictLayer,
-            "<span style='color: red'>●</span> At-Risk Schools (Current)": atRiskLayer,
-            "<span style='color: green'>●</span> Safe Schools (Current)": safeLayer,
-            "<span style='color: #8b5cf6'>●</span> Historically Affected Schools": historicalLayer
+            "<span style='color: orange'>●</span> Conflicts": layers.conflicts,
+            "<span style='color: red'>●</span> At-Risk Schools": layers.atRisk,
+            "<span style='color: green'>●</span> Safe Schools": layers.safe,
+            "<span style='color: #8b5cf6'>●</span> Historical": layers.historical
         };
         L.control.layers(null, overlays, { collapsed: false }).addTo(map);
-
-        // 8. Add Legend
-        const legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
-            const div = L.DomUtil.create('div', 'legend');
-            div.innerHTML += '<h4>Map Legend</h4>';
-            div.innerHTML += '<i style="background: orange"></i> Conflict Events<br>';
-            div.innerHTML += '<i style="background: red"></i> At-Risk Schools (Current)<br>';
-            div.innerHTML += '<i style="background: green"></i> Safe Schools (Current)<br>';
-            div.innerHTML += '<i style="background: #8b5cf6"></i> Historically Affected Schools<br>';
-            return div;
-        };
-        legend.addTo(map);
 
     </script>
 </body>
