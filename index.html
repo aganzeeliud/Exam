@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRC School Conflict Risk Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-V90Sps89qK7NstAbW6T6qisS/a31k3GkYhX6k5z6T1p8v6n5v8i7v6o5o5o5o5o5o5o5o5o5o5o5o5o5o5o5o5o==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; }
+        #map { height: 100%; width: 100%; }
+        .legend {
+            background: white;
+            padding: 10px;
+            line-height: 1.5em;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Initialize the map
+        const map = L.map('map').setView([-1, 28], 6);
+
+        // Add Base Layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Layer groups
+        const conflictLayer = L.layerGroup();
+        const atRiskLayer = L.layerGroup();
+        const safeLayer = L.layerGroup();
+
+        // Marker Styles
+        const conflictStyle = { radius: 3, fillColor: "orange", color: "#000", weight: 0.5, opacity: 1, fillOpacity: 0.8 };
+        const atRiskStyle = { radius: 5, fillColor: "red", color: "#fff", weight: 1, opacity: 1, fillOpacity: 0.9 };
+        const safeStyle = { radius: 5, fillColor: "green", color: "#fff", weight: 1, opacity: 1, fillOpacity: 0.9 };
+
+        // Function to load and plot CSV
+        async function loadCSV(path, layer, style, popupText) {
+            const response = await fetch(path);
+            const csvText = await response.text();
+            
+            Papa.parse(csvText, {
+                header: true,
+                dynamicTyping: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    results.data.forEach(row => {
+                        if (row.latitude && row.longitude) {
+                            const marker = L.circleMarker([row.latitude, row.longitude], style);
+                            let popup = "";
+                            for (let key in row) {
+                                popup += `<b>${key}:</b> ${row[key]}<br>`;
+                            }
+                            marker.bindPopup(popup);
+                            layer.addLayer(marker);
+                        }
+                    });
+                }
+            });
+        }
+
+        // Load Data
+        Promise.all([
+            loadCSV('processed-data/drc-conflict-event.csv', conflictLayer, conflictStyle),
+            loadCSV('processed-data/drc-conflict-risk-school/at-risk-schools.csv', atRiskLayer, atRiskStyle),
+            loadCSV('processed-data/drc-conflict-risk-school/safe-schools.csv', safeLayer, safeStyle)
+        ]).then(() => {
+            // Add initial layers to map
+            conflictLayer.addTo(map);
+            atRiskLayer.addTo(map);
+            safeLayer.addTo(map);
+
+            // Add Layer Control
+            const overlays = {
+                "Conflict Events": conflictLayer,
+                "At-Risk Schools": atRiskLayer,
+                "Safe Schools": safeLayer
+            };
+            L.control.layers(null, overlays).addTo(map);
+        });
+
+    </script>
+</body>
+</html>
