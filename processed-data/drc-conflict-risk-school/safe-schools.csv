@@ -1,0 +1,1779 @@
+name,latitude,longitude,location_name,type,source,distance_to_nearest_conflict_km,risk_status
+Materdei,-4.4690518,15.2243459,,School,DRC_All_SCHool_Local,14.448879509480703,safe
+Institut de Kinkole,-4.3216269,15.5163084,,School,DRC_All_SCHool_Local,18.544069357595035,safe
+Petit séminaire Sainte Thérèse,3.1832605,27.8657858,,School,DRC_All_SCHool_Local,14.533808195446273,safe
+École Catholique,-4.3224534,15.5169931,,School,DRC_All_SCHool_Local,18.61067726789791,safe
+Ecole primaire Kamakanga,-11.8230278,27.5875278,,School,DRC_All_SCHool_Local,21.622896347983463,safe
+École primaire Tumbwe,-11.4733056,27.3861389,,School,DRC_All_SCHool_Local,22.913793204802037,safe
+École primaire Fikupa,-11.949,27.5284444,,School,DRC_All_SCHool_Local,32.10599304823237,safe
+Ecole primaire Lumiere Du Christ,-10.7866111,25.6186111,,School,DRC_All_SCHool_Local,18.330548890676116,safe
+École primaire Lumière Du Christ 6,-10.8508759,25.4513542,,School,DRC_All_SCHool_Local,15.016792272450935,safe
+École primaire Mukoma,-11.6504722,27.3256389,,School,DRC_All_SCHool_Local,15.463297614097305,safe
+Ecole primaire Lumiere Du Christ 1,-10.96225,25.4619722,,School,DRC_All_SCHool_Local,27.312396655634636,safe
+Ecole primaire Butungwa,-11.7590278,27.5639444,,School,DRC_All_SCHool_Local,14.753109262606445,safe
+École primaire Shibukeni,-11.7395237,27.5639854,,School,DRC_All_SCHool_Local,13.338431607424289,safe
+Ecole primaire Lwafu,-10.94325,26.9581944,,School,DRC_All_SCHool_Local,24.910834400325403,safe
+École primaire Mikombo,-11.84875,27.5606111,,School,DRC_All_SCHool_Local,22.683012325034493,safe
+Ecole primaire Luboto 2,-12.2509722,27.6428611,,School,DRC_All_SCHool_Local,22.388596511790162,safe
+École primaire Dilungu,-10.656,25.7036667,,School,DRC_All_SCHool_Local,26.76033884034744,safe
+Ecole primaire Uhuru,-10.7745,25.54625,,School,DRC_All_SCHool_Local,10.813922141602681,safe
+Ecole primaire Kipopo,-11.5484167,27.3265556,,School,DRC_All_SCHool_Local,20.144266477311582,safe
+Ecole primaire Lubusha,-11.1806389,27.0126667,,School,DRC_All_SCHool_Local,37.682687646454575,safe
+École primaire Luboto 1,-12.0821111,27.5125556,,School,DRC_All_SCHool_Local,31.270213561683136,safe
+Ecole primaire Imani,-10.7793056,25.7076667,,School,DRC_All_SCHool_Local,27.23356147808194,safe
+Ecole primaire Mwana Kulema,-11.0445278,26.9541389,,School,DRC_All_SCHool_Local,25.102123194508327,safe
+Ecole primaire Kazembe,-10.7249444,25.5620556,,School,DRC_All_SCHool_Local,10.46215598913262,safe
+Ecole primaire Katanga,-11.1247778,27.1006111,,School,DRC_All_SCHool_Local,43.136657379376686,safe
+École primaire Mushima 1,-11.1600556,25.4511944,,School,DRC_All_SCHool_Local,49.33149239068946,safe
+Ecole primaire Kinandu,-11.7624722,27.361,,School,DRC_All_SCHool_Local,13.9055433823971,safe
+Ecole primaire Maranatha,-11.7370278,27.5639444,,School,DRC_All_SCHool_Local,13.16816152343803,safe
+Ecole primaire Mwongo,-10.7811111,25.7453611,,School,DRC_All_SCHool_Local,31.27756030779971,safe
+Ecole primaire Songa Songa,-10.94325,26.9599167,,School,DRC_All_SCHool_Local,25.096126610873057,safe
+Ecole primaire Lua Bolo,3.7771667,19.055,,School,DRC_All_SCHool_Local,42.0722983723475,safe
+Ecole primaire Mole,4.3442222,18.7921944,,School,DRC_All_SCHool_Local,21.31924336295644,safe
+Ecole primaire Ngombe Poswa,3.7206667,18.7736111,,School,DRC_All_SCHool_Local,16.27352278805923,safe
+École primaire Mpenda Moheli,-0.7884922,18.2820391,,School,DRC_All_SCHool_Local,40.12658484586911,safe
+Ecole primaire Bogbadono,3.2242778,19.2933333,,School,DRC_All_SCHool_Local,52.62610494685281,safe
+Ecole primaire Bokandja,-0.8315833,18.14175,,School,DRC_All_SCHool_Local,27.113536534897342,safe
+École primaire Toyokana,-0.7645206,18.2873733,,School,DRC_All_SCHool_Local,42.49023509471231,safe
+École primaire Kpindima,3.3236944,19.4068889,,School,DRC_All_SCHool_Local,40.77165126504926,safe
+EP Mpaha Epole,-0.8299891,18.1848708,,School,DRC_All_SCHool_Local,29.704303190550156,safe
+Ecole primaire Nguvale,2.9751389,19.3518611,,School,DRC_All_SCHool_Local,55.274609473311834,safe
+Ecole primaire Ikengo,-0.0099839,18.3269081,,School,DRC_All_SCHool_Local,10.840421383088723,safe
+EP Mpiko,-1.0289311,18.6278682,,School,DRC_All_SCHool_Local,62.47885255064749,safe
+EP Mbongo Buyombo,-1.0191885,18.6379008,,School,DRC_All_SCHool_Local,62.57151960369948,safe
+Ecole primaire Talasa,3.1757778,19.2439722,,School,DRC_All_SCHool_Local,58.613602650499104,safe
+EP Besenge,-0.8338388,18.1765274,,School,DRC_All_SCHool_Local,28.83032396836375,safe
+EP Itemanonga,-0.8180582,18.6666613,,School,DRC_All_SCHool_Local,60.04282462243313,safe
+Ecole primaire Nzembenga,-1.0725556,18.6205,,School,DRC_All_SCHool_Local,59.50894672639977,safe
+École primaire Liyombo Mpenda,-0.7537476,18.2321524,,School,DRC_All_SCHool_Local,39.671002139654334,safe
+Ecole primaire Wanie-rukula,0.1960556,25.5308889,,School,DRC_All_SCHool_Local,16.135482608385995,safe
+Ecole primaire Tomibikisa,0.1967778,25.5202778,,School,DRC_All_SCHool_Local,15.085222352251341,safe
+Ecole primaire Ndjale,-0.2380278,25.3209722,,School,DRC_All_SCHool_Local,21.930257501406874,safe
+Institut Kyavirimu,-0.1241927,29.3942153,,School,DRC_All_SCHool_Local,10.05620774352822,safe
+École primaire Ngitse,-0.097201,29.388631,,School,DRC_All_SCHool_Local,10.464306202896779,safe
+École primaire Cbca Bunande,0.006231,28.801357,,School,DRC_All_SCHool_Local,17.852560545164785,safe
+Ecole primaire Yakanyama,-6.1027381,24.5689697,,School,DRC_All_SCHool_Local,10.060770256115019,safe
+Ecole primaire Ditanda,-6.1416389,23.6992778,,School,DRC_All_SCHool_Local,11.015047291352609,safe
+École primaire Bena Kabimba,-6.29425,23.6581667,,School,DRC_All_SCHool_Local,17.280593699009266,safe
+Ecole primaire Kabongo Kankusu,-6.2054722,23.7025833,,School,DRC_All_SCHool_Local,12.909453889856419,safe
+École primaire Bakwa Bowa,-6.1232222,23.7243333,,School,DRC_All_SCHool_Local,14.064802213111152,safe
+Ecole primaire Kabikioni,-6.2409444,23.7490278,,School,DRC_All_SCHool_Local,19.33049360721915,safe
+École primaire Sankayi,-6.2255,23.7522222,,School,DRC_All_SCHool_Local,18.805635344387397,safe
+Ecole primaire Ndoba,-6.1626111,23.7099444,,School,DRC_All_SCHool_Local,12.235380319606655,safe
+Ecole primaire Binkunga,-5.6319444,22.2572222,,School,DRC_All_SCHool_Local,14.708735156099312,safe
+École primaire Dibanda 1,-5.6291268,22.8957458,,School,DRC_All_SCHool_Local,16.887591502979348,safe
+Ecole primaire Banongo,-5.9430556,21.6438889,,School,DRC_All_SCHool_Local,16.046655947684993,safe
+Ecole primaire Kanongo,-5.7341667,21.4866944,,School,DRC_All_SCHool_Local,16.810937107377775,safe
+Ecole primaire Mimuemue,-5.7622222,22.361,,School,DRC_All_SCHool_Local,15.449107074608868,safe
+Ecole primaire Lutshiatshia,-5.6591667,22.3245556,,School,DRC_All_SCHool_Local,18.822331235319652,safe
+Ecole primaire Dibandisha,-5.2744444,22.8641667,,School,DRC_All_SCHool_Local,12.738860063420011,safe
+Ecole primaire Tshibala 1,-5.72,22.1347222,,School,DRC_All_SCHool_Local,26.086944776648192,safe
+École primaire Kaffubi,-5.7602778,22.7177778,,School,DRC_All_SCHool_Local,12.02631239411921,safe
+Ecole primaire Butumbi,-5.3247222,22.4689444,,School,DRC_All_SCHool_Local,29.686004306600132,safe
+École primaire Bunkonde 2,-5.1558333,22.5202778,,School,DRC_All_SCHool_Local,38.36745480818583,safe
+Ecole primaire Benaleka 2,-5.3361111,22.5627778,,School,DRC_All_SCHool_Local,32.60410372440828,safe
+Ecole primaire Tshibala 2,-5.1375,22.7075028,,School,DRC_All_SCHool_Local,18.54044355762495,safe
+Ecole primaire Benaleka 1,-5.6669444,22.393,,School,DRC_All_SCHool_Local,23.239304150583134,safe
+Ecole primaire Mboie,-5.2022222,22.3897222,,School,DRC_All_SCHool_Local,25.862248461789203,safe
+École primaire Kempa 1,-5.175,22.3027778,,School,DRC_All_SCHool_Local,15.769609763685702,safe
+Ecole primaire Luemba,-5.4994444,22.5013889,,School,DRC_All_SCHool_Local,25.979811179618775,safe
+École primaire Budimu,-5.6677778,22.6738889,,School,DRC_All_SCHool_Local,16.00757896674742,safe
+École primaire Mfuki,-5.0244424,22.1511131,,School,DRC_All_SCHool_Local,10.647508192367468,safe
+Ecole primaire Tshikunda,-5.6388889,22.1708333,,School,DRC_All_SCHool_Local,18.734848370249637,safe
+Ecole primaire Kunduyi,-5.4147222,22.1341667,,School,DRC_All_SCHool_Local,17.464979428917303,safe
+Ecole primaire Shandi Na Bana,-8.2094444,26.9315,,School,DRC_All_SCHool_Local,12.175473299926795,safe
+École primaire Nsumba Lulu,-8.9469444,26.3663889,,School,DRC_All_SCHool_Local,30.63449577605478,safe
+École primaire Lumière du Christ,-8.9125,26.3977778,,School,DRC_All_SCHool_Local,25.71028649590465,safe
+Ecole primaire Butwile Mwanya,-8.4016331,26.8515589,,School,DRC_All_SCHool_Local,26.365985206223797,safe
+École primaire Tambo 1,-8.2316667,26.8561111,,School,DRC_All_SCHool_Local,20.800812193212035,safe
+École primaire Dyese 5,-7.8290583,26.9883111,,School,DRC_All_SCHool_Local,28.3340506393869,safe
+Ecole primaire Kakonga,-8.9141667,26.3941667,,School,DRC_All_SCHool_Local,26.038635689428997,safe
+École primaire Songa,-8.1116667,25.0266667,,School,DRC_All_SCHool_Local,51.097186354741694,safe
+École primaire Mulongo Kala,-7.8321278,26.9984583,,School,DRC_All_SCHool_Local,29.281816772832297,safe
+Ecole primaire Walilando,-8.6889444,27.4885556,,School,DRC_All_SCHool_Local,17.603700392861196,safe
+École primaire Matumayini,-9.4285,25.7909167,,School,DRC_All_SCHool_Local,26.22212103520343,safe
+Ecole primaire Kaniema Mbidi,-8.8947222,25.3169444,,School,DRC_All_SCHool_Local,41.65091917946574,safe
+École primaire Kitenge 2,-8.2227778,26.9183333,,School,DRC_All_SCHool_Local,14.111096464307185,safe
+Ecole primaire Kilumbe Lamu,-8.5788889,26.5265556,,School,DRC_All_SCHool_Local,14.0537614410286,safe
+Ecole primaire Katala I,-8.9024722,26.4736389,,School,DRC_All_SCHool_Local,22.585551050545398,safe
+Ecole primaire Mukuba 2,-8.4688889,26.7472222,,School,DRC_All_SCHool_Local,12.668533879694172,safe
+École primaire Matayarisho,-7.8288556,26.9883111,,School,DRC_All_SCHool_Local,28.341589282584287,safe
+École primaire Ustawi,-8.2241667,26.9355556,,School,DRC_All_SCHool_Local,12.517389599058854,safe
+École primaire Maendeleo,-9.4323333,25.7902778,,School,DRC_All_SCHool_Local,26.65248191161023,safe
+École primaire Kiya I,-7.8233225,27.0163416,,School,DRC_All_SCHool_Local,29.747087916667567,safe
+École primaire Kabanga,-8.9327778,26.4152778,,School,DRC_All_SCHool_Local,27.154735017332108,safe
+Ecole primaire Mpumba,-8.4963889,26.7483333,,School,DRC_All_SCHool_Local,11.4413246099068,safe
+École primaire Mwilambwe,-8.1120833,25.0303611,,School,DRC_All_SCHool_Local,50.91053698070495,safe
+Ecole primaire Katyi Kala,-8.5605278,26.5481667,,School,DRC_All_SCHool_Local,11.700858607324076,safe
+École primaire Kyabuntu,-9.2913661,25.8032506,,School,DRC_All_SCHool_Local,11.381523397155547,safe
+Ecole primaire Luvua,-7.9116667,25.2188889,,School,DRC_All_SCHool_Local,70.05379947559042,safe
+Ecole primaire Pamba Mukanda,-8.2219444,26.9288889,,School,DRC_All_SCHool_Local,13.035229463073678,safe
+Ecole primaire Mulembu,-8.5919444,26.5203056,,School,DRC_All_SCHool_Local,12.468559623841314,safe
+Ecole primaire Kilumbe Lamu,-8.5686111,26.5330556,,School,DRC_All_SCHool_Local,13.556923864935158,safe
+École primaire Mutubuyi,-7.836975,26.9797111,,School,DRC_All_SCHool_Local,27.151874439064045,safe
+École primaire Nkubo,-8.2183333,26.9188889,,School,DRC_All_SCHool_Local,13.844058530752342,safe
+Ecole primaire Tambo 2,-8.2196721,26.9240853,,School,DRC_All_SCHool_Local,13.3906608054128,safe
+Ecole primaire Kamitoto,-8.2155556,26.9188889,,School,DRC_All_SCHool_Local,13.718803610199137,safe
+Ecole primaire Zaire Kabungi,-8.8558017,26.3256814,,School,DRC_All_SCHool_Local,25.024036981085008,safe
+Ecole primaire Ngala Ya Lwalala,-8.9069444,26.3866667,,School,DRC_All_SCHool_Local,25.660174980632746,safe
+Ecole primaire Misanya,-8.4883333,26.7388889,,School,DRC_All_SCHool_Local,10.81759032250379,safe
+Ecole primaire Ilunga Nyemba,-8.2272222,26.9183333,,School,DRC_All_SCHool_Local,14.336396873507741,safe
+École primaire Katomabaswe,-7.836975,26.9869611,,School,DRC_All_SCHool_Local,27.910667149550978,safe
+École primaire Kipukwe,-8.1052569,25.166144,,School,DRC_All_SCHool_Local,48.547822765256264,safe
+École primaire Bukwashi,-7.8337806,27.0034417,,School,DRC_All_SCHool_Local,29.74816039493273,safe
+École primaire Lufira,-8.4908333,26.735,,School,DRC_All_SCHool_Local,10.312270928633145,safe
+École primaire Kazi,-8.5734167,26.5306667,,School,DRC_All_SCHool_Local,13.981654348209679,safe
+Ecole primaire Kilumbe Katyi Kala,-8.5586111,26.5508889,,School,DRC_All_SCHool_Local,11.353197531506021,safe
+Ecole primaire Butuy Shele,-8.4525,26.7858333,,School,DRC_All_SCHool_Local,17.24584635244533,safe
+École primaire Kibobwa,-7.4549259,29.6763406,,School,DRC_All_SCHool_Local,11.506194946522585,safe
+École primaire Mulenga,-7.37232,29.8004509,,School,DRC_All_SCHool_Local,12.705275401233992,safe
+École primaire Kalaba,-7.2085933,29.6245884,,School,DRC_All_SCHool_Local,15.080916389333895,safe
+École primaire Mulungushi,-7.726174,29.5279395,,School,DRC_All_SCHool_Local,28.29162604129061,safe
+École primaire Kayembwe,-8.3827222,28.8351667,,School,DRC_All_SCHool_Local,11.746658775244908,safe
+École primaire Kabilozi,-7.4604453,29.8081172,,School,DRC_All_SCHool_Local,11.331644623294977,safe
+École primaire Manika 2,-7.3135185,29.8350235,,School,DRC_All_SCHool_Local,10.905000240559167,safe
+École primaire Karonja,-7.0748192,29.6750316,,School,DRC_All_SCHool_Local,10.1524500797446,safe
+École primaire Musika,-7.1796889,29.764147,,School,DRC_All_SCHool_Local,10.457287576391453,safe
+École primaire Kasenge,-7.6250865,29.6379592,,School,DRC_All_SCHool_Local,14.93362407720245,safe
+École primaire Musosa,-8.38551,29.6313562,,School,DRC_All_SCHool_Local,15.454691622973657,safe
+École primaire Mulonde,-7.1731202,29.7612663,,School,DRC_All_SCHool_Local,11.120235861828455,safe
+Ecole primaire Babwile,-8.3756111,28.8921389,,School,DRC_All_SCHool_Local,10.161810108580314,safe
+École primaire Mwele,-7.0549573,29.6571407,,School,DRC_All_SCHool_Local,12.15634062285795,safe
+Ecole primaire Dilenda,-8.4064167,28.9886389,,School,DRC_All_SCHool_Local,11.829506558073573,safe
+École primaire Kizike,-7.3921183,30.1892859,,School,DRC_All_SCHool_Local,50.73615577489428,safe
+Ecole secondaire Inst Mwando,-8.3857016,29.6314329,,School,DRC_All_SCHool_Local,15.477123717050429,safe
+École primaire Kapote,-7.9948467,30.4366511,,School,DRC_All_SCHool_Local,31.55551055633677,safe
+École secondaire Itak,-7.1805934,29.6528561,,School,DRC_All_SCHool_Local,14.405245707090215,safe
+École primaire Kabazo,-7.1888493,29.6414663,,School,DRC_All_SCHool_Local,14.729914412722986,safe
+École primaire Tanga,-7.2638358,29.9310863,,School,DRC_All_SCHool_Local,20.49017493295169,safe
+École primaire Maseba,-6.9918433,29.5869325,,School,DRC_All_SCHool_Local,12.904082643349836,safe
+École primaire Lyombe,-7.2949277,30.1446639,,School,DRC_All_SCHool_Local,44.101397762478186,safe
+École primaire Kavukwa,-7.4532228,29.5103681,,School,DRC_All_SCHool_Local,17.869333942708288,safe
+École primaire Mwange,-8.1534861,29.9845115,,School,DRC_All_SCHool_Local,42.82737325058101,safe
+École primaire Maseba,-7.0107801,29.5740529,,School,DRC_All_SCHool_Local,15.33101568306392,safe
+Ecole primaire Kayabala,-7.5710103,29.3548322,,School,DRC_All_SCHool_Local,19.21154074757258,safe
+Ecole primaire Pemba,-8.0275411,29.7291843,,School,DRC_All_SCHool_Local,27.99324727153228,safe
+École primaire Manika 1,-7.3591746,29.822966,,School,DRC_All_SCHool_Local,12.929912975724328,safe
+École primaire Kabilozi 2,-7.4350904,29.7585542,,School,DRC_All_SCHool_Local,11.496605300627897,safe
+École primaire Malango,-7.1760402,29.6469364,,School,DRC_All_SCHool_Local,15.225710236181996,safe
+École primaire Kaliza,-7.6313999,29.2665795,,School,DRC_All_SCHool_Local,26.66343432300563,safe
+École primaire Bweupe,-7.1290343,29.6955516,,School,DRC_All_SCHool_Local,10.47233245881552,safe
+École primaire Milenda,-7.5280658,29.541161,,School,DRC_All_SCHool_Local,21.951861239612676,safe
+École primaire Manika 3,-7.3881074,29.8895146,,School,DRC_All_SCHool_Local,20.47556316897699,safe
+,-5.644821,28.6516336,,School,DRC_All_SCHool_Local,24.323044427671896,safe
+,-5.8725716,28.4528243,,School,DRC_All_SCHool_Local,18.17043267932239,safe
+Ecole secondaire Kisokwe,-4.2797477,29.1638541,,School,DRC_All_SCHool_Local,11.041295166150288,safe
+Ecole secondaire Inst Kananu,-4.3693966,26.9728124,,School,DRC_All_SCHool_Local,29.93601025433873,safe
+Ecole secondaire Inst Namutambala,-4.0707861,27.8619556,,School,DRC_All_SCHool_Local,20.71530780384746,safe
+École primaire Inst Nakiliza,-4.0367889,27.9940306,,School,DRC_All_SCHool_Local,10.707985006339905,safe
+Ecole secondaire Inst Mwangaza,-4.1744449,28.1828549,,School,DRC_All_SCHool_Local,12.118089607449685,safe
+École primaire conventionnée protestante (26e CMLC),-4.3053954,28.8200516,,School,DRC_All_SCHool_Local,13.770339404173722,safe
+Ecole primaire Bukuchu,-4.0324272,27.9948587,,School,DRC_All_SCHool_Local,10.222044446758334,safe
+Ecole secondaire Inst Sanga,-4.0779694,27.9176611,,School,DRC_All_SCHool_Local,17.552758150876397,safe
+Ecole secondaire Inst Mukoboshi,-4.0814322,27.954808,,School,DRC_All_SCHool_Local,16.306306452507947,safe
+Ecole secondaire Inst Lubinga,-4.1593944,28.2133333,,School,DRC_All_SCHool_Local,11.53692814119187,safe
+Ecole primaire Inst Bikuchu,-4.0380389,27.9942889,,School,DRC_All_SCHool_Local,10.84658765288135,safe
+École primaire Kilubi,-4.3405976,27.1604062,,School,DRC_All_SCHool_Local,27.440376524604336,safe
+École primaire Kasakwa,-4.3017433,28.84291,,School,DRC_All_SCHool_Local,11.227770459956334,safe
+Ecole primaire Inst Kakono,-4.1701779,28.1727371,,School,DRC_All_SCHool_Local,11.52955871294334,safe
+Ecole primaire Kisokwe,-4.2796899,29.1638537,,School,DRC_All_SCHool_Local,11.037225768681054,safe
+Ecole primaire Mulamashi,-4.5288361,28.502175,,School,DRC_All_SCHool_Local,18.040012046438175,safe
+Ecole secondaire Inst Kirongozi,-2.6976333,26.8571556,,School,DRC_All_SCHool_Local,29.745250942013264,safe
+École primaire Fataki II,-2.6554472,26.4044556,,School,DRC_All_SCHool_Local,14.37554121212693,safe
+École primaire Penemagu,-3.2462667,26.9135211,,School,DRC_All_SCHool_Local,30.110888187052453,safe
+Ecole secondaire Inst Sabiazo,-2.9968153,26.2009399,,School,DRC_All_SCHool_Local,20.997129331666358,safe
+Ecole secondaire Inst Wamanga,-3.3124972,27.0159472,,School,DRC_All_SCHool_Local,20.887157378415004,safe
+Ecole primaire Lubulani,-3.7005556,26.6819444,,School,DRC_All_SCHool_Local,17.178744057017852,safe
+Ecole primaire Luligi,-2.5120648,27.3263971,,School,DRC_All_SCHool_Local,10.58608917320166,safe
+Ecole secondaire Inst Kangela,-2.6045194,26.7791056,,School,DRC_All_SCHool_Local,18.528359568257514,safe
+Ecole secondaire Inst De Ngoma,-3.5415221,26.2890843,,School,DRC_All_SCHool_Local,47.46337477817201,safe
+Ecole primaire Kankisi,-2.8734056,27.1836444,,School,DRC_All_SCHool_Local,12.70859064844098,safe
+Ecole secondaire Inst Mabikwa,-3.3896944,26.1773722,,School,DRC_All_SCHool_Local,47.596725957450346,safe
+Ecole primaire Kibanda,-2.4943583,27.5389389,,School,DRC_All_SCHool_Local,17.623238232093776,safe
+École primaire Mulende,-3.1088609,26.4678217,,School,DRC_All_SCHool_Local,20.15592254169454,safe
+Ecole primaire Mukulukusu,-3.4596806,27.0163361,,School,DRC_All_SCHool_Local,19.361317958261715,safe
+Ecole primaire Makembe,-3.1511444,27.0257694,,School,DRC_All_SCHool_Local,19.5668303582233,safe
+Ecole primaire Minoro,-2.3864889,27.1704028,,School,DRC_All_SCHool_Local,25.09295766192039,safe
+Ecole primaire Kangela,-2.9139889,26.7948528,,School,DRC_All_SCHool_Local,31.14028348190074,safe
+École primaire Katebwa,-3.1944,26.7951944,,School,DRC_All_SCHool_Local,18.012383817336065,safe
+Ecole secondaire Inst Katumpi,-3.4722306,26.9625028,,School,DRC_All_SCHool_Local,25.46588411964908,safe
+Ecole primaire Ikisa,-3.5144444,26.9002778,,School,DRC_All_SCHool_Local,20.757790362522382,safe
+Ecole secondaire Inst Kakola,-3.7756167,26.4064083,,School,DRC_All_SCHool_Local,42.59946696889003,safe
+Ecole primaire Kimbondi,-2.9626667,27.1848417,,School,DRC_All_SCHool_Local,17.116450526929132,safe
+Ecole secondaire Inst Mungano,-3.5110111,26.2348861,,School,DRC_All_SCHool_Local,53.64538851444459,safe
+Ecole primaire Kipombi,-2.7816306,27.2449056,,School,DRC_All_SCHool_Local,11.19045756187899,safe
+Ecole primaire Biamito,-3.6070139,26.2522694,,School,DRC_All_SCHool_Local,51.926424783018376,safe
+École primaire Keigo,-3.0265361,26.4137694,,School,DRC_All_SCHool_Local,29.97151473272711,safe
+Ecole primaire Eritambia,-2.5849028,26.7119028,,School,DRC_All_SCHool_Local,10.771617185463551,safe
+École primaire Kimbondi,-2.5305306,27.3006222,,School,DRC_All_SCHool_Local,10.895581773218614,safe
+Ecole secondaire Inst Kaiti Katembo,-2.5715667,26.7444833,,School,DRC_All_SCHool_Local,14.208687980929852,safe
+Ecole primaire Kisende,-2.8551294,26.8416551,,School,DRC_All_SCHool_Local,25.365004829594856,safe
+Ecole secondaire Inst Kibonge,-3.1903583,26.8471278,,School,DRC_All_SCHool_Local,23.74898469297449,safe
+École primaire Musumi,-3.6522333,26.3731611,,School,DRC_All_SCHool_Local,39.77957304855489,safe
+École primaire Babingwa,-3.3240944,27.0283972,,School,DRC_All_SCHool_Local,20.3067446254655,safe
+Ecole primaire Nyankungu,-3.0502389,26.2433139,,School,DRC_All_SCHool_Local,27.589053695715645,safe
+Ecole primaire Mukoko,-3.3715278,27.0544528,,School,DRC_All_SCHool_Local,16.82389320302326,safe
+Ecole secondaire Inst Kimbala,-2.5830278,26.7211111,,School,DRC_All_SCHool_Local,11.743695179155635,safe
+Ecole primaire Lukabya,-2.8651497,27.1858944,,School,DRC_All_SCHool_Local,12.883520572230207,safe
+Ecole primaire Inst Matili,-2.8476689,27.1927006,,School,DRC_All_SCHool_Local,13.695573918259585,safe
+Ecole secondaire Inst Musiwa,-3.6660361,26.5349528,,School,DRC_All_SCHool_Local,23.940153885087245,safe
+Ecole primaire Mundenga,-3.3981707,26.4328655,,School,DRC_All_SCHool_Local,32.64853996915821,safe
+Ecole primaire Kingombe Bali,-3.1990194,26.0427028,,School,DRC_All_SCHool_Local,22.632174497082186,safe
+Ecole secondaire Inst Tupinda,-3.8036583,26.4577028,,School,DRC_All_SCHool_Local,40.26562904994603,safe
+École primaire Asumani,-3.1460944,26.7169056,,School,DRC_All_SCHool_Local,10.160689023017294,safe
+Ecole secondaire Inst Salubezya,-2.9821417,26.7472556,,School,DRC_All_SCHool_Local,25.69992372239899,safe
+Ecole primaire Kafulia,-3.1157667,26.9087917,,School,DRC_All_SCHool_Local,31.49264169797121,safe
+Ecole secondaire Inst Asumani,-3.5632833,26.8281778,,School,DRC_All_SCHool_Local,12.46338458538367,safe
+Ecole primaire Misisi,-2.5708111,26.7444639,,School,DRC_All_SCHool_Local,14.20356475701238,safe
+École primaire Luyamba,-3.5623611,26.8275139,,School,DRC_All_SCHool_Local,12.378427363402901,safe
+Ecole primaire Lomuna,-3.8039694,26.45505,,School,DRC_All_SCHool_Local,40.50034607272114,safe
+Ecole secondaire Inst Itv/ulindi,-2.5773444,26.7494806,,School,DRC_All_SCHool_Local,14.80101696884052,safe
+Ecole secondaire Inst Lukabya,-2.8640722,27.184975,,School,DRC_All_SCHool_Local,12.776716200557765,safe
+Ecole primaire Mwanankusu,-3.655875,26.5256472,,School,DRC_All_SCHool_Local,24.24813690552124,safe
+Ecole secondaire Inst Mwanankusu,-3.6535806,26.5304583,,School,DRC_All_SCHool_Local,23.657558583442956,safe
+Ecole secondaire Inst Kagela,-3.2026557,26.0441168,,School,DRC_All_SCHool_Local,23.060531879732192,safe
+Ecole primaire (kilunga) Sifa,-3.675,26.6775,,School,DRC_All_SCHool_Local,14.563124031483712,safe
+Ecole primaire Kagolomba,-2.7705639,26.8965861,,School,DRC_All_SCHool_Local,21.675494882708488,safe
+Ecole primaire Utukufu,-2.6357833,26.4396028,,School,DRC_All_SCHool_Local,18.8484137845431,safe
+Ecole secondaire Inst Isalimia,-3.1793944,27.030775,,School,DRC_All_SCHool_Local,17.876366573444322,safe
+Ecole secondaire Inst Kambili,-3.3874083,27.0525389,,School,DRC_All_SCHool_Local,16.300816804896513,safe
+Ecole secondaire Inst Assia,-3.2986806,26.0827278,,School,DRC_All_SCHool_Local,34.45846589838182,safe
+École primaire Wasezya,-2.9211167,27.1830306,,School,DRC_All_SCHool_Local,14.27401478284632,safe
+Ecole secondaire Inst Lwamp,-2.8725528,27.1833778,,School,DRC_All_SCHool_Local,12.66839431297415,safe
+Ecole primaire Ngoma / Samweli,-3.5417624,26.2896804,,School,DRC_All_SCHool_Local,47.396701366058586,safe
+École primaire Miswaki,-2.9104611,27.1950944,,School,DRC_All_SCHool_Local,14.982575494196784,safe
+Ecole secondaire Inst De Kayuyu,-3.6526167,26.3664417,,School,DRC_All_SCHool_Local,40.506705581514304,safe
+École primaire Mankulu,-3.133275,26.3059056,,School,DRC_All_SCHool_Local,36.77663087242449,safe
+Ecole primaire Lusukula,-2.7456479,26.9173163,,School,DRC_All_SCHool_Local,21.195096200656877,safe
+Ecole primaire Lukumba,-3.0803528,27.0311389,,School,DRC_All_SCHool_Local,23.650655482408254,safe
+Ecole primaire Kahundi,-2.6675917,26.8237111,,School,DRC_All_SCHool_Local,25.590218258404253,safe
+Ecole primaire Kenye,-2.6464639,26.4738306,,School,DRC_All_SCHool_Local,18.178783508670033,safe
+Ecole secondaire Bitingo,-3.1867139,26.7788694,,School,DRC_All_SCHool_Local,16.16228472033113,safe
+Ecole secondaire Inst Mogoma,-3.2485722,27.0292167,,School,DRC_All_SCHool_Local,17.34715222490345,safe
+Ecole primaire Kinamina,-3.0001568,26.3216083,,School,DRC_All_SCHool_Local,29.261014094037424,safe
+Ecole secondaire Inst De Lomuna,-3.8032011,26.4547584,,School,DRC_All_SCHool_Local,40.464066431042646,safe
+Ecole primaire Samweli,-3.5399933,26.2829916,,School,DRC_All_SCHool_Local,48.14309242450808,safe
+Ecole primaire Bikili,-2.8705024,27.186915,,School,DRC_All_SCHool_Local,13.036514371496157,safe
+Ecole primaire Kaliba,-3.6235121,26.3342456,,School,DRC_All_SCHool_Local,43.220048434841765,safe
+Ecole secondaire Inst Kangali,-3.6558083,26.3650667,,School,DRC_All_SCHool_Local,40.75410768634437,safe
+Ecole secondaire Inst Sabiazo,-3.2713528,26.0784833,,School,DRC_All_SCHool_Local,31.40612632084851,safe
+École primaire Kikungwa,-2.5727694,26.7443778,,School,DRC_All_SCHool_Local,14.202731536886743,safe
+Ecole primaire Mimbite,-2.9784278,26.7480944,,School,DRC_All_SCHool_Local,26.105543073025423,safe
+Ecole primaire Lusenge,-3.1851472,26.7791806,,School,DRC_All_SCHool_Local,16.193731190264796,safe
+Ecole secondaire Inst Elila,-2.8195861,26.8791111,,School,DRC_All_SCHool_Local,21.670865218254885,safe
+Ecole primaire N'solo,-3.1929139,27.0282222,,School,DRC_All_SCHool_Local,17.753667262694858,safe
+Ecole secondaire Inst Patemo,-3.2734611,26.9602583,,School,DRC_All_SCHool_Local,25.3573191194627,safe
+École primaire Kingombe,-3.17075,26.3898972,,School,DRC_All_SCHool_Local,27.063414727485426,safe
+Ecole primaire Mwambala,-3.7414398,26.3809289,,School,DRC_All_SCHool_Local,42.90934298574839,safe
+École primaire Tchalumba,-3.4735639,26.9770806,,School,DRC_All_SCHool_Local,23.887863296070986,safe
+Ecole secondaire Inst Mizombo,-2.8690028,27.1763444,,School,DRC_All_SCHool_Local,11.852533285580456,safe
+Ecole primaire Kasambula,-3.6535278,26.3666083,,School,DRC_All_SCHool_Local,40.517614731895975,safe
+Ecole secondaire Inst Bangoma,-2.8691047,27.1796452,,School,DRC_All_SCHool_Local,12.218769369350543,safe
+Ecole primaire Mabanga,-3.4352504,26.2255368,,School,DRC_All_SCHool_Local,53.23505092681074,safe
+École primaire Kapela,-2.9935829,26.3549887,,School,DRC_All_SCHool_Local,31.658775975605916,safe
+École primaire Mukombe,-2.6954778,26.8560139,,School,DRC_All_SCHool_Local,29.991733807259756,safe
+Ecole secondaire Inst Fataki,-2.6408806,26.407075,,School,DRC_All_SCHool_Local,15.434719144540216,safe
+Ecole secondaire Inst Sumaili,-3.1446778,26.7207833,,School,DRC_All_SCHool_Local,10.61808593675313,safe
+École primaire Kantamba,-3.2609611,26.9494278,,School,DRC_All_SCHool_Local,26.30970154395176,safe
+École primaire Butumba,-3.2707278,26.07845,,School,DRC_All_SCHool_Local,31.33833693883782,safe
+Ecole primaire Matili,-2.8598722,27.185525,,School,DRC_All_SCHool_Local,12.829802200324073,safe
+Ecole primaire Bukafu,-2.3611806,27.1654389,,School,DRC_All_SCHool_Local,25.745699177570042,safe
+École primaire Kisubi,-3.4346634,26.3216213,,School,DRC_All_SCHool_Local,44.47898183568583,safe
+Ecole secondaire Inst Kakisingi,-2.9074639,27.1996972,,School,DRC_All_SCHool_Local,15.339907010058294,safe
+Ecole primaire Moke,-3.6620417,26.4363,,School,DRC_All_SCHool_Local,33.515268852375954,safe
+Ecole primaire Lumba,-2.5215133,27.6144896,,School,DRC_All_SCHool_Local,22.379085515794312,safe
+Ecole secondaire Inst Dambwe,-3.1228806,26.3013417,,School,DRC_All_SCHool_Local,36.142186230828216,safe
+Ecole primaire Mwamini,-2.5822,26.7207389,,School,DRC_All_SCHool_Local,11.688899493521836,safe
+Ecole secondaire Inst Penemisenga,-2.9109233,26.7940394,,School,DRC_All_SCHool_Local,31.16523229233553,safe
+Ecole primaire Peneyimba,-3.0789806,27.0023694,,School,DRC_All_SCHool_Local,25.48138455106755,safe
+Ecole primaire Ii Walemba,-2.7972194,26.8922579,,School,DRC_All_SCHool_Local,20.937954138144278,safe
+Ecole primaire Museme,-2.6302139,26.514375,,School,DRC_All_SCHool_Local,13.380568566685803,safe
+Ecole secondaire Inst Kapela,-3.2165583,27.03185,,School,DRC_All_SCHool_Local,16.95902219932827,safe
+École primaire Ipuma,-3.3502278,27.06165,,School,DRC_All_SCHool_Local,17.041585914755977,safe
+École primaire Kalokola,-3.801661,26.4547894,,School,DRC_All_SCHool_Local,40.34263855621331,safe
+Ecole primaire Masanga,-2.5154944,27.1780778,,School,DRC_All_SCHool_Local,20.249890752430588,safe
+Ecole secondaire Inst Butezi,-2.5723528,26.7459194,,School,DRC_All_SCHool_Local,14.371674016722977,safe
+École primaire Samwele,-3.5410833,26.2822944,,School,DRC_All_SCHool_Local,48.21777564068924,safe
+École primaire Ibaga,-2.8605861,27.1867917,,School,DRC_All_SCHool_Local,12.970629204462766,safe
+Ecole primaire Kasangati,-2.4720972,27.1731444,,School,DRC_All_SCHool_Local,23.87071334198297,safe
+École primaire Mantini,-3.360625,26.1454833,,School,DRC_All_SCHool_Local,43.230460602023435,safe
+Ecole primaire Moyo,-3.3358533,26.4564601,,School,DRC_All_SCHool_Local,25.945687470084525,safe
+Ecole primaire Kangumbu,-3.1585083,26.8757028,,School,DRC_All_SCHool_Local,27.050242152940775,safe
+Ecole primaire Lusolo,-2.651525,26.7980139,,School,DRC_All_SCHool_Local,22.244384279254014,safe
+École primaire Fataki Centre,-2.6483944,26.40615,,School,DRC_All_SCHool_Local,14.91613377964124,safe
+Ecole primaire Mugobwa,-3.1845611,26.7357028,,School,DRC_All_SCHool_Local,11.366251557064704,safe
+Ecole primaire Bukama,-3.4883333,26.9222222,,School,DRC_All_SCHool_Local,23.821814453339513,safe
+École primaire Pwalale,-3.211575,26.4828556,,School,DRC_All_SCHool_Local,16.99886860891874,safe
+Ecole secondaire Inst Nyampeugele,-2.8734889,27.1835944,,School,DRC_All_SCHool_Local,12.704165986156525,safe
+Ecole primaire Lembelembe,-3.7055167,26.3619222,,School,DRC_All_SCHool_Local,42.99742739043727,safe
+Ecole secondaire Inst Penemagu,-3.2472472,26.9143615,,School,DRC_All_SCHool_Local,30.02522127347073,safe
+Ecole secondaire Kampala,-2.8174306,27.2159861,,School,DRC_All_SCHool_Local,16.21431325072624,safe
+Ecole secondaire Ita Moyo,-3.3360869,26.4578083,,School,DRC_All_SCHool_Local,25.849661790202592,safe
+Ecole secondaire ITM,-2.8538028,27.1893167,,School,DRC_All_SCHool_Local,13.268827750447688,safe
+Ecole primaire Musiwa,-3.6725611,26.5365167,,School,DRC_All_SCHool_Local,24.195204521812734,safe
+Ecole primaire Byangama,-2.5541489,27.6276363,,School,DRC_All_SCHool_Local,19.813770206549147,safe
+Ecole primaire Kiamoya,-2.9542389,26.1275806,,School,DRC_All_SCHool_Local,14.571939956431876,safe
+Ecole primaire Mombala,-3.7061859,26.3603117,,School,DRC_All_SCHool_Local,43.190970406901435,safe
+École primaire Mikonsi,-2.5886024,26.757149,,School,DRC_All_SCHool_Local,15.794548679076962,safe
+Ecole primaire Mulumba,-2.8243549,26.8763254,,School,DRC_All_SCHool_Local,21.87128117786754,safe
+Ecole secondaire Inst Mundenga,-3.0946056,26.9784194,,School,DRC_All_SCHool_Local,27.25509076331052,safe
+Ecole primaire Bikenge,-3.0047583,26.7562389,,School,DRC_All_SCHool_Local,24.09385552887291,safe
+Ecole primaire Kisanga,-3.2204917,26.889925,,School,DRC_All_SCHool_Local,28.785275595177993,safe
+Ecole primaire Kampungu,-3.2575083,27.034725,,School,DRC_All_SCHool_Local,16.90321910130695,safe
+Ecole primaire Katambwe,-3.7686254,26.3994613,,School,DRC_All_SCHool_Local,42.77848586348667,safe
+Ecole primaire Mabikwa,-3.3890556,26.1787472,,School,DRC_All_SCHool_Local,47.59551749322492,safe
+Ecole primaire Kihembwe,-3.4501556,26.4428111,,School,DRC_All_SCHool_Local,32.358758739743976,safe
+Ecole secondaire Inst Kema,-3.6484056,26.3665528,,School,DRC_All_SCHool_Local,40.36552079651848,safe
+Ecole primaire Sabiazo,-2.9941236,26.2056275,,School,DRC_All_SCHool_Local,20.935123868458977,safe
+Ecole primaire Maseke,-3.0951167,26.9778944,,School,DRC_All_SCHool_Local,27.273045881223414,safe
+Ecole primaire Mapimo,-2.2692778,27.1302028,,School,DRC_All_SCHool_Local,23.536728260958306,safe
+Ecole secondaire Inst Lubile,-2.7459167,26.9191111,,School,DRC_All_SCHool_Local,21.017902296965314,safe
+Ecole secondaire Inst Alimasi,-2.6463806,26.4071333,,School,DRC_All_SCHool_Local,15.122736048685189,safe
+École primaire Munkiti,-3.2178167,27.0307194,,School,DRC_All_SCHool_Local,17.07400727040548,safe
+École primaire (katumpi) Kauku,-3.5083333,26.235,,School,DRC_All_SCHool_Local,53.657755232986396,safe
+Ecole primaire Lubile,-2.7460817,26.9216679,,School,DRC_All_SCHool_Local,20.781009570875568,safe
+Ecole primaire Muloba,-3.1870222,26.7570722,,School,DRC_All_SCHool_Local,13.744039017071017,safe
+Ecole primaire Kangali,-3.5429472,26.8674639,,School,DRC_All_SCHool_Local,16.754103512573437,safe
+Ecole primaire Kakola,-3.1100833,26.272575,,School,DRC_All_SCHool_Local,32.64748331740548,safe
+Ecole primaire Kyelu,-3.3094861,27.0148028,,School,DRC_All_SCHool_Local,20.853780028897088,safe
+Ecole primaire Butezi,-2.5767278,26.7483667,,School,DRC_All_SCHool_Local,14.672300459027603,safe
+Ecole primaire Bangoma,-2.8693333,27.1843472,,School,DRC_All_SCHool_Local,12.741276581536594,safe
+Ecole secondaire Inst Neema,-2.8672222,27.1846194,,School,DRC_All_SCHool_Local,12.75448817256018,safe
+Ecole primaire Kayuyu,-3.6542,26.3647056,,School,DRC_All_SCHool_Local,40.74128988362665,safe
+Ecole primaire Mulungu,-2.8415561,27.2001874,,School,DRC_All_SCHool_Local,14.602994193210069,safe
+Ecole primaire Ngoma,-3.5833472,26.3248861,,School,DRC_All_SCHool_Local,43.63749583240861,safe
+Ecole primaire Lwigi / Kinzanza,-2.5550756,27.6362667,,School,DRC_All_SCHool_Local,18.861418097124115,safe
+Ecole secondaire Inst Tsholoba,-3.2121472,26.4855722,,School,DRC_All_SCHool_Local,16.714626046704634,safe
+Ecole primaire Mukpbya,-3.4392361,27.0590444,,School,DRC_All_SCHool_Local,14.496392142425995,safe
+Ecole secondaire Inst Munyele,-3.7057694,26.3618611,,School,DRC_All_SCHool_Local,43.014937142406964,safe
+Ecole primaire Kibonge,-3.1889889,26.8474333,,School,DRC_All_SCHool_Local,23.77838522075272,safe
+Ecole primaire Asumani,-3.0291111,26.7586833,,School,DRC_All_SCHool_Local,22.08582790706114,safe
+Ecole secondaire Inst Juwa,-2.647375,26.4700778,,School,DRC_All_SCHool_Local,18.592414676947644,safe
+Ecole secondaire Inst Kisanga Ii,-3.0779944,27.0015639,,School,DRC_All_SCHool_Local,25.40323182503249,safe
+Ecole secondaire Inst Kimwingule,-3.3107,27.0147778,,School,DRC_All_SCHool_Local,20.91502911454351,safe
+École primaire Baselele,-2.6137361,26.7844111,,School,DRC_All_SCHool_Local,19.354343226500603,safe
+École primaire Lwampongo,-2.8693361,27.1825667,,School,DRC_All_SCHool_Local,12.544234545531069,safe
+École primaire Islamique,-3.8029868,26.4613296,,School,DRC_All_SCHool_Local,39.926771981255975,safe
+École primaire Kisongo,-2.5355722,27.2064139,,School,DRC_All_SCHool_Local,16.393642154130866,safe
+École primaire Musongela,-3.6536028,26.24305,,School,DRC_All_SCHool_Local,53.807461036974885,safe
+Ecole primaire Kiminanya,-3.4768556,26.2394139,,School,DRC_All_SCHool_Local,53.58917032314757,safe
+Ecole primaire Inst Keigo,-3.0985806,26.4594667,,School,DRC_All_SCHool_Local,21.48155277760371,safe
+Ecole primaire Kayeye,-2.8842444,26.8083361,,School,DRC_All_SCHool_Local,29.18393049026469,safe
+Ecole primaire Lukelwa II,-3.0983,26.9699,,School,DRC_All_SCHool_Local,27.836938544693222,safe
+Ecole secondaire Inst Kihembwe,-3.4503361,26.4418917,,School,DRC_All_SCHool_Local,32.44776247194861,safe
+École primaire Gimbi,-5.4940556,13.2880556,,School,DRC_All_SCHool_Local,18.027696397238728,safe
+École primaire Boko,-5.4138889,14.9033333,,School,DRC_All_SCHool_Local,18.635056832361617,safe
+École primaire Mwala Kinsende,-5.2802778,14.9695278,,School,DRC_All_SCHool_Local,11.57521854096165,safe
+École primaire Lovo,-5.1126165,14.9515025,,School,DRC_All_SCHool_Local,14.326837422303734,safe
+Ecole primaire Nsumba,-5.1910278,14.9947222,,School,DRC_All_SCHool_Local,12.00054046028032,safe
+Ecole primaire Mvela,-5.4426389,14.856,,School,DRC_All_SCHool_Local,18.53757500050364,safe
+École primaire Mansende,-5.2989722,15.1023333,,School,DRC_All_SCHool_Local,19.520271787195618,safe
+Ecole primaire Kifudi,-5.5581667,13.2661667,,School,DRC_All_SCHool_Local,20.367019935225297,safe
+Ecole primaire Nkunda Masangu,-5.3468611,14.7403056,,School,DRC_All_SCHool_Local,17.93473658314726,safe
+Ecole primaire Lungisa,-5.4154167,14.9073611,,School,DRC_All_SCHool_Local,18.895158777059432,safe
+Ecole primaire Zola,-5.2146111,13.3687778,,School,DRC_All_SCHool_Local,17.381089193651295,safe
+Ecole primaire Ngoma Nlemvo,-5.6095278,14.7185,,School,DRC_All_SCHool_Local,11.216596679792195,safe
+Ecole primaire Sikama,-5.5000167,13.2956667,,School,DRC_All_SCHool_Local,18.619611389819905,safe
+Ecole primaire Kinzau Mvuete,-5.4945333,13.2897222,,School,DRC_All_SCHool_Local,18.105438970084588,safe
+École primaire Mwala Nzonzo,-5.2631944,14.9739444,,School,DRC_All_SCHool_Local,11.650804129831553,safe
+École primaire Kimfuzi,-5.4986111,13.2893333,,School,DRC_All_SCHool_Local,18.548578395386556,safe
+École primaire St Cyrille,-4.4471944,15.1853889,,School,DRC_All_SCHool_Local,14.952313989936078,safe
+Ecole primaire Matanga Mushima,-5.04203,18.15001,,School,DRC_All_SCHool_Local,73.84885736859827,safe
+Ecole secondaire Inst Ntosanziala,-4.67184,19.06752,,School,DRC_All_SCHool_Local,48.86936759181797,safe
+Ecole primaire Kanika,-2.3961111,17.5828333,,School,DRC_All_SCHool_Local,99.43203907132735,safe
+École primaire Cuebs Mpene,-4.488031,18.8301061,,School,DRC_All_SCHool_Local,26.421437817127345,safe
+Ecole primaire Ito,-2.3656944,17.5129722,,School,DRC_All_SCHool_Local,98.00196638367304,safe
+Ecole primaire Mbeko,-4.7560231,17.7598928,,School,DRC_All_SCHool_Local,86.92033471204927,safe
+Ecole primaire Kinangulu,-4.71338,18.03509,,School,DRC_All_SCHool_Local,65.19240313249632,safe
+Ecole secondaire Inst Balaka,-4.54323,19.00834,,School,DRC_All_SCHool_Local,45.268712509022286,safe
+Ecole primaire Nioki,-2.7133889,17.6808056,,School,DRC_All_SCHool_Local,75.0098092280038,safe
+Ecole primaire Masamuna,-4.8045241,17.6068977,,School,DRC_All_SCHool_Local,69.43511745439693,safe
+École primaire Menkao,-4.1809331,15.6905367,,School,DRC_All_SCHool_Local,34.50836730220249,safe
+Ecole primaire Loso,-4.41745,18.90804,,School,DRC_All_SCHool_Local,37.192698478776315,safe
+Ecole primaire Yengi,-4.7677673,17.4736349,,School,DRC_All_SCHool_Local,55.42838079898579,safe
+Ecole primaire Kimbulu,-4.4293889,18.4238611,,School,DRC_All_SCHool_Local,23.687866909476643,safe
+École primaire Nsadisa Mushie Pentane,-3.4231944,17.6128611,,School,DRC_All_SCHool_Local,28.398163787340927,safe
+École primaire Kindongolosi,-4.7343865,16.8538494,,School,DRC_All_SCHool_Local,13.883982007566305,safe
+Ecole secondaire Inst Tabasenge,-4.53388,18.94088,,School,DRC_All_SCHool_Local,37.82758516331059,safe
+Ecole secondaire Inst Ngemba,-5.14614,18.05089,,School,DRC_All_SCHool_Local,85.73728743682777,safe
+Ecole primaire Kiwawa,-4.7484534,17.7153143,,School,DRC_All_SCHool_Local,82.16450365936312,safe
+École primaire Dr Bloum,-4.5980833,18.4057778,,School,DRC_All_SCHool_Local,22.181747592001017,safe
+,-4.4485326,16.1984157,,School,DRC_All_SCHool_Local,16.552143202401282,safe
+Ecole primaire Kasombo,-4.7837197,17.1326673,,School,DRC_All_SCHool_Local,18.943384799986042,safe
+École primaire Kimbumbidi,-4.4182272,18.4089428,,School,DRC_All_SCHool_Local,25.753998845505905,safe
+École primaire Kimputu,-4.68371,18.03027,,School,DRC_All_SCHool_Local,64.87225251672562,safe
+Ecole primaire Mabala,-2.7241111,17.6841389,,School,DRC_All_SCHool_Local,74.11203173075735,safe
+Ecole secondaire Inst Samy Mwaba,-4.7695756,17.4751634,,School,DRC_All_SCHool_Local,55.554889518664176,safe
+Ecole primaire Mere Yves,-4.4216389,18.4201111,,School,DRC_All_SCHool_Local,24.52311341774715,safe
+Ecole primaire Pont Wamba,-4.7574195,16.9604117,,School,DRC_All_SCHool_Local,12.410422327757523,safe
+École primaire Mpango,-4.58121,19.18773,,School,DRC_All_SCHool_Local,64.94537911166519,safe
+Ecole primaire Mpumpe,-2.6345278,17.729,,School,DRC_All_SCHool_Local,85.24961187444656,safe
+École primaire III Kumbi,-4.6988,18.15224,,School,DRC_All_SCHool_Local,52.312117561202975,safe
+Ecole primaire Bienzi,-4.61569,18.99946,,School,DRC_All_SCHool_Local,44.87438594669578,safe
+Ecole secondaire Inst Kanyombo,-3.6048222,27.3848222,,School,DRC_All_SCHool_Local,13.781830691961282,safe
+Ecole primaire Mikaba II,-3.6093778,27.3934833,,School,DRC_All_SCHool_Local,14.85341110811889,safe
+Ecole primaire Mikaba I,-3.6094028,27.3935333,,School,DRC_All_SCHool_Local,14.8595573496024,safe
+École primaire Kalole,-3.6752474,27.3742005,,School,DRC_All_SCHool_Local,16.97572966254945,safe
+Ecole secondaire Inst Lulenge,-3.5971389,27.3746139,,School,DRC_All_SCHool_Local,12.449655268000948,safe
+École primaire Kisongo,-3.6438537,27.3985243,,School,DRC_All_SCHool_Local,16.964200286280796,safe
+Ecole secondaire Inst Beigala,-3.0723028,27.2054944,,School,DRC_All_SCHool_Local,17.51050354942692,safe
+École primaire Nepanepa,-3.5976972,27.3748028,,School,DRC_All_SCHool_Local,12.486836824476988,safe
+Ecole secondaire Lycée St Monique,-3.6114472,27.3960056,,School,DRC_All_SCHool_Local,15.192736703765824,safe
+Ecole secondaire Inst Mubake,-3.6753835,27.3733366,,School,DRC_All_SCHool_Local,16.919283378239125,safe
+Ecole primaire Walubazia / Makamba,-3.7207389,27.3333194,,School,DRC_All_SCHool_Local,14.601382529448932,safe
+Ecole primaire Misanya,-3.6532556,27.3917528,,School,DRC_All_SCHool_Local,16.893583622128798,safe
+Ecole primaire Lubi,-3.0733972,27.2072389,,School,DRC_All_SCHool_Local,17.417387760833275,safe
+Ecole primaire Kalole 5e Celpa,-3.6904477,27.3708194,,School,DRC_All_SCHool_Local,17.973011762809993,safe
+Ecole secondaire Inst Nyota,-3.6526861,27.3960222,,School,DRC_All_SCHool_Local,17.249814885832112,safe
+Ecole secondaire Inst Kalole,-3.6532333,27.390725,,School,DRC_All_SCHool_Local,16.798566982099878,safe
+Ecole secondaire Inst Kibazonga,-3.1268093,27.193131,,School,DRC_All_SCHool_Local,11.332518236592852,safe
+Ecole primaire Kinuilo,-3.65735,27.3927083,,School,DRC_All_SCHool_Local,17.24301698820267,safe
+Ecole primaire Wabienga,-3.073065,27.2058469,,School,DRC_All_SCHool_Local,17.431898813822112,safe
+Ecole primaire Bitobolo,-3.0479556,27.1965444,,School,DRC_All_SCHool_Local,20.10385681513854,safe
+Ecole primaire Mugele,-3.2781259,26.551973,,School,DRC_All_SCHool_Local,13.881170376700345,safe
+Ecole primaire Milanga,-3.1275273,27.192458,,School,DRC_All_SCHool_Local,11.246618959229451,safe
+Ecole primaire Misanya,-3.6531361,27.3917861,,School,DRC_All_SCHool_Local,16.88905275752416,safe
+Ecole primaire Kinsembe,-3.1277798,26.5263601,,School,DRC_All_SCHool_Local,13.387187374592893,safe
+Ecole secondaire Inst Tech. Médical,-3.673564,27.3769283,,School,DRC_All_SCHool_Local,17.05892896387245,safe
+Ecole secondaire Inst Lwatamba,-3.3215778,27.2084417,,School,DRC_All_SCHool_Local,10.614877667396634,safe
+Ecole primaire Idumbu,-3.3216639,27.2101972,,School,DRC_All_SCHool_Local,10.624332070717053,safe
+Ecole primaire Lugushwa,-3.3851667,27.8708972,,School,DRC_All_SCHool_Local,21.124063283657577,safe
+Ecole secondaire Inst Munimba,-3.3503361,27.8213528,,School,DRC_All_SCHool_Local,23.543269548469304,safe
+Ecole primaire Complexe Kitemba,-3.3914694,27.8673528,,School,DRC_All_SCHool_Local,21.887233151731255,safe
+Ecole primaire Tchatela,-3.4076028,28.0141917,,School,DRC_All_SCHool_Local,12.488694526405602,safe
+École primaire Kindi,-3.3992145,27.8536667,,School,DRC_All_SCHool_Local,23.590759801940788,safe
+Ecole primaire Kabilongo 2,-3.3999111,28.0216694,,School,DRC_All_SCHool_Local,11.299013757967034,safe
+Ecole primaire Byombi,-3.4528556,27.9662028,,School,DRC_All_SCHool_Local,19.792938783562555,safe
+Ecole primaire Mapale,-3.3817667,27.8719778,,School,DRC_All_SCHool_Local,20.78264640938222,safe
+Ecole primaire Babongolo,-3.3502139,27.8216167,,School,DRC_All_SCHool_Local,23.510982419558104,safe
+Ecole primaire Butetegele,-3.4350444,27.99565,,School,DRC_All_SCHool_Local,16.14876320334755,safe
+Ecole secondaire Inst Lugushwa,-3.3846167,27.8727333,,School,DRC_All_SCHool_Local,20.932002733160704,safe
+Ecole secondaire Inst Nyakatulo,-3.3603425,27.82224,,School,DRC_All_SCHool_Local,23.96335287249568,safe
+Ecole primaire Biliza,-3.3536472,27.8202611,,School,DRC_All_SCHool_Local,23.814704214289833,safe
+École primaire Nyakatulo,-3.3604089,27.8220342,,School,DRC_All_SCHool_Local,23.986960767744094,safe
+Ecole secondaire Inst Mapale,-3.3795389,27.8735583,,School,DRC_All_SCHool_Local,20.487193429065996,safe
+Ecole secondaire Kangele,-3.2966361,28.7785806,,School,DRC_All_SCHool_Local,12.21520970809383,safe
+École primaire Kangele,-3.2976192,28.7778265,,School,DRC_All_SCHool_Local,12.249687299745963,safe
+Ecole primaire Kichombo,-3.2777972,28.7818222,,School,DRC_All_SCHool_Local,12.878585938851689,safe
+Ecole primaire 3é Cbk Ibinja,-2.3675361,28.9444167,,School,DRC_All_SCHool_Local,12.52466062620593,safe
+Ecole primaire Ibinja,-2.3548056,28.925,,School,DRC_All_SCHool_Local,11.262534839136146,safe
+Ecole primaire Muhumba,-2.2793472,29.0227583,,School,DRC_All_SCHool_Local,12.296185458155138,safe
+Ecole secondaire Inst Umoja,-2.2621861,29.0268222,,School,DRC_All_SCHool_Local,10.348112071760337,safe
+École primaire Lubiri,-2.3637778,28.928075,,School,DRC_All_SCHool_Local,11.052709874198149,safe
+Ecole secondaire Inst Ibinja,-2.3637972,28.9280806,,School,DRC_All_SCHool_Local,11.052257702933856,safe
+Ecole primaire Kirutu,-2.2617778,29.0263472,,School,DRC_All_SCHool_Local,10.30879259865,safe
+Ecole primaire Gorho,-2.2680528,29.0442778,,School,DRC_All_SCHool_Local,10.972199894958603,safe
+Ecole primaire Kilala,-2.269225,29.0209222,,School,DRC_All_SCHool_Local,11.210981520003498,safe
+Ecole primaire Nyamukandagwe,-2.3623889,28.9327778,,School,DRC_All_SCHool_Local,11.587565273439646,safe
+Ecole secondaire Inst Kilala,-2.2688056,29.0202722,,School,DRC_All_SCHool_Local,11.17657741378973,safe
+Ecole primaire Kisunzu,-2.2642694,29.0606583,,School,DRC_All_SCHool_Local,10.848675774507736,safe
+Ecole primaire Kadutu,-2.3549167,28.9378056,,School,DRC_All_SCHool_Local,12.473461191687251,safe
+Groupe Scolaire Kindobo,-4.2835313,15.5724679,,School,DRC_All_SCHool_Local,25.418791399235218,safe
+Centre Scolaire Motoba,-4.3223393,15.5139642,,School,DRC_All_SCHool_Local,18.277603389347757,safe
+EP Molende/Maita,-0.3219974,17.9039318,,School,DRC_All_SCHool_Local,40.73780439215417,safe
+EP2 Indika,-0.3260809,17.8917403,,School,DRC_All_SCHool_Local,42.03098286745387,safe
+École primaire,-4.1151398,18.9112476,,School,DRC_All_SCHool_Local,59.40610279053806,safe
+École Primaire Nebo,2.4510691,27.6288166,,School,DRC_All_SCHool_Local,35.118719244868146,safe
+C.S. Barcelone,-11.638943,27.5555719,,School,DRC_All_SCHool_Local,10.160956196442521,safe
+Centre profesionnel & Internat Chem-Chem,-11.6480799,27.5734417,,School,DRC_All_SCHool_Local,11.810160911237396,safe
+C.S. Dieu est Vainqueur,-11.6505798,27.564113,,School,DRC_All_SCHool_Local,10.761664206023442,safe
+C.S. Gloire,-11.6504254,27.5636972,,School,DRC_All_SCHool_Local,10.719897710721256,safe
+C.S. Mpambwe,-11.6490389,27.559774,,School,DRC_All_SCHool_Local,10.327190998762287,safe
+Complexe scolaire Safina,-11.6534263,27.557929,,School,DRC_All_SCHool_Local,10.046922091724143,safe
+C.S. Dominique,-11.645947,27.5689337,,School,DRC_All_SCHool_Local,11.372842524493937,safe
+C.S. de Siloe,-11.649246,27.5620037,,School,DRC_All_SCHool_Local,10.56144263714131,safe
+Lycée Kwesu,-11.7396615,27.5663458,,School,DRC_All_SCHool_Local,13.552673449982375,safe
+Gojuru Primary School,3.2386441,30.7836069,Jabala,School,DRC_All_SCHool_Local,18.122950333979766,safe
+Inia Primary School,3.0738846,30.7651606,Inia,School,DRC_All_SCHool_Local,19.834661149117196,safe
+Complexe Scolaire de la Victoire Hosea,-11.6546496,27.5717573,,School,DRC_All_SCHool_Local,11.522089990379135,safe
+,-5.172424,28.591937,,School,DRC_All_SCHool_Local,26.201073585879843,safe
+,-5.622317,29.3432265,,School,DRC_All_SCHool_Local,18.019529445242174,safe
+,-5.9601571,28.4259885,,School,DRC_All_SCHool_Local,23.80941618492789,safe
+,-5.8592065,26.4343023,,School,DRC_All_SCHool_Local,14.891069606877945,safe
+,-5.8339647,26.3976427,,School,DRC_All_SCHool_Local,10.947168549702871,safe
+,-5.7899864,26.4056179,,School,DRC_All_SCHool_Local,13.455076563613911,safe
+,-5.6840712,26.4655516,,School,DRC_All_SCHool_Local,25.997494423179898,safe
+,-5.5970636,26.5556206,,School,DRC_All_SCHool_Local,34.810754242636165,safe
+Collège,-3.0159519,16.9265145,,School,DRC_All_SCHool_Local,18.189916860968026,safe
+Ecole primaire Elikya,-3.015068,16.9270617,,School,DRC_All_SCHool_Local,18.28558535749545,safe
+College Pierre Bouvet,-4.4414441,15.2597489,,School,DRC_All_SCHool_Local,10.022376275396695,safe
+EP Luosu,-4.2747662,26.0099119,,School,DRC_All_SCHool_Local,75.37820406019438,safe
+Institute Likeri,-4.2685407,26.0095578,,School,DRC_All_SCHool_Local,75.59823082706332,safe
+Institut Kigombe,-3.9250456,25.9414914,,School,DRC_All_SCHool_Local,94.14339028723859,safe
+Ecole Primaire Olela,-4.1029963,25.9060004,,School,DRC_All_SCHool_Local,92.75322971608473,safe
+École Primaire 3 Ngongo,-4.104655,25.9053996,,School,DRC_All_SCHool_Local,92.73720934198117,safe
+Ecole Primaire Oye,-4.1096927,25.905177,,School,DRC_All_SCHool_Local,92.52893484016855,safe
+École Primaire Lunga,-4.161699,25.9303147,,School,DRC_All_SCHool_Local,87.71542323430138,safe
+Institut Lumumba,-4.2313939,25.9461772,,School,DRC_All_SCHool_Local,83.50137799120218,safe
+EP Nganze,-4.2351522,25.9475318,,School,DRC_All_SCHool_Local,83.23660834530173,safe
+Complexe Scolaire Les Frères,-11.6333885,27.5544308,,School,DRC_All_SCHool_Local,10.24916798881807,safe
+École primaire Atuma,-4.782041,29.1008681,,School,DRC_All_SCHool_Local,10.156615655983432,safe
+École primaire Kasiru,-4.2133951,28.6918564,,School,DRC_All_SCHool_Local,22.67460434708818,safe
+École primaire Kitulu,-4.1574583,28.7498913,,School,DRC_All_SCHool_Local,14.450868318715735,safe
+École primaire et Institut Nakatete,-4.2101798,28.7625122,,School,DRC_All_SCHool_Local,15.76594531818985,safe
+École primaire Kihimino 2,-4.3449302,29.2195015,,School,DRC_All_SCHool_Local,12.301994900350733,safe
+École primaire Ubwari,-4.348889,29.2196043,,School,DRC_All_SCHool_Local,12.12144329043931,safe
+Mayalibo École Sécondaire,2.457882,27.6465824,,School,DRC_All_SCHool_Local,34.49565001492677,safe
+Les Agneaux École Sécondaire,2.458292,27.6321132,,School,DRC_All_SCHool_Local,34.332528613638836,safe
+Instutut LUBIMBI,-8.7285461,25.0113619,,School,DRC_All_SCHool_Local,28.783537215034375,safe
+Lycée MAHIDIO,-8.7334261,24.9978835,,School,DRC_All_SCHool_Local,30.2064005261531,safe
+Complexe Scolaire La Termitiere,-8.7313562,24.9980624,,School,DRC_All_SCHool_Local,30.029977494201024,safe
+École Primaire Kizozi,-4.7526839,29.1022991,,School,DRC_All_SCHool_Local,13.407558320637058,safe
+École primaire Lwebo,-4.6822384,29.1130218,,School,DRC_All_SCHool_Local,16.331230971999073,safe
+École primaire Lwebo,-4.6640315,29.1115606,,School,DRC_All_SCHool_Local,14.468976985422788,safe
+École primaire Kisengeta,-4.6451894,29.1067193,,School,DRC_All_SCHool_Local,12.754549796048604,safe
+École primaire Nguma,-4.6472613,29.107003,,School,DRC_All_SCHool_Local,12.948333091315668,safe
+Complexe scolaire Engulu,-1.7414403,20.6833184,,School,DRC_All_SCHool_Local,48.58921192722684,safe
+,-1.7449604,20.6892943,,School,DRC_All_SCHool_Local,49.356664370511574,safe
+,-4.0243176,28.8807218,,School,DRC_All_SCHool_Local,10.882294247484712,safe
+ITI MAENDELEO,-4.4417018,15.2574746,,School,DRC_All_SCHool_Local,10.149891785401158,safe
+centre de formation emmhest,-4.4407117,15.257032,,School,DRC_All_SCHool_Local,10.070152191183983,safe
+complexe scolaire ngemba,-4.4423148,15.2588573,,School,DRC_All_SCHool_Local,10.150310265333145,safe
+College Pierre Bouvet,-4.4418696,15.2592972,,School,DRC_All_SCHool_Local,10.08556002535729,safe
+,-0.7120122,18.4892486,,School,DRC_All_SCHool_Local,63.10202288224408,safe
+,-0.7399148,18.1252713,,School,DRC_All_SCHool_Local,35.96316222698493,safe
+Ecole Nsapi,-0.7378812,18.124821,,School,DRC_All_SCHool_Local,36.165906971018984,safe
+EP Motaka,-0.4683207,18.2679164,,School,DRC_All_SCHool_Local,46.05898291162787,safe
+EP Lomposo,-0.5525611,18.3159978,,School,DRC_All_SCHool_Local,56.52290666055645,safe
+,-0.5646964,18.3266464,,School,DRC_All_SCHool_Local,58.16523110903265,safe
+EP Mpenda Elenga,-0.4904037,18.2930517,,School,DRC_All_SCHool_Local,49.1684594173293,safe
+EP Isake,-0.5285446,18.3052081,,School,DRC_All_SCHool_Local,53.61901132534557,safe
+,-0.6371215,18.4782368,,School,DRC_All_SCHool_Local,67.48756082127952,safe
+EP Ndote,-0.5790562,18.3374494,,School,DRC_All_SCHool_Local,60.05639942943763,safe
+,-0.4205492,18.3386815,,School,DRC_All_SCHool_Local,43.75219699122988,safe
+,-0.5289348,18.606388,,School,DRC_All_SCHool_Local,69.80621436641188,safe
+,-0.4026647,18.3768815,,School,DRC_All_SCHool_Local,44.070762527692395,safe
+,-0.4782712,18.5598055,,School,DRC_All_SCHool_Local,63.29050126278058,safe
+,-0.4662674,18.5545993,,School,DRC_All_SCHool_Local,61.927496911266736,safe
+,-0.5546628,18.6914442,,School,DRC_All_SCHool_Local,59.93387563714311,safe
+,-0.4479552,18.5181816,,School,DRC_All_SCHool_Local,57.665077596943355,safe
+,-0.5570498,18.6648515,,School,DRC_All_SCHool_Local,62.64757538817249,safe
+,-0.5056039,18.5709292,,School,DRC_All_SCHool_Local,66.3535312281083,safe
+,-0.395164,18.4864403,,School,DRC_All_SCHool_Local,50.97572528805921,safe
+EP Mbongo Bofenda,-0.4250724,18.265905,,School,DRC_All_SCHool_Local,41.3523150311892,safe
+,-0.3826652,18.9022981,,School,DRC_All_SCHool_Local,40.57869660914287,safe
+,-0.3115558,18.9682791,,School,DRC_All_SCHool_Local,31.40927535031145,safe
+,-0.3153109,18.9684849,,School,DRC_All_SCHool_Local,31.821954763335835,safe
+,-0.4737773,18.8247205,,School,DRC_All_SCHool_Local,50.73560171269905,safe
+,-0.4735641,18.8239628,,School,DRC_All_SCHool_Local,50.81838439975484,safe
+,-0.5547245,18.8111982,,School,DRC_All_SCHool_Local,47.573838726012355,safe
+EP Elanga,-0.1548296,18.2286814,,School,DRC_All_SCHool_Local,11.985562196907413,safe
+EP Mpombo,-0.1958088,18.2366167,,School,DRC_All_SCHool_Local,16.33110060273218,safe
+EP Ngomo,-0.1481771,18.2239724,,School,DRC_All_SCHool_Local,11.079274769138298,safe
+Elenga,-0.4957311,18.2972252,,School,DRC_All_SCHool_Local,49.86952444967784,safe
+Ecole Primaire Ivembe Monene,-0.695581,18.2652037,,School,DRC_All_SCHool_Local,47.092620577956026,safe
+Ecole Primaire Bonyamba,-0.6063631,18.3130329,,School,DRC_All_SCHool_Local,58.31418575914406,safe
+EP Nkele,-0.3407148,18.2532241,,School,DRC_All_SCHool_Local,31.95654350280059,safe
+EP Lokanga,-0.3758415,18.2604238,,School,DRC_All_SCHool_Local,35.924576431217844,safe
+EP Penzele,-0.2896638,18.224281,,School,DRC_All_SCHool_Local,25.61032066632616,safe
+EP2 Mama Nkaha,-0.789262,18.5909244,,School,DRC_All_SCHool_Local,68.00509525241833,safe
+,-1.7032763,18.4837192,,School,DRC_All_SCHool_Local,63.92427295763159,safe
+EP Ntalako,-0.7230305,18.1354484,,School,DRC_All_SCHool_Local,38.0887804136954,safe
+Institut Manga,-0.7267995,18.134733,,School,DRC_All_SCHool_Local,37.66505934486428,safe
+EP Bomenga,-0.7281307,18.1332776,,School,DRC_All_SCHool_Local,37.47555057204689,safe
+Pre Grand Seminaire,-0.7373386,18.1248612,,School,DRC_All_SCHool_Local,36.22506534187526,safe
+ITC Moongo,-0.7338377,18.1334737,,School,DRC_All_SCHool_Local,36.8765538315884,safe
+EP Bikoro,-0.7342142,18.1337972,,School,DRC_All_SCHool_Local,36.84753157077383,safe
+Lycee Muinda,-0.7408806,18.1304737,,School,DRC_All_SCHool_Local,36.029351159731874,safe
+EP Nakiliza,-4.0385075,27.9941887,,School,DRC_All_SCHool_Local,10.898826313325118,safe
+,-4.3385081,28.2781461,,School,DRC_All_SCHool_Local,15.035827913725003,safe
+Ecole Lac Tumba,-0.7381522,18.1262206,Bikoro,School,DRC_All_SCHool_Local,36.18109905628148,safe
+EP Lisanga,-0.7401347,18.1348809,,School,DRC_All_SCHool_Local,36.25806183817017,safe
+IM Mpimba,-0.7333942,18.1314846,,School,DRC_All_SCHool_Local,36.85748890103013,safe
+Ecole Moleka,-0.7298991,18.1341195,Bikoro,School,DRC_All_SCHool_Local,37.31580267106515,safe
+Ecole Manga,-0.7295658,18.1335503,Bikoro,School,DRC_All_SCHool_Local,37.33221836350459,safe
+Ecole DolaI,-0.7280665,18.1358004,,School,DRC_All_SCHool_Local,37.56647672334337,safe
+Ecole Bosembo,-0.7399747,18.1288435,,School,DRC_All_SCHool_Local,36.0716915043282,safe
+Ecole St Codi,-0.7416318,18.1210505,Bikoro,School,DRC_All_SCHool_Local,35.64892825928772,safe
+,-0.7003844,17.5841573,,School,DRC_All_SCHool_Local,63.287613928800056,safe
+,-0.6083022,18.5165723,,School,DRC_All_SCHool_Local,71.70109342573828,safe
+,-0.5880667,18.5201061,,School,DRC_All_SCHool_Local,70.04149844561597,safe
+Ecole Ndunji,-5.777506,12.3046982,Kongo Centrale,School,DRC_All_SCHool_Local,11.441508496712439,safe
+Ecole Yema,-5.7969009,12.2846997,Kongo Centrale,School,DRC_All_SCHool_Local,12.70210646059289,safe
+Ecole Matamba 1,-5.8480056,12.5260019,Kongo Centrale,School,DRC_All_SCHool_Local,11.356048587259378,safe
+Ecole Tuba 1,-5.5616488,12.9043622,Kongo Centrale,School,DRC_All_SCHool_Local,20.461192463036923,safe
+EcoleSeke-Di-Manzanza,-5.5358574,12.8838728,Kongo Centrale,School,DRC_All_SCHool_Local,18.472055310277455,safe
+Ecole Nsitu Mbembo,-5.4629755,12.8725163,Kongo Centrale,School,DRC_All_SCHool_Local,12.328616211232935,safe
+Ecole Kimvindu,-5.4890824,12.8126548,Kongo Centrale,School,DRC_All_SCHool_Local,19.220109449258302,safe
+Ecole Mvuangu,-5.5428628,12.7068042,Kongo Centrale,School,DRC_All_SCHool_Local,24.520366977487058,safe
+Ecole Tsowa,-5.5710111,12.6807546,Kongo Centrale,School,DRC_All_SCHool_Local,25.657270934737195,safe
+Kanga 1,-5.8200149,12.8820088,Kongo Centrale,School,DRC_All_SCHool_Local,18.879728689624656,safe
+Nganda Kasamvu Ecole,-4.9671077,12.786895,,School,DRC_All_SCHool_Local,16.321833029405774,safe
+Lubolo Ecole,-5.0188062,12.8364837,Kongo-Central,School,DRC_All_SCHool_Local,11.430305229411262,safe
+Nzobe Luzi Ecole,-5.0539998,12.7349996,Kongo-Central,School,DRC_All_SCHool_Local,18.9716762343274,safe
+Kitsaku Ecole,-4.8470324,13.2549619,,School,DRC_All_SCHool_Local,15.344186101307653,safe
+Nkonzibongila Ecole,-4.8100023,13.2009986,,School,DRC_All_SCHool_Local,19.60358244044416,safe
+Mpalanga 1 Ecole,-4.8770078,13.1389617,,School,DRC_All_SCHool_Local,15.782320582435945,safe
+Nzamba - A - Mazebo Ecole,-4.8337975,13.0979991,,School,DRC_All_SCHool_Local,19.71368727289541,safe
+Kindamba Ecole,-4.7358846,13.046264,,School,DRC_All_SCHool_Local,12.97386409944422,safe
+Mayunda Ecole,-4.9910002,13.057,,School,DRC_All_SCHool_Local,10.81557850250326,safe
+Kiolo Ecole,-5.1750201,13.0268991,,School,DRC_All_SCHool_Local,15.389194496766706,safe
+Mazibidi Ecole,-5.6048916,13.3596041,,School,DRC_All_SCHool_Local,10.869336895186613,safe
+Tsumba Kituti Ecole,-5.6576831,13.1907044,,School,DRC_All_SCHool_Local,26.450492281002884,safe
+Monzi Ecole,-5.6104831,13.2292044,,School,DRC_All_SCHool_Local,24.91565594614519,safe
+Kibota Sanzi Ecole,-5.6474831,13.1994044,,School,DRC_All_SCHool_Local,27.934234094314206,safe
+Minkondo 4 Ecole,-5.7049853,13.0969691,,School,DRC_All_SCHool_Local,16.941452195095195,safe
+Tuba 2 Ecole,-5.639988,13.0630146,,School,DRC_All_SCHool_Local,23.39661816963988,safe
+Mangala Ecole,-5.639988,13.0610146,,School,DRC_All_SCHool_Local,23.384043438454043,safe
+Songololo 4 Ecole,-5.3537003,13.7801921,,School,DRC_All_SCHool_Local,23.72652698814694,safe
+Kikakama Ecole,-4.7244996,13.8141,,School,DRC_All_SCHool_Local,14.510909561928845,safe
+Tusiama Ecole,-4.8657617,14.1933421,,School,DRC_All_SCHool_Local,11.486400660430242,safe
+Mvululu Ecole,-4.684,15.214,,School,DRC_All_SCHool_Local,11.383001695297327,safe
+Banna Ecole,-4.693,15.3047,,School,DRC_All_SCHool_Local,18.667625755740186,safe
+Ntadi Ecole,-4.881,15.057,,School,DRC_All_SCHool_Local,11.333047824219518,safe
+Kimpudi Ecole,-5.048,15.195,,School,DRC_All_SCHool_Local,15.308977824673235,safe
+Muala Kinsende 3 Ecole,-5.2802,14.9695,,School,DRC_All_SCHool_Local,11.569738034397718,safe
+Muala Kinsende 2 Ecole,-5.2768,14.9735,,School,DRC_All_SCHool_Local,11.892546077851923,safe
+Matimpi 1 Ecole,-5.3403,14.6588,,School,DRC_All_SCHool_Local,19.473946776079224,safe
+ke Zonzo Kititi,-5.266,14.745,,School,DRC_All_SCHool_Local,13.91513624792862,safe
+Kimenga Ecole,-5.468,14.824,,School,DRC_All_SCHool_Local,14.205552299411288,safe
+Mansende Ecole,-5.442,14.856,,School,DRC_All_SCHool_Local,18.56635103935585,safe
+Fuma 3 Ecole,-5.4157,14.8187,,School,DRC_All_SCHool_Local,16.564844649072633,safe
+Kiyula Ecole,-5.8205,14.7006,,School,DRC_All_SCHool_Local,34.54018741520324,safe
+Kinsende Ecole,-5.796,14.645,,School,DRC_All_SCHool_Local,32.450511102466386,safe
+Kiasungua 2 Ecole,-5.4254,14.3209,,School,DRC_All_SCHool_Local,10.329495991919481,safe
+Kwilu Kilueka Ecole,-5.4244646,14.4858972,,School,DRC_All_SCHool_Local,15.122864041656829,safe
+Kilueka 1 Ecole,-5.4302617,14.475397,,School,DRC_All_SCHool_Local,14.10486662395019,safe
+Kimaku 1 Ecole,-5.6368,14.3008,,School,DRC_All_SCHool_Local,17.55766273972099,safe
+Bazo Ecole,3.0898786,26.8385215,,School,DRC_All_SCHool_Local,49.00008773094723,safe
+Duembe Ecole,3.155,26.8961,,School,DRC_All_SCHool_Local,40.05855035758011,safe
+Bakumba Ecole,3.173,26.9061,,School,DRC_All_SCHool_Local,37.825291131657394,safe
+Lagili Ecole,3.153,26.8938,,School,DRC_All_SCHool_Local,40.345440885164486,safe
+Mangyama Ecole,3.1611,26.893,,School,DRC_All_SCHool_Local,39.51153870676947,safe
+Kembissa Ecole,3.5229595,26.3906024,,School,DRC_All_SCHool_Local,38.62538075992584,safe
+Seki Ecole,3.0,26.0,,School,DRC_All_SCHool_Local,72.65457761260447,safe
+Bumbu 2 Ecole,2.6156,24.7314,,School,DRC_All_SCHool_Local,20.505468496067838,safe
+Bokapo Ecole,2.3428,24.9589,,School,DRC_All_SCHool_Local,56.67774891367753,safe
+EP Malelembe,0.3970042,18.5118858,,School,DRC_All_SCHool_Local,24.285769030565906,safe
+EP Makungu Mbabu,0.496284,18.5438615,,School,DRC_All_SCHool_Local,27.599329260744216,safe
+EP Ngondo,0.2653403,18.4328107,,School,DRC_All_SCHool_Local,25.292186000940557,safe
+EP Lisala,0.1711897,18.3559623,,School,DRC_All_SCHool_Local,15.286212439821309,safe
+EP Iyeli Bokongo,0.411226,18.5023918,,School,DRC_All_SCHool_Local,22.913588768899523,safe
+EP Ndipo,0.1180385,18.3419516,,School,DRC_All_SCHool_Local,10.134480875022371,safe
+EP Ndjoli Emongo,0.2159913,18.3525492,,School,DRC_All_SCHool_Local,19.154419407175535,safe
+EP3 Maria,0.2499572,18.3997762,,School,DRC_All_SCHool_Local,24.856986146946948,safe
+EP Mbandaka,0.4532933,18.523585,,School,DRC_All_SCHool_Local,24.863442159702846,safe
+EP1 Sylvain,0.3073678,18.5356594,,School,DRC_All_SCHool_Local,30.629478201652038,safe
+EP Monzambi,0.307386,18.5353904,,School,DRC_All_SCHool_Local,30.60284467418358,safe
+EP Ngombe,0.3647779,18.5087252,,School,DRC_All_SCHool_Local,25.06867485923577,safe
+EP Boyokani,-0.7861334,18.5199949,,School,DRC_All_SCHool_Local,61.55060208656679,safe
+EP Mpumbe Biole,-0.8000561,18.6301682,,School,DRC_All_SCHool_Local,63.78965947380484,safe
+EP Lokongo,-0.803268,18.6296694,,School,DRC_All_SCHool_Local,63.88720662373288,safe
+EP Bikoro/Isene,-0.6666177,18.4873504,,School,DRC_All_SCHool_Local,66.07138197011,safe
+EP Lobiko/Basele,-0.6426304,18.4924772,,School,DRC_All_SCHool_Local,68.24837222374441,safe
+EP Mama Wanga,-0.7700776,18.4774819,,School,DRC_All_SCHool_Local,58.37200321594792,safe
+EP Bibelo,-0.6501302,18.4548712,,School,DRC_All_SCHool_Local,64.60324550072093,safe
+EP Lokuku,-0.6385631,18.4871255,,School,DRC_All_SCHool_Local,68.10744712691172,safe
+EP Mabonzi,-0.6750649,18.4363332,,School,DRC_All_SCHool_Local,61.20249041231447,safe
+EP2 Tosalisana,-0.7515089,18.4310999,,School,DRC_All_SCHool_Local,55.29373696687551,safe
+EP Mopembe,-0.7365887,18.4226863,,School,DRC_All_SCHool_Local,55.57359691895388,safe
+EP Lokolo,-0.7255748,18.4081387,,School,DRC_All_SCHool_Local,55.1169061007278,safe
+EP Mapeke,-0.7809436,18.5002975,,School,DRC_All_SCHool_Local,59.92066748041869,safe
+EP4 Salongo,-0.80247,18.6325378,,School,DRC_All_SCHool_Local,63.55987947001457,safe
+EP Ebungu,-0.6428365,18.4923076,,School,DRC_All_SCHool_Local,68.21905647573753,safe
+EP Liamba,-0.6363835,18.4844493,,School,DRC_All_SCHool_Local,68.05089263959717,safe
+EP Molongo,-0.6427201,18.4924026,,School,DRC_All_SCHool_Local,68.23554787478997,safe
+EP Butela,-0.7930507,18.7254671,,School,DRC_All_SCHool_Local,53.177188313104885,safe
+EP Besefe,-0.7646903,18.7381504,,School,DRC_All_SCHool_Local,51.46918486085034,safe
+EP Mabali,-0.8068575,18.5657673,,School,DRC_All_SCHool_Local,65.07798415696632,safe
+EP Ngeli Alingo,-0.8003029,18.5539166,,School,DRC_All_SCHool_Local,64.19375133370333,safe
+EP Kombemongo,-0.6429155,18.4923552,,School,DRC_All_SCHool_Local,68.2171857728229,safe
+EP Lopanzo,-0.9738951,18.7130612,,School,DRC_All_SCHool_Local,60.386784416840534,safe
+EP Isangi,-0.8803367,18.6605983,,School,DRC_All_SCHool_Local,62.16049309044492,safe
+EP Nzembenga,-1.0702717,18.61896,,School,DRC_All_SCHool_Local,59.809466865674636,safe
+EP Ibele,-0.8774316,18.419506,,School,DRC_All_SCHool_Local,47.027322493530406,safe
+EP Ilingi,-0.880688,18.6606329,,School,DRC_All_SCHool_Local,62.1670631562651,safe
+EP Babondo,-0.973055,18.7133136,,School,DRC_All_SCHool_Local,60.320293455195824,safe
+EP Bobulamu,-0.9722068,18.7134569,,School,DRC_All_SCHool_Local,60.2643780255222,safe
+EP Mokwala,-1.107814,18.5610333,,School,DRC_All_SCHool_Local,59.01835704948208,safe
+EP2 Ikolo,-0.8999984,18.4109355,,School,DRC_All_SCHool_Local,45.173445172883206,safe
+EP Loongo,-1.1077095,18.5612764,,School,DRC_All_SCHool_Local,59.04396001663059,safe
+EP Elanga,-1.0649101,18.6728121,,School,DRC_All_SCHool_Local,56.183066914690635,safe
+EP2 Moheli,-0.9721283,18.7143352,,School,DRC_All_SCHool_Local,60.172886630953336,safe
+EP Bongisa,-0.900198,18.4105447,,School,DRC_All_SCHool_Local,45.12487089392673,safe
+EP2 Salam,-0.9754247,18.7136844,,School,DRC_All_SCHool_Local,60.40027320650262,safe
+EP Bolendo,-0.8425001,18.4714837,,School,DRC_All_SCHool_Local,53.901409776921234,safe
+EP Luteli,-0.9335614,18.3906909,,School,DRC_All_SCHool_Local,41.78685692798642,safe
+EP Ekonda,-1.0684213,18.623282,,School,DRC_All_SCHool_Local,59.6164208347927,safe
+EP Bosolo,-0.8999843,18.4109868,,School,DRC_All_SCHool_Local,45.17932460717001,safe
+EP Weli,-0.9895103,18.4649912,,School,DRC_All_SCHool_Local,48.459658682579786,safe
+EP Etongo,-0.9512652,18.5462012,,School,DRC_All_SCHool_Local,58.066973139180774,safe
+Bolingo,-0.9631932,18.7205464,,School,DRC_All_SCHool_Local,59.117729424599155,safe
+EP Mboyo Mahambi,-0.9631831,18.5191661,,School,DRC_All_SCHool_Local,54.86972058554749,safe
+EP Mbulanene,-0.8771645,18.4195287,,School,DRC_All_SCHool_Local,47.04175399912513,safe
+EP2 Mohoke,-0.9292138,18.5616208,,School,DRC_All_SCHool_Local,60.250204565965326,safe
+EP Mama Lobota,-0.8721962,18.4417107,,School,DRC_All_SCHool_Local,49.52101748074976,safe
+EP Nkumu Bema,-0.9890381,18.4418396,,School,DRC_All_SCHool_Local,45.91975507895708,safe
+EP Makumu,-0.9925113,18.4709829,,School,DRC_All_SCHool_Local,49.07483540410012,safe
+EP Booto Bolopoka,-0.9719758,18.7139067,,School,DRC_All_SCHool_Local,60.20816805686141,safe
+EP Imama,-0.9412608,18.3798627,,School,DRC_All_SCHool_Local,40.379340072493015,safe
+EP Inyele,-0.9695545,18.7135849,,School,DRC_All_SCHool_Local,60.12218944885999,safe
+EP Mpangi,-0.9492869,18.3809047,,School,DRC_All_SCHool_Local,40.23234888287759,safe
+EP Balungusa,-0.9003116,18.7709556,,School,DRC_All_SCHool_Local,51.18873994474063,safe
+EP Botale,-0.9389842,18.7548897,,School,DRC_All_SCHool_Local,54.5165024860275,safe
+EP Liombo Wenga,-0.9724103,18.7135759,,School,DRC_All_SCHool_Local,60.26247944181377,safe
+EP1 Ilebo,-1.0058425,18.6721229,,School,DRC_All_SCHool_Local,61.382154707239174,safe
+EP Bango Kungu,-0.9337949,18.3903699,,School,DRC_All_SCHool_Local,41.74488115319096,safe
+Lopanzola,-1.0764795,18.6156778,,School,DRC_All_SCHool_Local,59.58521081842719,safe
+EP Bobala/Elingola,-1.1038225,18.6484352,,School,DRC_All_SCHool_Local,54.855841207024554,safe
+EP Elingola Elako,-1.1137261,18.5293292,,School,DRC_All_SCHool_Local,55.5958531229596,safe
+EP Ngelo Bokala,-0.8679566,18.4442322,,School,DRC_All_SCHool_Local,49.96730776734117,safe
+EP Inzolo,-0.1914185,18.3948741,,School,DRC_All_SCHool_Local,28.919475215704193,safe
+EP Mongu Emanza,-0.221372,18.2348491,,School,DRC_All_SCHool_Local,18.79898261701483,safe
+EP Bikoro,-0.2208011,18.2864353,,School,DRC_All_SCHool_Local,21.704858770362005,safe
+EP Saint Cyprien,-0.1486988,18.2233118,,School,DRC_All_SCHool_Local,11.08487812376357,safe
+EP Isandjola,-0.1474519,18.2221808,,School,DRC_All_SCHool_Local,10.899355290031124,safe
+EP Widji Fake,-0.229159,18.2657763,,School,DRC_All_SCHool_Local,21.163941426751624,safe
+EP1 Moboti,-0.1488797,18.2235331,,School,DRC_All_SCHool_Local,11.115416275234837,safe
+EP Masiya Bolingo,-0.2308395,18.2643808,,School,DRC_All_SCHool_Local,21.243913854609286,safe
+EP Nkake Cbfc,-0.3550161,18.2515989,,School,DRC_All_SCHool_Local,33.42485429809241,safe
+EP Moussa,-0.1476709,18.2219866,,School,DRC_All_SCHool_Local,10.907241082391193,safe
+EP Ipeko,-0.1473325,18.2223396,,School,DRC_All_SCHool_Local,10.898435911193918,safe
+EP Ituta,-0.1509017,18.2240837,,School,DRC_All_SCHool_Local,11.335421366902304,safe
+EP Bosulu Mbongu,-0.427294,18.2702024,,School,DRC_All_SCHool_Local,41.71976414042423,safe
+EP Mangala,-0.2310976,17.9963096,,School,DRC_All_SCHool_Local,26.327345033420926,safe
+EP Impokafela,-0.4428039,18.2688908,,School,DRC_All_SCHool_Local,43.341555703645355,safe
+EP Ewenza,-0.2664635,17.9214614,,School,DRC_All_SCHool_Local,35.170633385498945,safe
+EP Bomonkombe,-0.2219766,18.2353612,,School,DRC_All_SCHool_Local,18.88348248249706,safe
+EP Bolongwankoy,-0.4437022,18.2687402,,School,DRC_All_SCHool_Local,43.43357471031591,safe
+EP2 Mpenda,-0.4903016,18.293288,,School,DRC_All_SCHool_Local,49.165098066463464,safe
+EP Bobundo,-0.2272548,18.2339663,,School,DRC_All_SCHool_Local,19.36120638587388,safe
+CRS Bongode,-0.1444479,18.2227157,,School,DRC_All_SCHool_Local,10.660406733469383,safe
+EP3 Elanga,-0.2710007,18.2324622,,School,DRC_All_SCHool_Local,23.86970163569969,safe
+EP Nsamba,-0.4323295,18.2703866,,School,DRC_All_SCHool_Local,42.26381209130026,safe
+CRS Bongonde Drapeau,-0.1454026,18.2237413,,School,DRC_All_SCHool_Local,10.813247110458967,safe
+EP Reverand Sembe,-0.4306453,18.2705875,,School,DRC_All_SCHool_Local,42.08980372101026,safe
+EP Baolongo,-0.4643771,18.2648979,,School,DRC_All_SCHool_Local,45.55225910718915,safe
+EP Lopanzola / Bolonga2,-0.3328206,18.2482845,,School,DRC_All_SCHool_Local,30.955170196728606,safe
+EP Bolaka,-0.4290558,18.2709789,,School,DRC_All_SCHool_Local,41.9318965367449,safe
+EP1 Mohoke,-0.1610326,18.4409353,,School,DRC_All_SCHool_Local,31.88338566169728,safe
+EP1 Ekombe,-0.4279088,18.2710953,,School,DRC_All_SCHool_Local,41.81293990271721,safe
+EP1 Molua,-0.1949953,17.9899375,,School,DRC_All_SCHool_Local,24.285667660874793,safe
+EP Baolongo,-0.1688705,18.2362322,,School,DRC_All_SCHool_Local,13.747241866851898,safe
+EP Djobila,-0.344642,17.9201011,,School,DRC_All_SCHool_Local,41.31665045474632,safe
+École primaire Bolongo Mabaya,-0.1440686,18.2182357,,School,DRC_All_SCHool_Local,10.341922715298272,safe
+EP Lolikya,-0.1488346,18.2234479,,School,DRC_All_SCHool_Local,11.10590364615586,safe
+EP Ntomba,-0.1429484,18.4488822,,School,DRC_All_SCHool_Local,30.88356631703169,safe
+EP1 Mohoke,-0.1837794,18.4427621,,School,DRC_All_SCHool_Local,33.34799211296213,safe
+EP Bongonde,-0.221266,18.2348323,,School,DRC_All_SCHool_Local,18.78744385782828,safe
+EP Lofosola,-0.1293325,18.2855387,,School,DRC_All_SCHool_Local,14.94213378024992,safe
+,-7.9113335,27.2065468,,School,DRC_All_SCHool_Local,16.931563590091727,safe
+EP2 Maria,-0.0440998,18.2757703,,School,DRC_All_SCHool_Local,12.35823137274771,safe
+EP Boyambi,-0.0585494,18.2894332,,School,DRC_All_SCHool_Local,13.680780154874027,safe
+EP Djombo,-0.0456335,18.2734056,,School,DRC_All_SCHool_Local,12.09702980238773,safe
+EP Male Paul,0.0184318,18.3435398,,School,DRC_All_SCHool_Local,10.091243331818099,safe
+EP Botwali,-1.0873534,17.9309976,,School,DRC_All_SCHool_Local,12.111658131128722,safe
+EP Boboto /Mankene,-0.9604511,17.9948564,,School,DRC_All_SCHool_Local,10.83736941236692,safe
+EP2 Nkolo,-1.0047844,18.1561911,,School,DRC_All_SCHool_Local,14.554948548325154,safe
+CRS Iyembe Monene Ifaso,-0.6645156,18.2909166,,School,DRC_All_SCHool_Local,51.550863987583675,safe
+EP1 Nkolo,-1.0187654,18.1565859,,School,DRC_All_SCHool_Local,14.136162762096115,safe
+EP Boholo Lac,-0.9834921,18.1640704,,School,DRC_All_SCHool_Local,16.308238067278793,safe
+CRS Iyembe Monene,-0.6969828,18.2707234,,School,DRC_All_SCHool_Local,47.30191799204296,safe
+CRS Momboyo,-0.7641302,18.2874699,,School,DRC_All_SCHool_Local,42.5298117537309,safe
+EP Mobenga Nkulu,-1.0084693,18.20525,,School,DRC_All_SCHool_Local,19.663186049457906,safe
+CRS Ifaso Matin,-0.717581,18.2139902,,School,DRC_All_SCHool_Local,42.06807830535622,safe
+EP Mifundu,-0.9467689,18.1842462,,School,DRC_All_SCHool_Local,20.32907642224026,safe
+CRS Nze Boika Matin,-0.7249532,18.1378091,,School,DRC_All_SCHool_Local,37.96423917051339,safe
+CRS Nze Boika Soir,-0.7248919,18.1377679,,School,DRC_All_SCHool_Local,37.969327566288584,safe
+EP2 Lokanga,-0.9350239,18.1620244,,School,DRC_All_SCHool_Local,19.187491003084627,safe
+CRS Bikoro 1,-0.7284495,18.133206,,School,DRC_All_SCHool_Local,37.43933537126496,safe
+CRS Mooto,-0.5899365,18.2660701,,School,DRC_All_SCHool_Local,57.32889478457536,safe
+EP Mabinza,-0.8954943,18.1498515,,School,DRC_All_SCHool_Local,21.516908164577316,safe
+CRS Maindombe,-0.7275759,18.1329558,,School,DRC_All_SCHool_Local,37.52389542430639,safe
+EP Rev. Itolo,-0.836129,18.1717105,,School,DRC_All_SCHool_Local,28.323931713092897,safe
+EP2 Elandi,-0.9370598,18.0897852,,School,DRC_All_SCHool_Local,14.039380232362637,safe
+EP Mpenda/Moheli,-0.7667508,18.2651907,,School,DRC_All_SCHool_Local,40.700150521532024,safe
+EP Bosie,-0.9382039,18.0404824,,School,DRC_All_SCHool_Local,12.456545088527092,safe
+EP Yele Imolonga,-1.0928098,17.9300121,,School,DRC_All_SCHool_Local,12.434036489256725,safe
+EP Ipalaka,-0.7519801,18.221118,,School,DRC_All_SCHool_Local,39.166866992518926,safe
+EP Ngondola,-1.0970641,17.9287244,,School,DRC_All_SCHool_Local,12.753116176047874,safe
+EP Malwalumba,-0.9623669,17.9935181,,School,DRC_All_SCHool_Local,10.702647341183777,safe
+EP2 Ipeko,-0.706126,18.2140919,,School,DRC_All_SCHool_Local,43.19680848535581,safe
+EP Bwalanga,-0.8880238,18.1391037,,School,DRC_All_SCHool_Local,21.50997475005738,safe
+EP Mokula,-0.9537087,18.0239669,,School,DRC_All_SCHool_Local,10.757620082649337,safe
+EP Boongo,-0.6827102,17.8160482,,School,DRC_All_SCHool_Local,47.4508667890311,safe
+EP Elandi,-0.7515555,18.2228448,,School,DRC_All_SCHool_Local,39.30939363241996,safe
+EP Lac Ntumba,-0.7465202,18.3490562,,School,DRC_All_SCHool_Local,48.69225666081569,safe
+EP Ngelo Monzoi,-0.6384184,17.9059357,,School,DRC_All_SCHool_Local,47.90758181861051,safe
+EP Bikopo,-1.0893479,17.9335987,,School,DRC_All_SCHool_Local,11.920034366373566,safe
+EP Ngelo,-0.6310977,18.0881642,,School,DRC_All_SCHool_Local,46.97705181641947,safe
+EP Koli,-0.6911325,17.9481742,,School,DRC_All_SCHool_Local,41.012120822253195,safe
+EP Mwebe,-0.7871886,17.9622025,,School,DRC_All_SCHool_Local,30.27445413243108,safe
+EP Nzee Luembe,-0.7118472,17.8639172,,School,DRC_All_SCHool_Local,42.054938784755215,safe
+EP Ituta,-0.7070053,17.8343892,,School,DRC_All_SCHool_Local,44.08911478621378,safe
+EP Tanzo,-0.7354303,18.1336624,,School,DRC_All_SCHool_Local,36.714136042172846,safe
+EP Rev Bolaya,-0.7256307,18.133458,,School,DRC_All_SCHool_Local,37.7470377534988,safe
+EP Mahanza,-0.6575907,17.8188166,,School,DRC_All_SCHool_Local,49.726881786188436,safe
+EP Ekonda,-1.0686197,18.6232968,,School,DRC_All_SCHool_Local,59.59956463390911,safe
+EP Moleka,-0.7262862,18.1347039,,School,DRC_All_SCHool_Local,37.71855617017944,safe
+EP Loiko,-0.8186645,18.1925037,,School,DRC_All_SCHool_Local,31.22274621469612,safe
+EP Ndombe Yeye,-0.6767899,18.1457334,,School,DRC_All_SCHool_Local,43.33988489248081,safe
+EP Kifuka,-0.8310281,18.1157863,,School,DRC_All_SCHool_Local,26.01709411381656,safe
+EP Minseme,-0.8321416,18.1822395,,School,DRC_All_SCHool_Local,29.341435829127928,safe
+EP Nkonga,-0.751786,18.1753382,,School,DRC_All_SCHool_Local,36.72666521789501,safe
+EP Bosembo,-0.7341933,18.1306634,,School,DRC_All_SCHool_Local,36.745634712166954,safe
+EP1 Mpenda,-0.7101857,18.2151831,,School,DRC_All_SCHool_Local,42.85483609506534,safe
+EP 2 Mekoko,-0.8243569,18.1880056,,School,DRC_All_SCHool_Local,30.417857571452892,safe
+EP Ibonzi,-0.6770257,18.1736556,,School,DRC_All_SCHool_Local,44.31026705053896,safe
+EP Lac Tumba,-0.7371494,18.1249497,,School,DRC_All_SCHool_Local,36.24802059656063,safe
+EP1 Mekoko,-0.8465808,18.195128,,School,DRC_All_SCHool_Local,28.899943339474003,safe
+EP Bokonda,-0.7537222,17.9022734,,School,DRC_All_SCHool_Local,36.02318523528608,safe
+EP Moongo,-0.7337641,18.1335847,,School,DRC_All_SCHool_Local,36.88808309679781,safe
+EP Mokako Swa,-0.97304,18.1320562,,School,DRC_All_SCHool_Local,13.917622271575054,safe
+EP Liombo,-0.749043,18.2253789,,School,DRC_All_SCHool_Local,39.696365946639936,safe
+EP Maker,-0.6289064,18.0868005,,School,DRC_All_SCHool_Local,47.19932783289468,safe
+EP Mobando,-0.7025131,18.2004558,,School,DRC_All_SCHool_Local,42.87434108528876,safe
+EP Ikoko Bonginda,-0.6305719,18.0849456,,School,DRC_All_SCHool_Local,46.98998227802898,safe
+EP Nkoli,-0.6939382,17.8920648,,School,DRC_All_SCHool_Local,42.593901897392946,safe
+EP Nsengondi,-0.742524,18.1203059,,School,DRC_All_SCHool_Local,35.53089546551913,safe
+EP2 Nkoso,-0.8781809,18.0339346,,School,DRC_All_SCHool_Local,19.105529298437887,safe
+EP Lobengo,-0.6764861,18.1505829,,School,DRC_All_SCHool_Local,43.53064853837542,safe
+EP1 Nkoso,-0.8729634,18.0127036,,School,DRC_All_SCHool_Local,19.818732451196524,safe
+EP1 Ngelo,-0.94342,18.1102844,,School,DRC_All_SCHool_Local,14.616538588259692,safe
+EP Bolonga,-0.7688793,18.3118983,,School,DRC_All_SCHool_Local,44.00394620439507,safe
+EP2 Ilanga,-0.7364013,18.1209968,,School,DRC_All_SCHool_Local,36.2070897487255,safe
+EP Mangili,-0.7383405,18.3606939,,School,DRC_All_SCHool_Local,50.255978682371605,safe
+EP Mbuli,-0.7542939,18.3432935,,School,DRC_All_SCHool_Local,47.631626099896486,safe
+École primaire Iyanda,-0.7636166,18.2794733,,School,DRC_All_SCHool_Local,41.987710555918895,safe
+EP Botongo,-0.7713849,18.30252,,School,DRC_All_SCHool_Local,43.07559523733363,safe
+EP2 Boboto,-0.7662515,18.2515731,,School,DRC_All_SCHool_Local,39.80248625389107,safe
+EP Bokandja,-0.8255515,18.1317219,,School,DRC_All_SCHool_Local,27.249541203908787,safe
+École primaire Nkaka Pebe,-0.8249851,18.1264798,,School,DRC_All_SCHool_Local,27.079034938086128,safe
+EP Boika,-0.8273133,18.1335743,,School,DRC_All_SCHool_Local,27.154105092213243,safe
+EP Iyeli Mpaha,-0.8458451,18.1949784,,School,DRC_All_SCHool_Local,28.953689825799174,safe
+EP Nzalekenga,-0.7791526,18.1982566,,School,DRC_All_SCHool_Local,35.259686358686814,safe
+EP 2 Binteke,-0.8236577,18.1272466,,School,DRC_All_SCHool_Local,27.248028480556194,safe
+EP2 Ilanga,-0.8457846,18.1880058,,School,DRC_All_SCHool_Local,28.484362286407194,safe
+École primaire Meleka,-0.8256286,18.1252771,,School,DRC_All_SCHool_Local,26.96195351777052,safe
+EP2 Loiko,-0.6249464,18.1867214,,School,DRC_All_SCHool_Local,50.24650451576921,safe
+EP Botamba,-0.6580355,18.2934277,,School,DRC_All_SCHool_Local,52.3053807470182,safe
+EP Ntanga,-0.6648836,18.2912769,,School,DRC_All_SCHool_Local,51.539123979347856,safe
+EP Ipeko,-0.694768,18.279808,,School,DRC_All_SCHool_Local,48.07498503706107,safe
+EP Mokili,-0.6241716,18.218583,,School,DRC_All_SCHool_Local,51.635637086496686,safe
+EP Moongo Ibongo,-0.6253243,18.1799767,,School,DRC_All_SCHool_Local,49.95723737537225,safe
+EP Mpia,-0.6230498,18.1996828,,School,DRC_All_SCHool_Local,50.95017823926676,safe
+EP1 Esanga,-0.6190626,18.2326867,,School,DRC_All_SCHool_Local,52.7959697179484,safe
+EP Botende,-0.563835,18.3045463,,School,DRC_All_SCHool_Local,57.36904224717854,safe
+EP Boongo Koko,-0.582956,18.3087333,,School,DRC_All_SCHool_Local,59.542404891725084,safe
+EP Bosanga,-0.5427541,18.272661,,School,DRC_All_SCHool_Local,54.23455148091031,safe
+EP Bonginda,-0.5586273,18.2466204,,School,DRC_All_SCHool_Local,55.42119048414027,safe
+EP Bosinga,-0.5899175,18.2654543,,School,DRC_All_SCHool_Local,57.29990995630987,safe
+EP Mooto,-0.5897266,18.2637216,,School,DRC_All_SCHool_Local,57.23238160579959,safe
+EP Tosalisana,-0.5929223,18.2683824,,School,DRC_All_SCHool_Local,57.149929882163676,safe
+EP Boute Ipusa,-0.6982669,18.2764892,,School,DRC_All_SCHool_Local,47.54505286155598,safe
+EP Iyembe Monene,-0.6958984,18.2427517,,School,DRC_All_SCHool_Local,45.743411005751625,safe
+EP Kisolokele,-0.5990851,18.2771217,,School,DRC_All_SCHool_Local,56.99697950943061,safe
+EP Bobanda,-0.6063972,18.3129591,,School,DRC_All_SCHool_Local,58.306602579882586,safe
+EP Ilolo Amba,-0.6821919,18.2787496,,School,DRC_All_SCHool_Local,49.16502733753285,safe
+EP Samba,-0.5412252,18.2550095,,School,DRC_All_SCHool_Local,53.67498068752553,safe
+EP2 Moheli,-1.0044986,18.1560881,,School,DRC_All_SCHool_Local,14.55521963193153,safe
+EP2 Loiko/Ehanga,-0.9101681,18.0605059,,School,DRC_All_SCHool_Local,15.83936909804765,safe
+EP Ilombe,-1.0939931,17.9318854,,School,DRC_All_SCHool_Local,12.293656795677318,safe
+École primaire de Tshebue,-6.5412683,21.7012758,,School,DRC_All_SCHool_Local,15.469045263835831,safe
+Institut Bolomba,2.336026,18.5689196,,School,DRC_All_SCHool_Local,45.24693574408896,safe
+EP Ngando,2.3374598,18.5692053,,School,DRC_All_SCHool_Local,45.113835074488485,safe
+Gala,3.0565535,30.6729084,,School,DRC_All_SCHool_Local,12.818200123030804,safe
+Avo Oka,3.207129,30.7883615,,School,DRC_All_SCHool_Local,21.601611037650876,safe
+Adradrua,3.2634843,30.7227523,,School,DRC_All_SCHool_Local,17.221050038763103,safe
+Nderi,3.2300493,30.7709927,,School,DRC_All_SCHool_Local,19.208297353297333,safe
+Ecole Primaire Kaliro,-0.1187615,29.3930459,,School,DRC_All_SCHool_Local,10.19395059269586,safe
+Institut Bwalyana,-0.1237007,29.3942722,,School,DRC_All_SCHool_Local,10.049096851687729,safe
+Collège Ima Kafubu,-11.7414202,27.5628319,,School,DRC_All_SCHool_Local,13.36893156894078,safe
+Ep. Abbe Mozwa,-5.4359117,27.4273172,,School,DRC_All_SCHool_Local,14.420806207887383,safe
+EP Maganga,0.774534,26.2612134,,School,DRC_All_SCHool_Local,107.87191614833723,safe
+Institut Saint-Joseph,0.7652142,26.2507689,,School,DRC_All_SCHool_Local,106.45196648362322,safe
+École Primaire Usafi wa Moyo,1.2511077,29.092259,,School,DRC_All_SCHool_Local,11.957766990949354,safe
+,2.5233438,27.4426138,,School,DRC_All_SCHool_Local,33.25366053214355,safe
+,2.6310139,27.4357849,,School,DRC_All_SCHool_Local,25.122896007081707,safe
+,2.7313848,27.4878734,,School,DRC_All_SCHool_Local,14.832811604917016,safe
+,2.6053506,28.3226359,,School,DRC_All_SCHool_Local,80.43938192762367,safe
+,2.6035928,28.3188701,,School,DRC_All_SCHool_Local,80.07577994443534,safe
+École Primaire Mulera,-0.4451637,29.366102,,School,DRC_All_SCHool_Local,10.900596366856115,safe
+Ecole Primaire Kiboko,-0.4414675,29.3736414,,School,DRC_All_SCHool_Local,10.189687118864859,safe
+Ecole Primaire Zawadiletu,-0.4772834,29.316179,,School,DRC_All_SCHool_Local,10.100494593604227,safe
+Ecole Primaire Vulama,-0.473239,29.3333895,,School,DRC_All_SCHool_Local,11.032171927900503,safe
+Katoka Primary School,-10.6598717,22.7473642,,School,DRC_All_SCHool_Local,257.4751111969467,safe
+Kimbilio Primary School,-11.6575365,27.5730305,,School,DRC_All_SCHool_Local,11.627341657963752,safe
+Katoka Secondary School,-10.6599666,22.7479758,,School,DRC_All_SCHool_Local,257.4903316496651,safe
+Kidingi,-5.2478787,28.8814127,,School,DRC_All_SCHool_Local,17.761901038743048,safe
+Institut Buma,-4.4633738,15.4615724,,School,DRC_All_SCHool_Local,10.510292043398518,safe
+EP Buma,-4.463299,15.4614839,,School,DRC_All_SCHool_Local,10.497997659676411,safe
+Sous division Bulungu5/ Zaba,-4.3297183,18.2532967,,School,DRC_All_SCHool_Local,45.57726772412732,safe
+EP Essoko,3.0339145,30.7030697,,School,DRC_All_SCHool_Local,11.989021793406868,safe
+EP Lamila,3.1574303,30.7260715,,School,DRC_All_SCHool_Local,25.362714946530886,safe
+EP CECA 20 Macadoine,3.1207959,30.7125956,,School,DRC_All_SCHool_Local,21.02550894366239,safe
+EP Vieux Boboto,3.1206614,30.7107639,,School,DRC_All_SCHool_Local,20.93536853309254,safe
+EP Anuarite et DjauDjau,3.1148158,30.6996133,,School,DRC_All_SCHool_Local,19.89319499917525,safe
+EP Anaka,3.3040547,30.8253173,,School,DRC_All_SCHool_Local,11.37957457846447,safe
+EP Nyori Ota,3.2821854,30.7023954,,School,DRC_All_SCHool_Local,16.66508573395503,safe
+EP Oria,3.0062296,30.7146101,,School,DRC_All_SCHool_Local,10.59543615800835,safe
+EP Labru,3.1133331,30.7344277,,School,DRC_All_SCHool_Local,21.330467474944324,safe
+EP Pabiri,3.1432113,30.7874201,,School,DRC_All_SCHool_Local,27.32642602673843,safe
+EP Adrarua,3.1270967,30.7966217,,School,DRC_All_SCHool_Local,26.563087597961335,safe
+EP/Instutit Gala,3.1215387,30.773256,,School,DRC_All_SCHool_Local,24.454597686754028,safe
+EP 3 Ariwara,3.123765,30.6972167,,School,DRC_All_SCHool_Local,20.75389884610255,safe
+EP Etukari,3.0350688,30.7607983,,School,DRC_All_SCHool_Local,16.612745428939117,safe
+EP Lolo,3.0922392,30.7468838,,School,DRC_All_SCHool_Local,20.09428030624564,safe
+EP 1 Zaki,3.1374491,30.7116053,,School,DRC_All_SCHool_Local,22.711589916405483,safe
+EP Nyori noa,3.06793,30.7580496,,School,DRC_All_SCHool_Local,18.809965703050146,safe
+EP Nderi,3.1124229,30.7707971,,School,DRC_All_SCHool_Local,23.48382759867546,safe
+EP Edipi li,3.2691427,30.72141,,School,DRC_All_SCHool_Local,16.73420774725571,safe
+EP Tsokoro,3.2923407,30.7443869,,School,DRC_All_SCHool_Local,13.287494359743185,safe
+EP Eredjo,3.2669775,30.7071795,,School,DRC_All_SCHool_Local,17.74646472242416,safe
+Ecole Primaire Kolo,3.1235629,30.6974534,,School,DRC_All_SCHool_Local,20.740428930677737,safe
+EP et Institut salama,3.1199049,30.6906023,,School,DRC_All_SCHool_Local,20.13116214618751,safe
+EP et Institut Oronzi,3.2310484,30.7214797,,School,DRC_All_SCHool_Local,20.551843037051515,safe
+EP Male,3.1318629,30.7109547,,School,DRC_All_SCHool_Local,22.104312065792275,safe
+EP Al Oubai,3.1399166,30.6991431,,School,DRC_All_SCHool_Local,22.533230287341723,safe
+EP/Institut,3.1116675,30.6989196,,School,DRC_All_SCHool_Local,19.537277922877205,safe
+EP Titi Rogale,3.2566617,30.8212886,,School,DRC_All_SCHool_Local,16.38010406810142,safe
+EP Liba d'Amanipi,3.2703306,30.6859654,,School,DRC_All_SCHool_Local,18.830704158772317,safe
+EP/Institut Pabiri,3.1418225,30.7938192,,School,DRC_All_SCHool_Local,27.63360811835681,safe
+EP 2 Nono,3.1322936,30.7643247,,School,DRC_All_SCHool_Local,24.859696104458614,safe
+EP 2 ZAKI,3.1392387,30.7134262,,School,DRC_All_SCHool_Local,22.96857582227105,safe
+EP Olidri,3.0180924,30.7236912,,School,DRC_All_SCHool_Local,12.217458379748447,safe
+EP Etu- Ali,3.0435467,30.75037,,School,DRC_All_SCHool_Local,16.311561183495282,safe
+EP 1 Ariwara,3.1364268,30.7132907,,School,DRC_All_SCHool_Local,22.670725171769494,safe
+EP Kiribala,3.2780961,30.7700143,,School,DRC_All_SCHool_Local,13.948159967504623,safe
+EP Kolobe,3.2633717,30.7224933,,School,DRC_All_SCHool_Local,17.245311662260438,safe
+EP Boboto,3.1328899,30.7066517,,School,DRC_All_SCHool_Local,22.048238750444675,safe
+EP Witsiri,3.2260784,30.7141511,,School,DRC_All_SCHool_Local,21.38402622483967,safe
+EP Bongoa,3.2711684,30.8206761,,School,DRC_All_SCHool_Local,14.785039978743509,safe
+Complexe Scolaire La Fleur,-8.7279396,24.9967499,,School,DRC_All_SCHool_Local,29.867143666624496,safe
+Maman Buka,-5.1197173,16.8419783,,School,DRC_All_SCHool_Local,32.201291502337526,safe
+Complexe Scolaire Alexia,-4.442509,15.2607665,,School,DRC_All_SCHool_Local,10.088262763380474,safe
+,-4.4635945,28.5191144,,School,DRC_All_SCHool_Local,15.11463190508658,safe
+,-4.4890579,28.5304266,,School,DRC_All_SCHool_Local,17.562998528411317,safe
+,-4.496545,28.6218792,,School,DRC_All_SCHool_Local,19.52606530346561,safe
+Institut Uzima,-10.5209477,25.2127505,,School,DRC_All_SCHool_Local,35.26654330571072,safe
+Petit seminaire saint paul,-10.5209477,25.215346,,School,DRC_All_SCHool_Local,35.04376981454778,safe
+Ecole primaire mitumba,-10.5184093,25.2123248,,School,DRC_All_SCHool_Local,35.47795136914427,safe
+École secondaire Bonsole,-0.1317258,18.2981801,,School,DRC_All_SCHool_Local,16.31509971268837,safe
+Institut Lobiko,-0.1221946,18.3008409,,School,DRC_All_SCHool_Local,16.14659821904104,safe
+EP Bonsole,-0.1017388,18.3344409,,School,DRC_All_SCHool_Local,19.058839946052107,safe
+EP Bombo,-0.1332431,18.2780893,,School,DRC_All_SCHool_Local,14.43277030893427,safe
+École primaire Mubatamba,-6.3742496,20.9099577,,School,DRC_All_SCHool_Local,13.033977157647504,safe
+Ecole primaire Bolingo,-0.0972756,18.3054905,,School,DRC_All_SCHool_Local,15.807214621591868,safe
+,-2.7836876,28.0300927,,School,DRC_All_SCHool_Local,11.484900285185391,safe
+,-2.7843735,28.028136,,School,DRC_All_SCHool_Local,11.672170453041435,safe
+École primaire Lolikya,-0.1091122,18.3073184,,School,DRC_All_SCHool_Local,16.336333829497573,safe
+Institut ZENGA (Village Ngima),-2.65299,17.6295134,,School,DRC_All_SCHool_Local,78.90331098715806,safe
+Contour Limite Institut Zenga,-2.6529311,17.6290736,,School,DRC_All_SCHool_Local,78.89230986594255,safe
+,-10.4818581,25.6141347,,School,DRC_All_SCHool_Local,30.683784693414843,safe
+EP Bosembo,-0.7405882,18.1305045,,School,DRC_All_SCHool_Local,36.06139660069337,safe
+Ecole Primaire de Bilombi,-0.1664818,28.7574239,,School,DRC_All_SCHool_Local,23.73922226006891,safe
+Institut Père Rinaldi,3.3252451,28.6335666,Ndedu,School,DRC_All_SCHool_Local,33.24446883167313,safe
+,-3.2028994,26.044122,,School,DRC_All_SCHool_Local,23.087134799981282,safe
+,-3.2029074,26.0442649,,School,DRC_All_SCHool_Local,23.09137594964039,safe
+,-3.2029194,26.0443889,,School,DRC_All_SCHool_Local,23.095613867908035,safe
+,-3.1991797,26.0425148,,School,DRC_All_SCHool_Local,22.645243234644308,safe
+,-0.6916135,20.6989885,,School,DRC_All_SCHool_Local,49.795999735473764,safe
+,-0.311149,21.0005219,,School,DRC_All_SCHool_Local,13.177823719500573,safe
+,-0.2922467,20.9853552,,School,DRC_All_SCHool_Local,11.183482747766407,safe
+,-0.5043317,20.6187537,,School,DRC_All_SCHool_Local,38.415202947796715,safe
+,-0.6562873,20.6083906,,School,DRC_All_SCHool_Local,51.55228868471739,safe
+,-0.4465876,19.8947479,,School,DRC_All_SCHool_Local,66.18054114126268,safe
+,-0.206389,20.2621185,,School,DRC_All_SCHool_Local,69.81051292306043,safe
+,-1.5524965,19.9760434,,School,DRC_All_SCHool_Local,12.913390705298912,safe
+,-0.6327871,20.0752036,,School,DRC_All_SCHool_Local,94.66587429120992,safe
+,-0.8351595,20.1545223,,School,DRC_All_SCHool_Local,77.67412309334917,safe
+,-0.6292493,20.0724975,,School,DRC_All_SCHool_Local,94.17065261124162,safe
+,-0.1432444,19.8698836,,School,DRC_All_SCHool_Local,39.98127303079382,safe
+,-0.4783261,20.955886,,School,DRC_All_SCHool_Local,22.96729552473371,safe
+,-0.1510901,21.0240237,,School,DRC_All_SCHool_Local,18.77477706248592,safe
+,-0.9745522,20.4497701,,School,DRC_All_SCHool_Local,67.19666452954661,safe
+,-1.0271578,20.5624275,,School,DRC_All_SCHool_Local,66.34715089704078,safe
+,-0.4250081,20.3335948,,School,DRC_All_SCHool_Local,63.28762294168979,safe
+,-0.1197182,20.3876119,,School,DRC_All_SCHool_Local,58.265266660453804,safe
+,-0.2153717,20.6523921,,School,DRC_All_SCHool_Local,26.98586991032811,safe
+,3.7190968,18.7707621,,School,DRC_All_SCHool_Local,16.21004437226231,safe
+,1.0404163,23.8370936,,School,DRC_All_SCHool_Local,33.04998115833216,safe
+,-2.7240727,17.684582,,School,DRC_All_SCHool_Local,74.13826430516005,safe
+,-2.7214146,17.6859144,,School,DRC_All_SCHool_Local,74.46879598378126,safe
+Campus de Tudu,4.3045859,21.0351684,,School,DRC_All_SCHool_Local,16.436638894007253,safe
+,4.2827344,21.0016294,,School,DRC_All_SCHool_Local,20.23913569126293,safe
+,4.2196777,20.9004073,,School,DRC_All_SCHool_Local,32.619549047271256,safe
+,4.3026079,21.0092548,,School,DRC_All_SCHool_Local,19.30427149675516,safe
+,4.3013037,21.0108696,,School,DRC_All_SCHool_Local,19.123607315996306,safe
+,4.2947341,21.057404,,School,DRC_All_SCHool_Local,13.975570239470752,safe
+,0.5553752,25.094025,,School,DRC_All_SCHool_Local,12.51095373111196,safe
+INSTITUT LUBUSHA,-11.1790408,27.0132488,,School,DRC_All_SCHool_Local,37.630092976171866,safe
+,-4.2510306,17.6771528,,School,DRC_All_SCHool_Local,52.92326350002385,safe
+,-4.2686735,17.6844046,,School,DRC_All_SCHool_Local,54.272738989343644,safe
+,-4.2101725,17.6320507,,School,DRC_All_SCHool_Local,46.9372246333806,safe
+,-4.1739595,17.5965039,,School,DRC_All_SCHool_Local,42.31351341909756,safe
+,-4.1733625,17.5965266,,School,DRC_All_SCHool_Local,42.306101521904466,safe
+,-3.7220732,17.596453,,School,DRC_All_SCHool_Local,39.24943326606205,safe
+,-3.4229462,17.6134837,,School,DRC_All_SCHool_Local,28.449686961494777,safe
+,-3.3957814,17.5828,,School,DRC_All_SCHool_Local,24.138850666547835,safe
+,-3.6739188,17.4615326,,School,DRC_All_SCHool_Local,34.33715716960432,safe
+,-3.6440744,17.4424516,,School,DRC_All_SCHool_Local,30.698953771386925,safe
+,-3.6441516,17.4431398,,School,DRC_All_SCHool_Local,30.755349888403316,safe
+,-3.4685509,17.3912404,,School,DRC_All_SCHool_Local,14.833230202113217,safe
+,-3.4751998,17.3926132,,School,DRC_All_SCHool_Local,15.182237090576168,safe
+,-3.4769686,17.3935821,,School,DRC_All_SCHool_Local,15.343823006854569,safe
+,-3.6186567,17.3465642,,School,DRC_All_SCHool_Local,22.489004231857567,safe
+,-4.2657422,17.3161706,,School,DRC_All_SCHool_Local,19.73905079815715,safe
+,-5.1598266,18.9578782,,School,DRC_All_SCHool_Local,21.034324813784053,safe
+,4.1474384,18.7809984,,School,DRC_All_SCHool_Local,30.168840146884275,safe
+,4.1551319,18.775165,,School,DRC_All_SCHool_Local,29.099864948972247,safe
+,-2.3784363,18.2536824,,School,DRC_All_SCHool_Local,132.42705273222552,safe
+,-1.9127766,18.2890913,,School,DRC_All_SCHool_Local,94.29405168110497,safe
+,-1.931526,18.2904651,,School,DRC_All_SCHool_Local,95.32108923844123,safe
+,-2.1110481,18.4139507,,School,DRC_All_SCHool_Local,98.211182698508,safe
+,-2.1094639,18.4143741,,School,DRC_All_SCHool_Local,98.04818662366765,safe
+,-2.6293667,18.726962,,School,DRC_All_SCHool_Local,134.6036741456964,safe
+,-2.6337709,18.7201398,,School,DRC_All_SCHool_Local,135.2531250847211,safe
+,-2.6892911,18.835419,,School,DRC_All_SCHool_Local,139.0111348000784,safe
+,-2.604494,18.7736713,,School,DRC_All_SCHool_Local,130.81435629342164,safe
+,-2.9422356,18.7268131,,School,DRC_All_SCHool_Local,123.18161938678367,safe
+,-2.9482136,18.7214708,,School,DRC_All_SCHool_Local,122.29162854432118,safe
+,-2.9446765,18.7326241,,School,DRC_All_SCHool_Local,123.44099281332376,safe
+,-2.9363033,18.7787734,,School,DRC_All_SCHool_Local,127.74290100475179,safe
+,-2.956779,18.7041314,,School,DRC_All_SCHool_Local,120.26569168877069,safe
+,-2.9573804,18.7042187,,School,DRC_All_SCHool_Local,120.22441822126146,safe
+,-9.2914296,25.8031138,,School,DRC_All_SCHool_Local,11.394598696938418,safe
+,-5.1859124,23.853477,,School,DRC_All_SCHool_Local,50.90584656056469,safe
+,2.5367813,26.4318819,,School,DRC_All_SCHool_Local,42.58636409960226,safe
+,1.2158176,24.212941,,School,DRC_All_SCHool_Local,50.11292866989154,safe
+,-3.2119897,22.1946348,,School,DRC_All_SCHool_Local,40.06884814561925,safe
+,-7.7055182,26.6726392,,School,DRC_All_SCHool_Local,24.55755267205663,safe
+,-7.7312699,26.6323278,,School,DRC_All_SCHool_Local,23.869553714969935,safe
+,-7.734972,26.6029752,,School,DRC_All_SCHool_Local,25.38696767518066,safe
+,-7.7477719,26.7605518,,School,DRC_All_SCHool_Local,18.568675644209428,safe
+,-8.2196036,26.9240979,,School,DRC_All_SCHool_Local,13.386065426423182,safe
+,-8.2228085,26.9184973,,School,DRC_All_SCHool_Local,14.096420147771292,safe
+,-8.3521554,26.9142573,,School,DRC_All_SCHool_Local,24.435662876539258,safe
+,1.0407502,25.2767172,,School,DRC_All_SCHool_Local,14.219592690575057,safe
+,-7.7174672,26.4645741,,School,DRC_All_SCHool_Local,29.778321964538993,safe
+,-7.7139506,26.4616293,,School,DRC_All_SCHool_Local,30.225509909279168,safe
+,-7.6416664,26.4848016,,School,DRC_All_SCHool_Local,37.81219038123905,safe
+,-7.5216571,26.3915189,,School,DRC_All_SCHool_Local,52.82466458380451,safe
+,-7.5202798,26.3749216,,School,DRC_All_SCHool_Local,53.47768094952147,safe
+,-7.5574783,26.4664974,,School,DRC_All_SCHool_Local,47.3340150869086,safe
+,-7.6929064,26.4174592,,School,DRC_All_SCHool_Local,33.76851176884929,safe
+,-7.7138329,26.1722809,,School,DRC_All_SCHool_Local,48.13204478832659,safe
+,-7.3521915,26.0650209,,School,DRC_All_SCHool_Local,51.438361117860445,safe
+,-7.3853499,26.1163296,,School,DRC_All_SCHool_Local,56.43701293974068,safe
+,-6.5132695,26.0177039,,School,DRC_All_SCHool_Local,43.36978290511997,safe
+,-6.4672645,26.0339678,,School,DRC_All_SCHool_Local,44.1385266881896,safe
+,-6.5494193,26.1319769,,School,DRC_All_SCHool_Local,36.31522496627749,safe
+,-6.5460252,26.1587564,,School,DRC_All_SCHool_Local,35.723621411449706,safe
+,-7.7927675,26.895682,,School,DRC_All_SCHool_Local,21.320434374018276,safe
+,-7.8192601,26.9498429,,School,DRC_All_SCHool_Local,24.824301164658962,safe
+Ecole Mkombozi,-10.616609,26.3128041,,School,DRC_All_SCHool_Local,18.242591532885843,safe
+Ecole Mkombozi,-10.616967,26.3127591,,School,DRC_All_SCHool_Local,18.213104435694536,safe
+,-7.8265827,26.9601543,,School,DRC_All_SCHool_Local,25.535402787294938,safe
+,-7.8320893,26.97967,,School,DRC_All_SCHool_Local,27.324259127595848,safe
+École primaire Lubumbu,-7.8283397,27.0185068,,School,DRC_All_SCHool_Local,29.609916520054085,safe
+,-8.0753022,27.8884489,,School,DRC_All_SCHool_Local,13.597512867689641,safe
+,-7.9125761,27.4620147,,School,DRC_All_SCHool_Local,10.993511980985792,safe
+,-6.4292256,17.0887686,,School,DRC_All_SCHool_Local,62.70032677319701,safe
+,-6.4291884,17.0891642,,School,DRC_All_SCHool_Local,62.69920505621279,safe
+,-6.4286785,17.0890605,,School,DRC_All_SCHool_Local,62.641851009978645,safe
+,-6.4297859,17.0898452,,School,DRC_All_SCHool_Local,62.770723985407415,safe
+,-6.4295835,17.0891073,,School,DRC_All_SCHool_Local,62.742599464171214,safe
+,-6.429438,17.0899985,,School,DRC_All_SCHool_Local,62.73332718821631,safe
+,-6.4289265,17.0896603,,School,DRC_All_SCHool_Local,62.67396587681348,safe
+,-6.4299959,17.090092,,School,DRC_All_SCHool_Local,62.79593728054281,safe
+,-6.4294535,17.0902358,,School,DRC_All_SCHool_Local,62.73690109089015,safe
+,-6.4293192,17.0893289,,School,DRC_All_SCHool_Local,62.71497435269172,safe
+,-8.2668315,28.0965289,,School,DRC_All_SCHool_Local,17.73942099419058,safe
+,-7.9741254,27.3576924,,School,DRC_All_SCHool_Local,10.143921818648506,safe
+,-5.7385013,19.3144824,,School,DRC_All_SCHool_Local,95.84047524498158,safe
+,-5.7377779,19.3001323,,School,DRC_All_SCHool_Local,94.86949228483411,safe
+École primaire de Kakobola,-5.644872,19.0731397,,School,DRC_All_SCHool_Local,73.69028218056171,safe
+,-5.5719546,19.0225517,,School,DRC_All_SCHool_Local,64.08334352107995,safe
+,-5.3619913,19.2287685,,School,DRC_All_SCHool_Local,58.46460551239053,safe
+,-5.4304112,19.1744325,,School,DRC_All_SCHool_Local,59.320428805623436,safe
+,-5.429474,19.1723204,,School,DRC_All_SCHool_Local,59.08678559409436,safe
+,-5.505506,19.1609069,,School,DRC_All_SCHool_Local,64.87995544584744,safe
+,-5.4787807,19.1229256,,School,DRC_All_SCHool_Local,60.02779571366454,safe
+,-5.4796879,19.1236193,,School,DRC_All_SCHool_Local,60.15441160590978,safe
+,-5.5621846,19.0913256,,School,DRC_All_SCHool_Local,66.20326883234526,safe
+,-5.4061627,19.1334415,,School,DRC_All_SCHool_Local,54.30562396646966,safe
+,-5.4036871,19.1395027,,School,DRC_All_SCHool_Local,54.53342868854118,safe
+,-5.6115719,18.9318647,,School,DRC_All_SCHool_Local,65.54999248823758,safe
+,-5.5519068,18.9376357,,School,DRC_All_SCHool_Local,59.19786478844652,safe
+,-5.5472737,18.9367338,,School,DRC_All_SCHool_Local,58.67346814827009,safe
+,-5.5229417,18.9406641,,School,DRC_All_SCHool_Local,56.14647461193099,safe
+,-5.522031,18.9402536,,School,DRC_All_SCHool_Local,56.0371751664938,safe
+,-5.5841249,18.8724358,,School,DRC_All_SCHool_Local,61.55573052587187,safe
+,-5.5824536,18.8711598,,School,DRC_All_SCHool_Local,61.35677852215281,safe
+,-5.5917157,18.8713076,,School,DRC_All_SCHool_Local,62.383348361071455,safe
+,-5.6365223,18.8850042,,School,DRC_All_SCHool_Local,67.49695902548707,safe
+,-5.6353664,18.8841847,,School,DRC_All_SCHool_Local,67.359112294801,safe
+,-5.6362291,18.8356767,,School,DRC_All_SCHool_Local,67.07201554966409,safe
+,-5.6398308,18.8357106,,School,DRC_All_SCHool_Local,67.4724272524864,safe
+,-6.4297811,17.0903247,,School,DRC_All_SCHool_Local,62.77393404694038,safe
+,-5.2323453,19.2897591,,School,DRC_All_SCHool_Local,56.87599998667162,safe
+,-5.2435847,19.2002562,,School,DRC_All_SCHool_Local,48.48991211511764,safe
+,-5.2591742,19.204379,,School,DRC_All_SCHool_Local,49.74220148323041,safe
+,-5.0925358,19.2636713,,School,DRC_All_SCHool_Local,49.94640907566768,safe
+,-4.9255151,19.1797266,,School,DRC_All_SCHool_Local,41.96689670486169,safe
+,-5.0096134,19.2787536,,School,DRC_All_SCHool_Local,51.252388561082086,safe
+,-6.1183472,19.0812539,,School,DRC_All_SCHool_Local,124.15046772501108,safe
+,-6.1188237,19.083929,,School,DRC_All_SCHool_Local,124.27208189608085,safe
+,-6.1221592,19.0817322,,School,DRC_All_SCHool_Local,124.57485527259757,safe
+,-5.0366359,19.2524563,,School,DRC_All_SCHool_Local,48.271972094227145,safe
+,-5.0344578,19.2536595,,School,DRC_All_SCHool_Local,48.40409106527627,safe
+,-5.5126804,19.4732144,,School,DRC_All_SCHool_Local,90.1423458293031,safe
+,-5.5314837,19.5107206,,School,DRC_All_SCHool_Local,94.72988344841917,safe
+,-5.530876,19.5089704,,School,DRC_All_SCHool_Local,94.533216011213,safe
+,-5.5423688,19.5375951,,School,DRC_All_SCHool_Local,97.85386786926405,safe
+,-6.1147158,19.0538092,,School,DRC_All_SCHool_Local,123.07489866029026,safe
+,-6.1395537,19.0334445,,School,DRC_All_SCHool_Local,125.32363346758017,safe
+,-5.9759109,18.9234161,,School,DRC_All_SCHool_Local,105.47372761485552,safe
+,-6.1228098,19.4131653,,School,DRC_All_SCHool_Local,137.96226551858575,safe
+,-5.1375053,19.2392668,,School,DRC_All_SCHool_Local,48.217995158469144,safe
+,-6.0994754,19.525608,,School,DRC_All_SCHool_Local,133.55179427517314,safe
+,-5.0197321,19.0424436,,School,DRC_All_SCHool_Local,25.054349985421595,safe
+,-5.02278,19.0450206,,School,DRC_All_SCHool_Local,25.321256056342538,safe
+,-5.6652743,19.0507781,,School,DRC_All_SCHool_Local,74.89627476014768,safe
+,-5.663318,19.0512911,,School,DRC_All_SCHool_Local,74.71196412240141,safe
+École primaire conventionnée 34e CADAF D'ibindi,-4.3337985,28.8145758,,School,DRC_All_SCHool_Local,14.821567443851364,safe
+,-5.5174286,19.0470043,,School,DRC_All_SCHool_Local,59.56509932665064,safe
+,-5.5756841,19.533215,,School,DRC_All_SCHool_Local,99.65407659234229,safe
+,-6.436535,17.3298834,,School,DRC_All_SCHool_Local,70.5175801402067,safe
+,-6.4350085,17.3309185,,School,DRC_All_SCHool_Local,70.41551000284217,safe
+,-6.4371482,17.33029,,School,DRC_All_SCHool_Local,70.59856720949412,safe
+,-2.5158758,18.321793,,School,DRC_All_SCHool_Local,137.40952729925417,safe
+,-5.8997049,19.2649637,,School,DRC_All_SCHool_Local,108.36471561349735,safe
+,-5.9021116,19.2632087,,School,DRC_All_SCHool_Local,108.51402615564568,safe
+,-5.9196463,19.3226039,,School,DRC_All_SCHool_Local,113.35267404456178,safe
+,-5.8441908,19.3143479,,School,DRC_All_SCHool_Local,105.66135560285711,safe
+,-5.8470038,19.3174981,,School,DRC_All_SCHool_Local,106.11009279092589,safe
+,2.8802323,24.4040854,,School,DRC_All_SCHool_Local,31.052024033315806,safe
+,3.2352719,24.8605387,,School,DRC_All_SCHool_Local,50.41902121389517,safe
+,-5.8026652,19.3165453,,School,DRC_All_SCHool_Local,101.8826368404385,safe
+,-5.7987512,19.3156644,,School,DRC_All_SCHool_Local,101.46446194078784,safe
+,2.8867386,26.2794629,,School,DRC_All_SCHool_Local,80.29162432219955,safe
+,-5.9513391,19.3298028,,School,DRC_All_SCHool_Local,116.81426113996497,safe
+,-5.9489127,19.3303508,,School,DRC_All_SCHool_Local,116.60818856295631,safe
+,-5.93859,19.3371256,,School,DRC_All_SCHool_Local,115.97827519358526,safe
+,-5.9380386,19.3351445,,School,DRC_All_SCHool_Local,115.81626897297684,safe
+,-5.9745998,19.3359312,,School,DRC_All_SCHool_Local,119.4055298420277,safe
+,-5.8265406,19.3600684,,School,DRC_All_SCHool_Local,106.75954639249044,safe
+,-5.851304,19.3504144,,School,DRC_All_SCHool_Local,108.45896711668806,safe
+,-5.9429141,19.3702642,,School,DRC_All_SCHool_Local,118.25400416412366,safe
+,-6.0160547,19.3481387,,School,DRC_All_SCHool_Local,124.09966281776602,safe
+,-1.0095005,27.1384408,,School,DRC_All_SCHool_Local,14.67294233160513,safe
+,-2.8146726,17.7251531,,School,DRC_All_SCHool_Local,67.77584259865453,safe
+Institut MARANATHA,-8.7252548,25.0060053,,School,DRC_All_SCHool_Local,28.932716994353846,safe
+Lycée WAKADILO,-8.7317054,25.0057556,,School,DRC_All_SCHool_Local,29.46363874209271,safe
+Institut LUBIMBI,-8.7285586,25.0114331,,School,DRC_All_SCHool_Local,28.779145618988462,safe
+,-8.728371,25.0116847,,School,DRC_All_SCHool_Local,28.744969308139257,safe
+,-8.7282412,25.011041,,School,DRC_All_SCHool_Local,28.78336682561891,safe
+,-8.7280275,25.0110695,,School,DRC_All_SCHool_Local,28.764031252282393,safe
+internat Méthodiste,-8.7347413,25.0153813,,School,DRC_All_SCHool_Local,28.988380592948776,safe
+,-5.5211804,19.0887256,,School,DRC_All_SCHool_Local,62.04879934920372,safe
+,-5.4865201,19.026789,,School,DRC_All_SCHool_Local,55.503815515968434,safe
+,-5.7264082,18.9685252,,School,DRC_All_SCHool_Local,78.87876378544239,safe
+,-5.5425027,19.0342621,,School,DRC_All_SCHool_Local,61.529985975273554,safe
+,-5.536839,19.0385349,,School,DRC_All_SCHool_Local,61.13958588443594,safe
+,-5.7282892,19.2228344,,School,DRC_All_SCHool_Local,89.40537434704285,safe
+,-5.7279323,19.2268531,,School,DRC_All_SCHool_Local,89.5957391399688,safe
+,-5.8634496,19.2214146,,School,DRC_All_SCHool_Local,102.60311851566418,safe
+,-5.8671005,19.2210467,,School,DRC_All_SCHool_Local,102.95071279637412,safe
+,-4.4103758,25.2609869,,School,DRC_All_SCHool_Local,122.71497391840035,safe
+,-4.2834671,26.2501694,,School,DRC_All_SCHool_Local,49.75245084677898,safe
+,-0.9000669,18.4109089,,School,DRC_All_SCHool_Local,45.167884425377565,safe
+Institut Bangi,-5.4743693,19.0911784,,School,DRC_All_SCHool_Local,57.69691391677238,safe
+,-0.7103032,18.2153816,,School,DRC_All_SCHool_Local,42.85373584012878,safe
+,-0.7667827,18.2653501,,School,DRC_All_SCHool_Local,40.708633312822926,safe
+,-0.9601483,17.9946533,,School,DRC_All_SCHool_Local,10.877220803179139,safe
+,-0.9631639,18.5190055,,School,DRC_All_SCHool_Local,54.85251997142538,safe
+,2.8231747,22.2221535,,School,DRC_All_SCHool_Local,76.15590910818885,safe
+,-1.4312924,18.2783103,,School,DRC_All_SCHool_Local,50.390986039485114,safe
+,-1.5000756,18.921213,,School,DRC_All_SCHool_Local,10.378033764328222,safe
+,-1.3799372,18.9359268,,School,DRC_All_SCHool_Local,10.555712242095892,safe
+,-1.4807302,18.8762973,,School,DRC_All_SCHool_Local,14.168823746999964,safe
+,-1.4869737,18.8611651,,School,DRC_All_SCHool_Local,15.970906969285668,safe
+,-1.5008046,18.7987205,,School,DRC_All_SCHool_Local,23.07601056317003,safe
+,-1.5003364,18.7984843,,School,DRC_All_SCHool_Local,23.0887944879008,safe
+,-1.8011808,18.4034924,,School,DRC_All_SCHool_Local,76.94671296167787,safe
+,-1.8449964,18.3570968,,School,DRC_All_SCHool_Local,83.87690562324045,safe
+,-1.827339,18.2935328,,School,DRC_All_SCHool_Local,89.03031903539262,safe
+,-1.7166266,18.4275844,,School,DRC_All_SCHool_Local,70.19374000301916,safe
+,-1.7276668,18.444738,,School,DRC_All_SCHool_Local,69.01050521760541,safe
+,-1.7038319,18.485258,,School,DRC_All_SCHool_Local,63.79807086106961,safe
+,-1.71646,18.501069,,School,DRC_All_SCHool_Local,62.876045883217486,safe
+,-1.6911489,18.5226026,,School,DRC_All_SCHool_Local,59.45441269579486,safe
+,-0.8177394,18.6665717,,School,DRC_All_SCHool_Local,60.047114651880534,safe
+,-0.7434106,18.4270363,,School,DRC_All_SCHool_Local,55.48181326250546,safe
+,-0.7514199,18.4311968,,School,DRC_All_SCHool_Local,55.30829443285661,safe
+,-0.7687663,18.4536779,,School,DRC_All_SCHool_Local,56.23181062248521,safe
+,-0.7805986,18.5003188,,School,DRC_All_SCHool_Local,59.941883791007896,safe
+,-0.7867176,18.5123895,,School,DRC_All_SCHool_Local,60.77729908154737,safe
+,-0.8067199,18.565615,,School,DRC_All_SCHool_Local,65.06894263600653,safe
+,-0.7647857,18.7380896,,School,DRC_All_SCHool_Local,51.47664847602677,safe
+,-0.7930851,18.7251828,,School,DRC_All_SCHool_Local,53.20902824630389,safe
+,-0.7543182,18.343204,,School,DRC_All_SCHool_Local,47.62256162426908,safe
+,-0.7367333,18.3627265,,School,DRC_All_SCHool_Local,50.54288995281155,safe
+,-0.9724217,18.2436108,,School,DRC_All_SCHool_Local,24.918921389547535,safe
+,-0.8296859,18.1849779,,School,DRC_All_SCHool_Local,29.73882545772434,safe
+,-0.8340862,18.1766044,,School,DRC_All_SCHool_Local,28.812124732814322,safe
+,-0.824788,18.1266909,,School,DRC_All_SCHool_Local,27.108264620130523,safe
+École primaire Bwalanga,-0.8267203,18.1274488,,School,DRC_All_SCHool_Local,26.94251498253439,safe
+,-0.8459917,18.1952726,,School,DRC_All_SCHool_Local,28.96123347623528,safe
+,-0.886588,18.3016828,,School,DRC_All_SCHool_Local,34.93264019967794,safe
+,-0.8794221,18.2468986,,School,DRC_All_SCHool_Local,30.38982419377139,safe
+,-0.7537242,17.9023057,,School,DRC_All_SCHool_Local,36.021529375993296,safe
+,-3.0057322,18.6459038,,School,DRC_All_SCHool_Local,111.86040867790626,safe
+,-2.9679216,18.5748254,,School,DRC_All_SCHool_Local,109.79179629860036,safe
+,-2.9761681,18.5766845,,School,DRC_All_SCHool_Local,109.21365771643283,safe
+,-2.9724868,18.5860178,,School,DRC_All_SCHool_Local,110.1905191367413,safe
+,-2.966769,18.5752391,,School,DRC_All_SCHool_Local,109.92019204273981,safe
+,-2.9633992,18.5826819,,School,DRC_All_SCHool_Local,110.7332234707506,safe
+,-2.9509294,18.7011741,,School,DRC_All_SCHool_Local,120.50633523051563,safe
+,-2.9257808,18.7839456,,School,DRC_All_SCHool_Local,128.96925542460994,safe
+,-2.9243023,18.7983184,,School,DRC_All_SCHool_Local,130.23277273584023,safe
+,-2.924757,18.7989726,,School,DRC_All_SCHool_Local,130.2503716097773,safe
+,-2.9130169,18.5849486,,School,DRC_All_SCHool_Local,115.27415367242811,safe
+,-2.9280225,18.5354646,,School,DRC_All_SCHool_Local,110.6448810479036,safe
+,-2.9278924,18.5372227,,School,DRC_All_SCHool_Local,110.77132454514582,safe
+,-2.9779292,18.5803879,,School,DRC_All_SCHool_Local,109.32539528754215,safe
+,-4.2403111,16.2315616,,School,DRC_All_SCHool_Local,22.34722397932866,safe
+,-0.8548746,18.4583674,,School,DRC_All_SCHool_Local,51.99811392978567,safe
+,-0.8677631,18.4442419,,School,DRC_All_SCHool_Local,49.97701504892934,safe
+,-0.9339198,18.3906132,,School,DRC_All_SCHool_Local,41.76630838128376,safe
+,-0.8999112,18.4110168,,School,DRC_All_SCHool_Local,45.185426286231525,safe
+,-0.9000107,18.4111457,,School,DRC_All_SCHool_Local,45.19465961493807,safe
+,-0.9001204,18.4110953,,School,DRC_All_SCHool_Local,45.18495060884857,safe
+,-0.9002319,18.4110509,,School,DRC_All_SCHool_Local,45.17578980312168,safe
+,-1.0085373,18.2051187,,School,DRC_All_SCHool_Local,19.647221193593367,safe
+,-0.8772643,18.4192488,,School,DRC_All_SCHool_Local,47.00881622944114,safe
+,-0.8771724,18.4193855,,School,DRC_All_SCHool_Local,47.026863813526305,safe
+,-0.8771132,18.419475,,School,DRC_All_SCHool_Local,47.03863598680518,safe
+,-0.8770563,18.4195686,,School,DRC_All_SCHool_Local,47.05071971910993,safe
+,-0.8773134,18.4197709,,School,DRC_All_SCHool_Local,47.059574153071736,safe
+,-0.8774583,18.4195535,,School,DRC_All_SCHool_Local,47.03093257026878,safe
+,-0.9504462,18.3805233,,School,DRC_All_SCHool_Local,40.15588922442597,safe
+,-0.9890935,18.4414951,,School,DRC_All_SCHool_Local,45.88096435969142,safe
+,-0.9922218,18.4709815,,School,DRC_All_SCHool_Local,49.078886791900665,safe
+,-0.9937721,18.489996,,School,DRC_All_SCHool_Local,51.15405656712011,safe
+,-0.9510438,18.5459289,,School,DRC_All_SCHool_Local,58.041909644541086,safe
+,-0.9292818,18.6154904,,School,DRC_All_SCHool_Local,66.10058116878666,safe
+,-1.0683375,18.6219061,,School,DRC_All_SCHool_Local,59.730588123402995,safe
+,-1.0057052,18.672249,,School,DRC_All_SCHool_Local,61.3861180864323,safe
+,-1.0191866,18.6378157,,School,DRC_All_SCHool_Local,62.577767968332545,safe
+,-0.9391284,18.7548454,,School,DRC_All_SCHool_Local,54.52769993411957,safe
+,-0.9722229,18.7137104,,School,DRC_All_SCHool_Local,60.23986911481755,safe
+,-1.3050705,19.3032256,,School,DRC_All_SCHool_Local,37.36168347181807,safe
+,-1.3077583,19.3018455,,School,DRC_All_SCHool_Local,37.094901112686095,safe
+,-1.2900219,19.2937263,,School,DRC_All_SCHool_Local,37.18281825538034,safe
+,-0.5653135,18.7609591,,School,DRC_All_SCHool_Local,52.269016638553715,safe
+,-0.5634661,18.816226,,School,DRC_All_SCHool_Local,46.6645612931541,safe
+,-0.5182248,18.821284,,School,DRC_All_SCHool_Local,48.42792071521702,safe
+,-0.315918,18.9293422,,School,DRC_All_SCHool_Local,32.63888782631034,safe
+,-1.0327708,18.8353925,,School,DRC_All_SCHool_Local,49.872256826991524,safe
+,-1.5895532,18.3798016,,School,DRC_All_SCHool_Local,70.6635134078684,safe
+,-1.5877939,18.3785631,,School,DRC_All_SCHool_Local,70.7552337010244,safe
+,-2.0099315,18.6154396,,School,DRC_All_SCHool_Local,75.52043326180149,safe
+,-2.0461394,18.3979689,,School,DRC_All_SCHool_Local,94.18696555550088,safe
+,-1.9604141,18.444235,,School,DRC_All_SCHool_Local,83.88562781019583,safe
+,-1.4672233,18.7274269,,School,DRC_All_SCHool_Local,30.359391039321164,safe
+,-1.6195139,18.135015,,School,DRC_All_SCHool_Local,64.32793403483286,safe
+,-1.6171911,18.1336934,,School,DRC_All_SCHool_Local,64.0479317850293,safe
+,-1.6274422,18.1375349,,School,DRC_All_SCHool_Local,65.24513445439496,safe
+,-1.6287842,18.1389057,,School,DRC_All_SCHool_Local,65.41915731679926,safe
+,-1.6086648,18.1703828,,School,DRC_All_SCHool_Local,63.9616133852139,safe
+,-1.5632584,18.1920201,,School,DRC_All_SCHool_Local,59.73584768627019,safe
+,-1.4857504,18.3927883,,School,DRC_All_SCHool_Local,62.8052177049249,safe
+,-1.5159585,18.2706901,,School,DRC_All_SCHool_Local,58.14411972796961,safe
+,-1.6800018,18.2076874,,School,DRC_All_SCHool_Local,72.68476206909111,safe
+,-1.754865,18.0503427,,School,DRC_All_SCHool_Local,78.40021609643098,safe
+,-1.7717772,18.0871058,,School,DRC_All_SCHool_Local,80.48024619061712,safe
+,-1.7765822,18.139518,,School,DRC_All_SCHool_Local,81.64993850144994,safe
+,-1.8912931,18.1803522,,School,DRC_All_SCHool_Local,94.96424967924933,safe
+,-1.9423455,18.0620583,,School,DRC_All_SCHool_Local,99.2756534441268,safe
+,-1.955194,18.088085,,School,DRC_All_SCHool_Local,100.83680734586017,safe
+,-1.8871952,18.1280035,,School,DRC_All_SCHool_Local,93.68476188356993,safe
+,-1.9309769,18.0435025,,School,DRC_All_SCHool_Local,97.96668364943157,safe
+,-1.9345256,18.0456348,,School,DRC_All_SCHool_Local,98.36426432791482,safe
+,-1.5774738,18.3199312,,School,DRC_All_SCHool_Local,66.7469145427376,safe
+,-1.5346243,18.3282863,,School,DRC_All_SCHool_Local,63.079323716199106,safe
+,-1.5318517,18.4147361,,School,DRC_All_SCHool_Local,65.68991113897802,safe
+,-1.52851,18.4126384,,School,DRC_All_SCHool_Local,65.87061938531639,safe
+,-1.3142358,18.4437722,,School,DRC_All_SCHool_Local,54.270517350671675,safe
+,-1.3168414,18.4426426,,School,DRC_All_SCHool_Local,54.32266695362998,safe
+,-1.1122476,18.5323255,,School,DRC_All_SCHool_Local,55.90568760763629,safe
+,-1.1389237,18.4750751,,School,DRC_All_SCHool_Local,50.0960324497735,safe
+,-1.199399,18.4570701,,School,DRC_All_SCHool_Local,49.95164127557069,safe
+,-1.5793796,18.392223,,School,DRC_All_SCHool_Local,69.07287987772386,safe
+,-1.5796064,18.3912204,,School,DRC_All_SCHool_Local,69.18712997117493,safe
+,-1.5678688,18.41372,,School,DRC_All_SCHool_Local,66.47362773347365,safe
+,-1.4966885,18.1396943,,School,DRC_All_SCHool_Local,51.0574482528166,safe
+,-1.4317156,18.2697418,,School,DRC_All_SCHool_Local,49.92262186494837,safe
+,-1.2871133,18.7264147,,School,DRC_All_SCHool_Local,35.39742472747409,safe
+,-1.1316887,18.7820616,,School,DRC_All_SCHool_Local,42.89228136096038,safe
+,-1.105269,18.8140184,,School,DRC_All_SCHool_Local,43.552558416912746,safe
+,-1.0971823,18.8220189,,School,DRC_All_SCHool_Local,43.9384402272087,safe
+,-1.0287152,18.8355703,,School,DRC_All_SCHool_Local,50.28485373401008,safe
+,-1.0355078,18.8297276,,School,DRC_All_SCHool_Local,49.82509416414205,safe
+,-1.0397259,18.7999794,,School,DRC_All_SCHool_Local,50.750955805945495,safe
+,-1.0186922,18.7604649,,School,DRC_All_SCHool_Local,54.85602945693976,safe
+,-1.4054609,17.0455661,,School,DRC_All_SCHool_Local,78.05089220436152,safe
+,-1.1471342,18.8837536,,School,DRC_All_SCHool_Local,36.07139198064289,safe
+,0.0182408,18.3435781,,School,DRC_All_SCHool_Local,10.106151141927365,safe
+,-1.1096531,17.3468699,,School,DRC_All_SCHool_Local,76.60537012761992,safe
+,-1.1094174,17.1216143,,School,DRC_All_SCHool_Local,101.57558789854735,safe
+,-1.1062299,17.1214939,,School,DRC_All_SCHool_Local,101.56656347241005,safe
+,-1.4878561,16.8367638,,School,DRC_All_SCHool_Local,56.044102172889694,safe
+,-1.4878886,16.8387476,,School,DRC_All_SCHool_Local,56.1673270717655,safe
+,-1.4859834,16.8364735,,School,DRC_All_SCHool_Local,56.1968310029161,safe
+,-0.7057786,17.5815204,,School,DRC_All_SCHool_Local,63.153869343294716,safe
+,-0.7100171,17.5784929,,School,DRC_All_SCHool_Local,63.138598458649525,safe
+,-0.6898833,17.6453547,,School,DRC_All_SCHool_Local,58.85731431108387,safe
+,-0.7025547,17.5961597,,School,DRC_All_SCHool_Local,62.089542866363985,safe
+,-0.7327629,18.4931365,,School,DRC_All_SCHool_Local,62.11079551034881,safe
+,-0.6667051,18.4874794,,School,DRC_All_SCHool_Local,66.07607090459167,safe
+,-5.6911974,19.9381087,,School,DRC_All_SCHool_Local,71.0761961413632,safe
+,-5.6910696,19.9391787,,School,DRC_All_SCHool_Local,70.96336249677675,safe
+École primaire Tomisa-Kimbanda,-5.3052102,19.1739184,,School,DRC_All_SCHool_Local,49.79118024437842,safe
+,-5.9427745,19.1449233,,School,DRC_All_SCHool_Local,107.45412857814581,safe
+,-5.9441471,19.1457429,,School,DRC_All_SCHool_Local,107.6284294408177,safe
+,-5.8805623,19.1108373,,School,DRC_All_SCHool_Local,99.67615486033199,safe
+,-5.8530229,19.0967033,,School,DRC_All_SCHool_Local,96.27226061644751,safe
+,-5.8401001,19.0940704,,School,DRC_All_SCHool_Local,94.81828866292217,safe
+,-5.8387047,19.0917817,,School,DRC_All_SCHool_Local,94.58964494429357,safe
+,-5.8335946,19.0923041,,School,DRC_All_SCHool_Local,94.07064311021159,safe
+,-5.7964297,19.0752739,,School,DRC_All_SCHool_Local,89.55145002603743,safe
+,-5.7936118,19.0746167,,School,DRC_All_SCHool_Local,89.2313261193553,safe
+,-5.7455569,19.0792972,,School,DRC_All_SCHool_Local,84.36376850181712,safe
+,-5.703312,19.0954517,,School,DRC_All_SCHool_Local,80.63829476936985,safe
+,-5.6776448,19.0742009,,School,DRC_All_SCHool_Local,77.10892511196649,safe
+,-5.7081651,19.2816254,,School,DRC_All_SCHool_Local,90.99578393584056,safe
+,-5.6262679,19.2603971,,School,DRC_All_SCHool_Local,82.22167677506775,safe
+,-5.6245783,19.260153,,School,DRC_All_SCHool_Local,82.05496867337465,safe
+,-5.6082359,19.2485171,,School,DRC_All_SCHool_Local,79.8285527130133,safe
+,-5.5335606,19.1943045,,School,DRC_All_SCHool_Local,69.58595738876774,safe
+,-5.5062871,19.1614679,,School,DRC_All_SCHool_Local,64.98671926379126,safe
+,-5.4626948,19.1156109,,School,DRC_All_SCHool_Local,58.095589175114696,safe
+École primaire de Bangi,-5.465932,19.092926,,School,DRC_All_SCHool_Local,57.00534172707066,safe
+,-5.4310178,19.1064964,,School,DRC_All_SCHool_Local,54.63908569121432,safe
+EP Twendelee,-8.7303939,24.9819489,,School,DRC_All_SCHool_Local,31.2399758349096,safe
+,-8.7353043,24.990449,,School,DRC_All_SCHool_Local,30.934451260891443,safe
+,-8.7357897,24.9903813,,School,DRC_All_SCHool_Local,30.9774641106183,safe
+,-8.7356819,24.9910568,,School,DRC_All_SCHool_Local,30.916001311154492,safe
+Maranatha,-8.7253673,25.0061573,,School,DRC_All_SCHool_Local,28.929769397066003,safe
+,-8.7328036,24.9978931,,School,DRC_All_SCHool_Local,30.15670296362748,safe
+,-8.7395352,24.9676764,,School,DRC_All_SCHool_Local,33.08547368537455,safe
+,-8.7395377,24.9680821,,School,DRC_All_SCHool_Local,33.052438042770376,safe
+,-8.7395692,24.9687219,,School,DRC_All_SCHool_Local,33.00244342112362,safe
+,-8.7393327,24.9683817,,School,DRC_All_SCHool_Local,33.01270370388605,safe
+,-8.7390269,24.9675587,,School,DRC_All_SCHool_Local,33.05747511714148,safe
+,-5.9512774,19.172122,,School,DRC_All_SCHool_Local,109.39060364642052,safe
+,-5.9522379,19.1731962,,School,DRC_All_SCHool_Local,109.53303345994618,safe
+,-5.9368969,19.1659702,,School,DRC_All_SCHool_Local,107.65386368012467,safe
+,-4.542476,16.4494789,,School,DRC_All_SCHool_Local,14.839684404002794,safe
+Complexe Scolaire La Termitère,-8.7314243,24.9982264,,School,DRC_All_SCHool_Local,30.02251937281011,safe
+,-4.3337823,16.40565,,School,DRC_All_SCHool_Local,18.885056234332737,safe
+,2.4460143,27.6844174,,School,DRC_All_SCHool_Local,36.44043874425353,safe
+,2.4439103,27.6462257,,School,DRC_All_SCHool_Local,36.03868743828332,safe
+,2.4432,27.7116473,,School,DRC_All_SCHool_Local,37.483254228203634,safe
+,2.3252308,27.6747991,,School,DRC_All_SCHool_Local,49.50832305297347,safe
+,2.3519295,27.7231232,,School,DRC_All_SCHool_Local,47.608683139343015,safe
+,2.3807169,27.7217979,,School,DRC_All_SCHool_Local,44.47617698917836,safe
+,2.3873507,27.6993764,,School,DRC_All_SCHool_Local,43.167018013054175,safe
+,2.376774,27.6856418,,School,DRC_All_SCHool_Local,44.02586658002565,safe
+,2.4004329,27.659239,,School,DRC_All_SCHool_Local,40.99693083976652,safe
+,2.3981828,27.6704664,,School,DRC_All_SCHool_Local,41.40700585261839,safe
+,2.3985751,27.6772597,,School,DRC_All_SCHool_Local,41.479588793209615,safe
+,2.3989174,27.6856085,,School,DRC_All_SCHool_Local,41.60272146638267,safe
+,2.3209598,27.6438434,,School,DRC_All_SCHool_Local,49.652135573010106,safe
+,2.4578991,27.6466227,,School,DRC_All_SCHool_Local,34.49418897166909,safe
+,2.4506244,27.6289922,,School,DRC_All_SCHool_Local,35.168885143790696,safe
+,2.4510802,27.6144964,,School,DRC_All_SCHool_Local,35.09236742281012,safe
+,2.4540967,27.5902264,,School,DRC_All_SCHool_Local,34.87998361007168,safe
+,2.4439774,27.5778345,,School,DRC_All_SCHool_Local,36.13966808129843,safe
+,2.4171068,27.561057,,School,DRC_All_SCHool_Local,39.35698235349573,safe
+,2.4107455,27.5382804,,School,DRC_All_SCHool_Local,40.52306089350464,safe
+,2.3899186,27.5321509,,School,DRC_All_SCHool_Local,42.93145621192558,safe
+,2.3224345,27.5020781,,School,DRC_All_SCHool_Local,51.01000646724727,safe
+,2.2842435,27.5492779,,School,DRC_All_SCHool_Local,54.16274865216534,safe
+,2.2844423,27.6133842,,School,DRC_All_SCHool_Local,53.62206825490703,safe
+,2.2685156,27.5920121,,School,DRC_All_SCHool_Local,55.45946140028074,safe
+,2.266913,27.5932653,,School,DRC_All_SCHool_Local,55.630766722245504,safe
+,2.2637838,27.596417,,School,DRC_All_SCHool_Local,55.96317451692152,safe
+,2.2618496,27.5848804,,School,DRC_All_SCHool_Local,56.24396916326786,safe
+,2.2555714,27.5898233,,School,DRC_All_SCHool_Local,56.90930195514187,safe
+,2.4580597,27.6324605,,School,DRC_All_SCHool_Local,34.36027513546703,safe
+,2.2437023,27.6126539,,School,DRC_All_SCHool_Local,58.15261825581032,safe
+,2.1686556,27.5448469,,School,DRC_All_SCHool_Local,66.97266027679306,safe
+,1.8482619,27.4536226,,School,DRC_All_SCHool_Local,50.748253760020276,safe
+,1.8102826,27.4002864,,School,DRC_All_SCHool_Local,49.69791078509408,safe
+,1.8089773,27.3369482,,School,DRC_All_SCHool_Local,53.57874143223761,safe
+,2.9282557,27.4689407,,School,DRC_All_SCHool_Local,23.640223700597215,safe
+,2.9246133,27.4716924,,School,DRC_All_SCHool_Local,23.137162148734557,safe
+,2.3497525,27.650016,,School,DRC_All_SCHool_Local,46.5064546688009,safe
+,2.3579029,27.6865231,,School,DRC_All_SCHool_Local,46.11004538765934,safe
+,2.4259256,27.6293564,,School,DRC_All_SCHool_Local,37.91481809127594,safe
+,2.4687814,27.6999079,,School,DRC_All_SCHool_Local,34.38962284052064,safe
+,2.640786,27.5227684,,School,DRC_All_SCHool_Local,17.455447294202926,safe
+,1.8739118,27.4440398,,School,DRC_All_SCHool_Local,53.78977873565974,safe
+,2.3674227,27.6168317,,School,DRC_All_SCHool_Local,44.39383327265699,safe
+,2.1700983,28.0068964,,School,DRC_All_SCHool_Local,79.24454080864929,safe
+,2.1830613,28.0260884,,School,DRC_All_SCHool_Local,79.24595964958185,safe
+,2.1861636,28.1038529,,School,DRC_All_SCHool_Local,84.23622659182521,safe
+,2.2187834,28.1814933,,School,DRC_All_SCHool_Local,87.4560128088241,safe
+,2.568789,27.5446436,,School,DRC_All_SCHool_Local,23.41208872303048,safe
+,2.6474798,27.5752616,,School,DRC_All_SCHool_Local,14.028133507319051,safe
+,2.5484421,27.5161916,,School,DRC_All_SCHool_Local,26.708794637069545,safe
+,2.4599572,27.4670823,,School,DRC_All_SCHool_Local,37.936704339768475,safe
+,2.3006937,27.630424,,School,DRC_All_SCHool_Local,51.83629079698496,safe
+,2.2266051,27.5772265,,School,DRC_All_SCHool_Local,60.211645856574044,safe
+,2.544815,27.6038042,,School,DRC_All_SCHool_Local,24.71003891230977,safe
+,2.5834105,27.5997575,,School,DRC_All_SCHool_Local,20.46344759167302,safe
+,2.4386026,27.5041599,,School,DRC_All_SCHool_Local,38.56029116384797,safe
+,2.250133,27.5800791,,School,DRC_All_SCHool_Local,57.579473978925826,safe
+,1.9236171,27.5058905,,School,DRC_All_SCHool_Local,56.838587366207925,safe
+,2.5773316,27.7698045,,School,DRC_All_SCHool_Local,27.065842790663762,safe
+,2.542587,27.6741343,,School,DRC_All_SCHool_Local,25.721123154754927,safe
+,2.5418464,27.6704633,,School,DRC_All_SCHool_Local,25.703060682482405,safe
+,2.6616005,27.8113214,,School,DRC_All_SCHool_Local,24.574917234777146,safe
+,2.6255649,28.5152154,,School,DRC_All_SCHool_Local,96.37945552513035,safe
+,2.3485129,28.0288445,,School,DRC_All_SCHool_Local,65.25579926898982,safe
+Institut Hopla,1.6580121,27.0062066,,School,DRC_All_SCHool_Local,70.15477310605242,safe
+Ecole & Institut Banadili,1.6605505,27.0050594,,School,DRC_All_SCHool_Local,70.42790723800867,safe
+Institut Technique Agro Vétérinaire,-7.1902142,17.9584446,Makita/Panzi,School,DRC_All_SCHool_Local,178.13214627922954,safe
+Lycée,-7.1902945,17.9607731,Makita,School,DRC_All_SCHool_Local,178.28456036960208,safe
+,2.3079879,27.7667997,,School,DRC_All_SCHool_Local,53.660214363195465,safe
+,2.306354,27.7665984,,School,DRC_All_SCHool_Local,53.82600719652216,safe
+,2.3648603,27.7825047,,School,DRC_All_SCHool_Local,48.327605848477425,safe
+,2.6830486,27.7689551,,School,DRC_All_SCHool_Local,19.301621406006657,safe
+,2.8927706,27.6486499,,School,DRC_All_SCHool_Local,13.383186241899484,safe
+,2.9651401,27.6164622,,School,DRC_All_SCHool_Local,20.98822632742172,safe
+,2.6081132,27.8055565,,School,DRC_All_SCHool_Local,27.404551314547188,safe
+,2.4826188,27.8320206,,School,DRC_All_SCHool_Local,39.62083980365961,safe
+,2.4709001,27.8092553,,School,DRC_All_SCHool_Local,39.23315545053675,safe
+,2.5053498,27.8051801,,School,DRC_All_SCHool_Local,35.815900194457754,safe
+,2.4659735,27.7937318,,School,DRC_All_SCHool_Local,38.79139461586054,safe
+,2.1349278,28.0394765,,School,DRC_All_SCHool_Local,81.81561256078729,safe
+,2.1225607,28.0649433,,School,DRC_All_SCHool_Local,80.35184854836629,safe
+,2.2149332,28.0172967,,School,DRC_All_SCHool_Local,75.79299805833757,safe
+,2.2532984,28.0368188,,School,DRC_All_SCHool_Local,73.73614895381664,safe
+,2.3130008,27.8768393,,School,DRC_All_SCHool_Local,58.137933195159285,safe
+,2.4218795,27.7927786,,School,DRC_All_SCHool_Local,43.041161955650686,safe
+,2.4102206,27.8467829,,School,DRC_All_SCHool_Local,47.16276636056838,safe
+,2.423806,27.8536195,,School,DRC_All_SCHool_Local,46.327689270393705,safe
+,2.4486374,27.8715092,,School,DRC_All_SCHool_Local,45.29779543061493,safe
+,2.4486392,27.8339221,,School,DRC_All_SCHool_Local,42.81270898042886,safe
+,2.4446021,27.8372799,,School,DRC_All_SCHool_Local,43.3938014385774,safe
+,2.3949304,27.8373757,,School,DRC_All_SCHool_Local,48.05900677543357,safe
+,3.089776,26.8385027,,School,DRC_All_SCHool_Local,49.011469368004406,safe
+,3.052608,26.8123917,,School,DRC_All_SCHool_Local,53.931411811679226,safe
+,2.3150797,27.7993174,,School,DRC_All_SCHool_Local,54.1584339423055,safe
+,2.2957484,27.3334826,,School,DRC_All_SCHool_Local,61.0863435939601,safe
+,2.2686167,27.2946352,,School,DRC_All_SCHool_Local,65.92988850907103,safe
+,2.2873846,27.5066407,,School,DRC_All_SCHool_Local,54.677228917926115,safe
+,2.32899,27.6079601,,School,DRC_All_SCHool_Local,48.676958549256724,safe
+,3.0775816,27.9493653,,School,DRC_All_SCHool_Local,22.878620349767775,safe
+,1.8308014,29.003309,,School,DRC_All_SCHool_Local,51.091604935378996,safe
+,3.1623594,28.5405766,,School,DRC_All_SCHool_Local,50.59964463804389,safe
+,3.3230225,28.6327584,,School,DRC_All_SCHool_Local,33.465637777652155,safe
+,2.0703283,28.0086962,,School,DRC_All_SCHool_Local,74.9021127680186,safe
+,2.106347,27.9659443,,School,DRC_All_SCHool_Local,79.47522613737324,safe
+,-8.7525411,24.9681755,,School,DRC_All_SCHool_Local,34.02695140592095,safe
+,-8.7525936,24.9683011,,School,DRC_All_SCHool_Local,34.0210046299043,safe
+,-8.7529022,24.9681856,,School,DRC_All_SCHool_Local,34.05389543718323,safe
+,-8.7525603,24.9678788,,School,DRC_All_SCHool_Local,34.05201195498555,safe
+,-8.73634,24.9790808,,School,DRC_All_SCHool_Local,31.919490268938112,safe
+,2.2398371,27.756002,,School,DRC_All_SCHool_Local,60.59113873168379,safe
+,2.1900313,27.7579328,,School,DRC_All_SCHool_Local,66.01143751722245,safe
+,2.2083447,27.7569879,,School,DRC_All_SCHool_Local,64.0096241957231,safe
+,2.2143746,27.7101368,,School,DRC_All_SCHool_Local,62.283653849782205,safe
+,2.2768062,27.7417054,,School,DRC_All_SCHool_Local,56.213089623578874,safe
+,2.1494085,27.632712,,School,DRC_All_SCHool_Local,68.65904679351877,safe
+,2.1935665,27.6074369,,School,DRC_All_SCHool_Local,63.7340038990774,safe
+,2.1565264,27.7262483,,School,DRC_All_SCHool_Local,68.92797143903658,safe
+,2.1089119,27.7211874,,School,DRC_All_SCHool_Local,74.05492738757489,safe
+,2.0933189,27.9378513,,School,DRC_All_SCHool_Local,78.59061954876623,safe
+,2.0555766,27.9154407,,School,DRC_All_SCHool_Local,75.02882033767476,safe
+,2.0641547,27.6730295,,School,DRC_All_SCHool_Local,70.83661256521003,safe
+,2.4353795,27.76414,,School,DRC_All_SCHool_Local,40.315556679845244,safe
+,2.2794375,27.6927372,,School,DRC_All_SCHool_Local,54.83242589114942,safe
+,2.2833219,27.6708057,,School,DRC_All_SCHool_Local,54.08086399840558,safe
+,2.3259,27.716688,,School,DRC_All_SCHool_Local,50.25460484985885,safe
+,2.4992017,27.8555078,,School,DRC_All_SCHool_Local,39.85404784926749,safe
+,-8.7390145,24.9662283,,School,DRC_All_SCHool_Local,33.16583818291917,safe
+,-8.7360237,24.9674403,,School,DRC_All_SCHool_Local,32.84596072872594,safe
+,-8.7381836,24.973731,,School,DRC_All_SCHool_Local,32.49098903024871,safe
+,2.1218632,27.4618556,,School,DRC_All_SCHool_Local,73.73263955473303,safe
+,2.1167015,27.4346331,,School,DRC_All_SCHool_Local,75.04869508114511,safe
+,2.0482746,27.5439991,,School,DRC_All_SCHool_Local,69.62757778360732,safe
+,2.0906808,27.4853643,,School,DRC_All_SCHool_Local,75.4390907994137,safe
+,2.2192345,27.4951271,,School,DRC_All_SCHool_Local,62.35100133060262,safe
+,2.2592653,27.4757612,,School,DRC_All_SCHool_Local,58.551423636441385,safe
+,2.2424582,27.5529495,,School,DRC_All_SCHool_Local,58.7174313869453,safe
+,2.2069037,27.5244653,,School,DRC_All_SCHool_Local,63.079846935935166,safe
+,2.5969133,27.6760303,,School,DRC_All_SCHool_Local,19.994190283818103,safe
+,2.5652211,27.670837,,School,DRC_All_SCHool_Local,23.193724682743124,safe
+,2.317082,27.6636035,,School,DRC_All_SCHool_Local,50.26263539708988,safe
+,2.2114202,28.2236111,,School,DRC_All_SCHool_Local,91.42241533846774,safe
+,-0.8591116,26.2016839,,School,DRC_All_SCHool_Local,14.296468633801563,safe
+,2.484041,28.1854837,,School,DRC_All_SCHool_Local,70.56721113512374,safe
+,2.5734847,27.4841465,,School,DRC_All_SCHool_Local,26.040110512823116,safe
+,-5.698897,19.3315574,,School,DRC_All_SCHool_Local,93.41471619751529,safe
+,-5.7109799,19.3471288,,School,DRC_All_SCHool_Local,95.5322430823139,safe
+,-5.6860145,19.2765182,,School,DRC_All_SCHool_Local,88.65024987447728,safe
+,-2.8672465,16.9247334,,School,DRC_All_SCHool_Local,29.034580997114393,safe
+,-2.7063903,17.1007077,,School,DRC_All_SCHool_Local,46.46647536970793,safe
+,-2.7650111,16.8200191,,School,DRC_All_SCHool_Local,35.64091535598896,safe
+,-2.7078958,16.790998,,School,DRC_All_SCHool_Local,38.77288888710371,safe
+,-2.8431499,17.1265689,,School,DRC_All_SCHool_Local,31.899841093086316,safe
+,-3.3650593,16.5020918,,School,DRC_All_SCHool_Local,11.839369587003109,safe
+,-3.0666445,16.387105,,School,DRC_All_SCHool_Local,15.866736218463254,safe
+,-3.8236652,18.5876038,,School,DRC_All_SCHool_Local,71.45370050127086,safe
+,-3.0866111,16.3292809,,School,DRC_All_SCHool_Local,22.249743249483632,safe
+,-3.1708971,17.2553435,,School,DRC_All_SCHool_Local,21.375861096014614,safe
+,-5.7605711,19.22879,,School,DRC_All_SCHool_Local,92.84714934866743,safe
+,-5.7620413,19.2284998,,School,DRC_All_SCHool_Local,92.97378090863333,safe
+,-6.8191655,26.460503,,School,DRC_All_SCHool_Local,23.565590578510715,safe
+,-6.8137917,26.4559922,,School,DRC_All_SCHool_Local,23.18323090462601,safe
+,-5.7417116,19.1727033,,School,DRC_All_SCHool_Local,88.07894361943322,safe
+,-5.6776153,19.1690264,,School,DRC_All_SCHool_Local,81.57297394574078,safe
+École protestante,-3.1719221,17.2618728,,School,DRC_All_SCHool_Local,20.825177399603408,safe
+,-2.8181959,27.2168832,,School,DRC_All_SCHool_Local,16.238873534668976,safe
+,-5.7421928,19.3132728,,School,DRC_All_SCHool_Local,96.09982826225807,safe
+,-5.9184244,19.7256969,,School,DRC_All_SCHool_Local,103.9683484941834,safe
+,-5.4638237,19.3587708,,School,DRC_All_SCHool_Local,76.77590439849087,safe
+,-5.9505888,19.816324,,School,DRC_All_SCHool_Local,97.81877248358353,safe
+Institut Maganga,0.7740976,26.2536771,,School,DRC_All_SCHool_Local,107.05926299522008,safe
+EP Bafwapada,0.863176,26.5233973,,School,DRC_All_SCHool_Local,86.18567199510201,safe
+EP I,-4.3719852,15.4816747,,School,DRC_All_SCHool_Local,13.325020296676277,safe
+Ecole Primaire Lunyasenge,-0.4459868,29.3652623,,School,DRC_All_SCHool_Local,11.023172486474904,safe
+,-5.5118513,14.5210806,,School,DRC_All_SCHool_Local,10.59766235717644,safe
+,-5.5868039,14.9489821,,School,DRC_All_SCHool_Local,28.56232673863673,safe
+,-5.141822,12.7413404,,School,DRC_All_SCHool_Local,10.513658800190894,safe
+,-5.735569,14.4542192,,School,DRC_All_SCHool_Local,20.763362051489004,safe
+,-5.2452761,15.5354659,,School,DRC_All_SCHool_Local,52.15663943015489,safe
+,-5.6051473,19.2889904,,School,DRC_All_SCHool_Local,82.3249432876656,safe
+,-5.5672464,19.6529321,,School,DRC_All_SCHool_Local,97.11421710387555,safe
+,-5.5616182,19.6570114,,School,DRC_All_SCHool_Local,96.5616649127869,safe
+,-5.5762904,19.6519261,,School,DRC_All_SCHool_Local,97.40471205535336,safe
+,-5.5414174,19.574733,,School,DRC_All_SCHool_Local,101.17699404944646,safe
+,-5.5372926,19.5707947,,School,DRC_All_SCHool_Local,100.55947123459215,safe
+,-5.6634822,19.7178693,,School,DRC_All_SCHool_Local,92.66660139714648,safe
+,-5.6606297,19.7190867,,School,DRC_All_SCHool_Local,92.4435794964743,safe
+,-5.6595136,19.7193326,,School,DRC_All_SCHool_Local,92.3808821504334,safe
+,-5.6620943,19.7126694,,School,DRC_All_SCHool_Local,93.17005244717679,safe
+,-5.2664531,19.0599468,,School,DRC_All_SCHool_Local,37.38748072528448,safe
+,-5.6385753,19.750507,,School,DRC_All_SCHool_Local,88.40592675937603,safe
+,-3.294437,24.3969686,,School,DRC_All_SCHool_Local,11.940000748293354,safe
+École primaire conventionnée Catholique de Kasakwa,-4.3019403,28.8344491,,School,DRC_All_SCHool_Local,12.166057368714801,safe
+,-4.5096147,19.607784,,School,DRC_All_SCHool_Local,105.24304569276173,safe
+,-5.5537139,19.2943343,,School,DRC_All_SCHool_Local,78.39192477952392,safe
+,-5.5537097,19.2955538,,School,DRC_All_SCHool_Local,78.48273801481722,safe
+,-5.557842,19.2882736,,School,DRC_All_SCHool_Local,78.28204472027278,safe
+,-5.5587639,19.2862588,,School,DRC_All_SCHool_Local,78.2099447141327,safe
+,-5.5656247,19.3328998,,School,DRC_All_SCHool_Local,82.28089520069716,safe
+,-5.5701718,19.3347654,,School,DRC_All_SCHool_Local,82.78819079028919,safe
+,-5.8203258,12.8821845,,School,DRC_All_SCHool_Local,18.854513001584984,safe
+,-6.7707884,23.5489636,,School,DRC_All_SCHool_Local,19.60560076812812,safe
+,-5.5593456,19.3568255,,School,DRC_All_SCHool_Local,83.65320033366129,safe
+,-7.5891162,27.5292156,,School,DRC_All_SCHool_Local,34.41328459772065,safe
+,-4.7808114,18.1492314,,School,DRC_All_SCHool_Local,56.16408252568224,safe
+,-4.7821175,18.1491132,,School,DRC_All_SCHool_Local,56.24219366320488,safe
+,-4.7594466,18.1724352,,School,DRC_All_SCHool_Local,52.80007976840897,safe
+,-4.7224153,18.1441011,,School,DRC_All_SCHool_Local,54.04265291751355,safe
+,-4.7294415,18.184048,,School,DRC_All_SCHool_Local,50.23292741797154,safe
+,-4.7290218,18.1849183,,School,DRC_All_SCHool_Local,50.125882912552335,safe
+,-4.7359378,18.1994259,,School,DRC_All_SCHool_Local,48.97387941360494,safe
+,-4.7372619,18.1973955,,School,DRC_All_SCHool_Local,49.2400064255441,safe
+,-4.8730741,18.2242311,,School,DRC_All_SCHool_Local,54.99666536602888,safe
+,-4.8504776,18.2533319,,School,DRC_All_SCHool_Local,50.91444678989362,safe
+,-4.8496349,18.2560618,,School,DRC_All_SCHool_Local,50.624857144967294,safe
+,-4.8459974,18.1860401,,School,DRC_All_SCHool_Local,56.46111470414205,safe
+CS Diabena,-4.4534093,15.2648117,,School,DRC_All_SCHool_Local,11.075442382027568,safe
+,-0.2007538,21.0856409,,School,DRC_All_SCHool_Local,24.156687665134694,safe
+,-4.8045473,18.2808902,,School,DRC_All_SCHool_Local,45.29717696206589,safe
+,-4.8033534,18.2838361,,School,DRC_All_SCHool_Local,44.959465321585974,safe
+,-4.7804719,18.2984722,,School,DRC_All_SCHool_Local,42.11260886614449,safe
+,-4.7818961,18.3014831,,School,DRC_All_SCHool_Local,41.94545335086572,safe
+,-4.7434661,18.2375612,,School,DRC_All_SCHool_Local,45.56669425298465,safe
+,0.0240572,21.0833108,,School,DRC_All_SCHool_Local,15.121359083849615,safe
+,-3.1511343,25.3566364,,School,DRC_All_SCHool_Local,55.29472777557892,safe
+,-0.1108905,20.9254288,,School,DRC_All_SCHool_Local,12.655485636213463,safe
+École primaire Mawete,-4.7253454,18.2616152,,School,DRC_All_SCHool_Local,42.26893849057775,safe
+,0.0781384,21.0650007,,School,DRC_All_SCHool_Local,13.725354288061654,safe
+,0.1084472,21.119788,,School,DRC_All_SCHool_Local,20.212195114979377,safe
+,-4.7058725,18.274105,,School,DRC_All_SCHool_Local,40.062947523870676,safe
+,-0.2259866,21.1588418,,School,DRC_All_SCHool_Local,31.121707108412057,safe
+,0.3858944,20.8417301,,School,DRC_All_SCHool_Local,36.63952635772133,safe
+,0.4174686,20.7947295,,School,DRC_All_SCHool_Local,41.754652163897816,safe
+,0.4248857,20.7818186,,School,DRC_All_SCHool_Local,43.0871074315729,safe
+,0.3958353,20.8934495,,School,DRC_All_SCHool_Local,36.414950069524565,safe
+,0.400724,20.8980729,,School,DRC_All_SCHool_Local,36.88152991385688,safe
+,0.4882422,21.0554378,,School,DRC_All_SCHool_Local,47.988170769813095,safe
+,-3.3653479,17.5129324,,School,DRC_All_SCHool_Local,15.688830565839117,safe
+,-3.2123997,17.6449832,,School,DRC_All_SCHool_Local,31.648255263772533,safe
+,-3.4884664,17.6308002,,School,DRC_All_SCHool_Local,33.71562325109194,safe
+,-3.3723242,17.7600599,,School,DRC_All_SCHool_Local,42.62738006884917,safe
+,-3.3635298,17.7636724,,School,DRC_All_SCHool_Local,42.89659281900828,safe
+,-3.3645226,17.763371,,School,DRC_All_SCHool_Local,42.87670495976657,safe
+,-3.3756592,17.788348,,School,DRC_All_SCHool_Local,43.630569565705265,safe
+,-3.3749416,17.7887582,,School,DRC_All_SCHool_Local,43.68465246944032,safe
+,-3.2529005,17.8269256,,School,DRC_All_SCHool_Local,50.12880641860295,safe
+,-3.4060346,17.8123961,,School,DRC_All_SCHool_Local,39.468031234916296,safe
+,-3.4146407,17.9371859,,School,DRC_All_SCHool_Local,35.46548976375818,safe
+,-3.4157242,17.9326777,,School,DRC_All_SCHool_Local,35.36877011429757,safe
+,-3.415178,17.8598704,,School,DRC_All_SCHool_Local,36.764069057158814,safe
+,-3.3757341,18.0255629,,School,DRC_All_SCHool_Local,40.63786801245718,safe
+,-3.393299,17.9530135,,School,DRC_All_SCHool_Local,37.8115347418968,safe
+,-3.3936175,17.9543374,,School,DRC_All_SCHool_Local,37.777706995713494,safe
+,-3.3800826,17.9714254,,School,DRC_All_SCHool_Local,39.35155694635333,safe
+,-3.2680566,18.0109898,,School,DRC_All_SCHool_Local,52.17732268282588,safe
+,-3.3752511,18.0496291,,School,DRC_All_SCHool_Local,41.32360499115223,safe
+,-3.3927532,18.062338,,School,DRC_All_SCHool_Local,39.87011101451474,safe
+,-3.223779,18.1127363,,School,DRC_All_SCHool_Local,59.46909162471289,safe
+,-3.1431803,18.1001634,,School,DRC_All_SCHool_Local,67.70556287587853,safe
+,-5.5462487,19.3639958,,School,DRC_All_SCHool_Local,83.21832082515998,safe
+,-3.2383173,17.4440218,,School,DRC_All_SCHool_Local,11.306039260706948,safe
+,-3.2391048,17.4432907,,School,DRC_All_SCHool_Local,11.186920436483682,safe
+,-3.2117503,17.4448224,,School,DRC_All_SCHool_Local,13.776101860388831,safe
+,-3.2542913,17.5287583,,School,DRC_All_SCHool_Local,17.942120040163953,safe
+,-5.5344226,19.4815632,,School,DRC_All_SCHool_Local,92.3269933759978,safe
+,-5.6230574,19.179034,,School,DRC_All_SCHool_Local,76.87351956942976,safe
+,-5.6246278,19.1801911,,School,DRC_All_SCHool_Local,77.0893055768126,safe
+,-5.536929,19.2642988,,School,DRC_All_SCHool_Local,74.78069490478651,safe
+,-5.5365116,19.2651375,,School,DRC_All_SCHool_Local,74.80756526876092,safe
+,-5.5213127,19.2711236,,School,DRC_All_SCHool_Local,74.001583505168,safe
+,-5.5078603,19.2351546,,School,DRC_All_SCHool_Local,70.22285011620971,safe
+,-5.4993151,19.2317162,,School,DRC_All_SCHool_Local,69.2587240989651,safe
+,-5.497813,19.2326594,,School,DRC_All_SCHool_Local,69.2033600568359,safe
+,-5.4584487,19.2808646,,School,DRC_All_SCHool_Local,69.8318710668629,safe
+,-5.4536147,19.2839132,,School,DRC_All_SCHool_Local,69.71942794917207,safe
+,-5.3719028,19.2691023,,School,DRC_All_SCHool_Local,62.66931329653843,safe
+,-5.4680941,19.2107742,,School,DRC_All_SCHool_Local,65.12607741565914,safe
+Institut TUIDINZAMBI,-5.1250713,13.0421474,,School,DRC_All_SCHool_Local,15.85113862965523,safe
+Institut TUIDINZAMBI,-5.1250512,13.042407,,School,DRC_All_SCHool_Local,15.847690923115579,safe
+École primaire Lukamba,-5.3748701,19.229045,,School,DRC_All_SCHool_Local,59.39345701047934,safe
+,3.940017,22.5035434,,School,DRC_All_SCHool_Local,17.006768169060965,safe
+Ubangi Academy,3.3640864,20.3058525,,School,DRC_All_SCHool_Local,55.387867427434216,safe
+,-5.465899,19.3890437,,School,DRC_All_SCHool_Local,79.56338923762512,safe
+,-5.3826471,19.34331,,School,DRC_All_SCHool_Local,70.06931019846907,safe
+école secondaire de zhinabukete,-6.2640656,16.7592777,Zhinabukete,School,DRC_All_SCHool_Local,54.64426008741458,safe
+,-7.0585241,17.8853479,,School,DRC_All_SCHool_Local,161.49941841852484,safe
+,-6.4293803,17.0895892,,School,DRC_All_SCHool_Local,62.72375348230921,safe
+,-5.977081,19.3364047,,School,DRC_All_SCHool_Local,119.67256238108543,safe
+Collège Sainte Rita,-4.4436973,15.2594609,,School,DRC_All_SCHool_Local,10.265640214101774,safe
+Complexe Scolaire Ndingambote,-4.4566976,15.2868513,,School,DRC_All_SCHool_Local,10.288992235661464,safe
+,3.1408742,30.6819328,,School,DRC_All_SCHool_Local,22.164258346521834,safe
+,-7.6812032,17.3293266,,School,DRC_All_SCHool_Local,204.11078207026594,safe
+,-7.6781509,17.3351312,,School,DRC_All_SCHool_Local,203.8732875635224,safe
+,-7.69232,17.332071,,School,DRC_All_SCHool_Local,205.37848165450723,safe
+,-7.6262248,17.311474,,School,DRC_All_SCHool_Local,197.7727124082478,safe
+,-7.5080928,17.4294201,,School,DRC_All_SCHool_Local,187.26611912683043,safe
+Lycée marie madeleine frescobaldy,-4.3754863,15.5194868,kinshasa,School,DRC_All_SCHool_Local,17.037300144365634,safe
+Institut M'sanda,-6.16704,17.6449625,,School,DRC_All_SCHool_Local,73.78469322468192,safe
+École Primaire de Maman Buka,-6.1668818,17.6419752,,School,DRC_All_SCHool_Local,73.48230145491674,safe
+Lycée Thuma,-6.1615727,17.6460296,,School,DRC_All_SCHool_Local,73.61742815145108,safe
+Internat,-6.1615732,17.646719,,School,DRC_All_SCHool_Local,73.68571553994298,safe
+Internat,-6.1607157,17.6437798,,School,DRC_All_SCHool_Local,73.35228760406254,safe
+Ecole Primaire Shangolu,-6.1602588,17.6453821,,School,DRC_All_SCHool_Local,73.48838198490368,safe
+Institut Kasombo,-6.1534118,17.6380101,,School,DRC_All_SCHool_Local,72.42087956547276,safe
+Ecole Primaire Mwela,-6.1432843,17.6372442,,School,DRC_All_SCHool_Local,71.85618621351838,safe
+Institut Mapanda,-6.1429247,17.6348339,,School,DRC_All_SCHool_Local,71.59824384439612,safe
+Institut Mpungu,-6.1448069,17.6111731,,School,DRC_All_SCHool_Local,69.33688084863104,safe
+Ecole Primaire Matondo,-6.1468127,17.6104048,,School,DRC_All_SCHool_Local,69.36062777348474,safe
+,-6.2057634,17.6793965,,School,DRC_All_SCHool_Local,79.1552142062741,safe
+,-6.2949265,17.762391,,School,DRC_All_SCHool_Local,92.04427019748434,safe
+,-6.2960784,17.7591336,,School,DRC_All_SCHool_Local,91.8027221665742,safe
+,-6.2987122,17.7599198,,School,DRC_All_SCHool_Local,92.02935491753458,safe
+,-6.3312958,17.7621294,,School,DRC_All_SCHool_Local,94.17367918881872,safe
+,-6.3296108,17.7642868,,School,DRC_All_SCHool_Local,94.27086700637233,safe
+,-6.3604895,17.5561421,,School,DRC_All_SCHool_Local,78.40095616340447,safe
+,-6.3622791,17.5569044,,School,DRC_All_SCHool_Local,78.60046172837585,safe
+,-6.3145655,17.5443003,,School,DRC_All_SCHool_Local,73.94203399287322,safe
+,-6.3152988,17.5429775,,School,DRC_All_SCHool_Local,73.88899329505455,safe
+,-6.3009415,17.5347237,,School,DRC_All_SCHool_Local,72.14066931810203,safe
+,-6.2995751,17.5345574,,School,DRC_All_SCHool_Local,72.02542766794859,safe
+,-6.3323516,17.6195855,,School,DRC_All_SCHool_Local,81.53136753881104,safe
+,-6.331615,17.6211384,,School,DRC_All_SCHool_Local,81.61218512215531,safe
+,-6.3423485,17.669716,,School,DRC_All_SCHool_Local,86.55905021342377,safe
+,-6.3426351,17.670518,,School,DRC_All_SCHool_Local,86.64870527788631,safe
+,-6.3443477,17.6698817,,School,DRC_All_SCHool_Local,86.70944714001786,safe
+,-6.3448797,17.683089,,School,DRC_All_SCHool_Local,87.90394865159904,safe
+,-6.3475852,17.6846834,,School,DRC_All_SCHool_Local,88.226260336854,safe
+,-6.2186388,17.6109466,,School,DRC_All_SCHool_Local,73.34291890975207,safe
+,-6.2126835,17.631595,,School,DRC_All_SCHool_Local,74.94194938773619,safe
+,-6.2483068,17.599798,,School,DRC_All_SCHool_Local,74.13954628281421,safe
+,-6.2175711,17.5922205,,School,DRC_All_SCHool_Local,71.53545379842903,safe
+,-6.2180484,17.5913372,,School,DRC_All_SCHool_Local,71.4825830444023,safe
+,-6.2258098,17.4937683,,School,DRC_All_SCHool_Local,63.26671972799987,safe
+,-6.2262958,17.4943639,,School,DRC_All_SCHool_Local,63.35189464918846,safe
+,-6.2018583,17.55651,,School,DRC_All_SCHool_Local,67.27703754396983,safe
+,-6.2013012,17.5569122,,School,DRC_All_SCHool_Local,67.27981229550902,safe
+,-6.1551851,17.5134934,,School,DRC_All_SCHool_Local,60.46720311414105,safe
+,-6.1551636,17.5151192,,School,DRC_All_SCHool_Local,60.61840894405397,safe
+,-6.1425216,17.5912926,,School,DRC_All_SCHool_Local,67.26021087838959,safe
+,-6.1418047,17.5923809,,School,DRC_All_SCHool_Local,67.33111580017093,safe
+,-6.102457,17.6346092,,School,DRC_All_SCHool_Local,69.76533221607001,safe
+,-6.1017778,17.6351303,,School,DRC_All_SCHool_Local,69.79045072039551,safe
+,-6.1088754,17.5698402,,School,DRC_All_SCHool_Local,63.48418811586271,safe
+,-6.0804292,17.6191097,,School,DRC_All_SCHool_Local,67.27724009584017,safe
+,-6.0801317,17.6181432,,School,DRC_All_SCHool_Local,67.16557601831295,safe
+,-6.0227035,17.5246355,,School,DRC_All_SCHool_Local,55.28632135199811,safe
+Ècole Primaire Tuvukana,-6.0258616,17.5252105,,School,DRC_All_SCHool_Local,55.45764989114074,safe
+,-6.0281835,17.5265278,,School,DRC_All_SCHool_Local,55.67837479611852,safe
+,-5.9826877,17.5355155,,School,DRC_All_SCHool_Local,55.22644174069018,safe
+,-5.9778391,17.5338062,,School,DRC_All_SCHool_Local,54.91900670592804,safe
+,-5.9281927,17.5093027,,School,DRC_All_SCHool_Local,51.260406184979054,safe
+,-5.9272887,17.508331,,School,DRC_All_SCHool_Local,51.14058787387825,safe
+,-5.7919853,17.4171224,,School,DRC_All_SCHool_Local,41.451385266296406,safe
+,-5.7910479,17.417733,,School,DRC_All_SCHool_Local,41.53857002580473,safe
+,-5.8760688,17.3056607,,School,DRC_All_SCHool_Local,28.29835745410251,safe
+,-5.8757322,17.3036759,,School,DRC_All_SCHool_Local,28.07760644687209,safe
+,-5.8736444,17.3329227,,School,DRC_All_SCHool_Local,31.304217540199232,safe
+,-5.857171,17.3509825,,School,DRC_All_SCHool_Local,33.30946134550396,safe
+,-5.8254138,17.3470046,,School,DRC_All_SCHool_Local,33.17233593621327,safe
+,-5.8442445,17.3772346,,School,DRC_All_SCHool_Local,36.282743098414066,safe
+,-5.8429206,17.3784572,,School,DRC_All_SCHool_Local,36.428079688183374,safe
+,-5.8563886,17.3890331,,School,DRC_All_SCHool_Local,37.51906805471235,safe
+,-5.8440741,17.3927131,,School,DRC_All_SCHool_Local,37.9922824302698,safe
+,-5.7939244,17.4069708,,School,DRC_All_SCHool_Local,40.30792146728452,safe
+,-5.7793942,17.4399902,,School,DRC_All_SCHool_Local,44.219150945097915,safe
+,-5.7653303,17.4664652,,School,DRC_All_SCHool_Local,47.42842509379964,safe
+,-5.7609776,17.4678463,,School,DRC_All_SCHool_Local,47.693966498051736,safe
+École Primaire Kifilu-Mbunda,-6.0152032,17.5880256,,School,DRC_All_SCHool_Local,61.75407032284453,safe
+,-5.8300165,17.4375314,,School,DRC_All_SCHool_Local,43.060520699355166,safe
+,-5.8054943,17.4672324,,School,DRC_All_SCHool_Local,46.65220745597036,safe
+,-5.8038147,17.4679385,,School,DRC_All_SCHool_Local,46.75710119092473,safe
+,-5.8489958,17.460809,,School,DRC_All_SCHool_Local,45.48380800434727,safe
+,-5.8491992,17.4625677,,School,DRC_All_SCHool_Local,45.67718886110268,safe
+,-5.8527328,17.4628398,,School,DRC_All_SCHool_Local,45.69210475201962,safe
+,-5.8644027,17.469067,,School,DRC_All_SCHool_Local,46.354841142667766,safe
+,-5.8408631,17.5316227,,School,DRC_All_SCHool_Local,53.351948461909835,safe
+,-5.8884034,17.4790119,,School,DRC_All_SCHool_Local,47.514680983802656,safe
+,-5.9307286,17.3612112,,School,DRC_All_SCHool_Local,35.15120583814631,safe
+,-5.8952528,17.426274,,School,DRC_All_SCHool_Local,41.74075508737421,safe
+,-5.8988934,17.4370797,,School,DRC_All_SCHool_Local,42.96432443684207,safe
+,-5.8929097,17.4510426,,School,DRC_All_SCHool_Local,44.45516788361417,safe
+,-5.9418324,17.5738672,,School,DRC_All_SCHool_Local,58.54206152049918,safe
+,-5.94455,17.5736379,,School,DRC_All_SCHool_Local,58.56074366804923,safe
+,-5.9785448,17.5504837,,School,DRC_All_SCHool_Local,56.73486617401267,safe
+,-5.9809136,17.5536512,,School,DRC_All_SCHool_Local,57.13459301737378,safe
+École Sécondaire Kifilu-Mbunda,-6.0142942,17.5888418,,School,DRC_All_SCHool_Local,61.814185344168315,safe
+,-6.0252699,17.6117707,,School,DRC_All_SCHool_Local,64.58448008830986,safe
+École Primaire Bomasi,-6.0546741,17.6292064,,School,DRC_All_SCHool_Local,67.38161052423244,safe
+,-6.1306352,17.4708524,,School,DRC_All_SCHool_Local,55.02309672023989,safe
+,-6.1330846,17.4683848,,School,DRC_All_SCHool_Local,54.93877238063979,safe
+,-6.0942688,17.5108502,,School,DRC_All_SCHool_Local,56.90309295185831,safe
+,-6.0936306,17.5121684,,School,DRC_All_SCHool_Local,57.00226957905693,safe
+Ecole primaire Esumbo,-4.0406,28.0045162,,School,DRC_All_SCHool_Local,10.33469339838445,safe
+Ecole secondaire Inst Kilembwe,-4.0403405,28.003794,,School,DRC_All_SCHool_Local,10.415457411900904,safe
+,-5.6732034,18.9754942,,School,DRC_All_SCHool_Local,73.29090078525522,safe
+,-5.6440663,18.9592464,,School,DRC_All_SCHool_Local,69.72089183449098,safe
+,-5.7451961,18.9844101,,School,DRC_All_SCHool_Local,81.30457466282127,safe
+,-5.7450313,18.981383,,School,DRC_All_SCHool_Local,81.21083608028252,safe
+CS TABORA,-8.7280041,25.0180321,,School,DRC_All_SCHool_Local,28.238396722362317,safe
+,-8.7315065,24.9900124,,School,DRC_All_SCHool_Local,30.67596323714002,safe
+,-8.7498239,24.9914395,,School,DRC_All_SCHool_Local,32.00688991742682,safe
+,-8.7474166,24.9758971,,School,DRC_All_SCHool_Local,33.02017559893523,safe
+Institut LUANGA,-8.7330126,24.986509,,School,DRC_All_SCHool_Local,31.070561842414254,safe
+,-8.7383904,24.977116,,School,DRC_All_SCHool_Local,32.23285983579973,safe
+Ecole Primaire Lunyasenge,-0.4461085,29.3652831,,School,DRC_All_SCHool_Local,11.034417358732293,safe
+,-5.2858347,19.1512,,School,DRC_All_SCHool_Local,46.48482175349389,safe
+,-3.3978457,18.0894536,,School,DRC_All_SCHool_Local,40.387454921734346,safe
